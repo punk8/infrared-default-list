@@ -126,6 +126,11 @@
       "stakeTokenAddress": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B"
     },
     {
+      "beraRewardsVault": "0x9136df2daabe52a97340cce8c53d4c1314d52c18",
+      "slug": "dolomite-drusd",
+      "stakeTokenAddress": "0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d"
+    },
+    {
       "beraRewardsVault": "0x9c3110123c515CAF1866B28C031dFeb5ed8EbF0C",
       "slug": "dolomite-dusd₮0",
       "stakeTokenAddress": "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8"
