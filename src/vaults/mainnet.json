@@ -146,6 +146,16 @@
       "stakeTokenAddress": "0xf7b5127B510E568fdC39e6Bb54e2081BFaD489AF"
     },
     {
+      "beraRewardsVault": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",
+      "slug": "d2finance-dgnBeraland",
+      "stakeTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79"
+    },
+    {
+      "beraRewardsVault": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
+      "slug": "d2finance-HyperBera.USDC",
+      "stakeTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d"
+    },
+    {
       "beraRewardsVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
       "slug": "infrared-ibgt",
       "stakeTokenAddress": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"

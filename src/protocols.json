@@ -65,6 +65,14 @@
       "url": "https://dolomite.io"
     },
     {
+      "description": "D2 Finance is a multi-strategy fund delivering high-Yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies",
+      "id": "d2finance",
+      "imageDark": "d2-finance.svg",
+      "imageLight": "d2-finance.svg",
+      "name": "D2 Finance",
+      "url": "https://d2.finance/strategies"
+    },
+    {
       "description": "Infrared simplifies interacting with Proof of Liquidity with our liquid staking products.",
       "id": "infrared",
       "imageDark": "infrared.svg",
