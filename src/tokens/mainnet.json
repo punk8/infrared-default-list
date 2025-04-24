@@ -624,7 +624,7 @@
     },
     {
       "address": "0xbE75c8A7E58C7901D2e128dc8d3b6DE2481F1F79",
-      "decimals": 18,
+      "decimals": 6,
       "image": "dgnberaland.svg",
       "mintUrl": "https://d2.finance/strategies/dgnBeraland?chainId=80094&tab=2",
       "name": "dgnBeraland",
@@ -635,12 +635,12 @@
     },
     {
       "address": "0x36B933554782b108Bb9962ac00C498aCBceb706D",
-      "decimals": 18,
+      "decimals": 6,
       "image": "hyperbera-usdc.svg",
       "mintUrl": "https://d2.finance/strategies/HyperBera.USDC?chainId=80094&tab=1",
-      "name": "HyperBera.USDC",
+      "name": "USDC.e",
       "protocol": "d2finance",
-      "symbol": "HyperBera.USDC",
+      "symbol": "HyperBERA.USDC",
       "type": "vault",
       "underlyingTokens": ["0x549943e04f40284185054145c6E4e9568C1D3241"]
     },

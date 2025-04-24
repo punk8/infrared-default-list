@@ -117,12 +117,12 @@
     },
     {
       "beraRewardsVault": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",
-      "slug": "d2finance-dgnBeraland",
+      "slug": "d2finance-dgnberaland",
       "stakeTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79"
     },
     {
       "beraRewardsVault": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
-      "slug": "d2finance-HyperBera.USDC",
+      "slug": "d2finance-usdc.e",
       "stakeTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d"
     },
     {
