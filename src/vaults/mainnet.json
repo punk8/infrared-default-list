@@ -116,6 +116,16 @@
       "stakeTokenAddress": "0x567f32e86be3e3963cdbc1887b5043b701f113d9"
     },
     {
+      "beraRewardsVault": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",
+      "slug": "d2finance-dgnBeraland",
+      "stakeTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79"
+    },
+    {
+      "beraRewardsVault": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
+      "slug": "d2finance-HyperBera.USDC",
+      "stakeTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d"
+    },
+    {
       "beraRewardsVault": "0x347106734e7b129dde92333a0007d64a4b08e266",
       "slug": "d8x-dbusd",
       "stakeTokenAddress": "0x26bbc26415c6316890565f5f73017f85ee70b60c"
@@ -144,16 +154,6 @@
       "beraRewardsVault": "0xdb2f42BEDC87586C6E4b510CFC4675d6D86Ff886",
       "slug": "dolomite-dweth",
       "stakeTokenAddress": "0xf7b5127B510E568fdC39e6Bb54e2081BFaD489AF"
-    },
-    {
-      "beraRewardsVault": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",
-      "slug": "d2finance-dgnBeraland",
-      "stakeTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79"
-    },
-    {
-      "beraRewardsVault": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
-      "slug": "d2finance-HyperBera.USDC",
-      "stakeTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d"
     },
     {
       "beraRewardsVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
