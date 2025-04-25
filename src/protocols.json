@@ -49,6 +49,14 @@
       "url": "https://burrbear.io"
     },
     {
+      "description": "D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies",
+      "id": "d2finance",
+      "imageDark": "d2-finance.svg",
+      "imageLight": "d2-finance.svg",
+      "name": "D2 Finance",
+      "url": "https://d2.finance/strategies"
+    },
+    {
       "description": "D8X powers leveraged trading on DEXs like MadHoney. Trade Berachain's prime assets, provide liquidity and earn.",
       "id": "d8x",
       "imageDark": "d8x-dark.svg",
