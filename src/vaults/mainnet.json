@@ -276,6 +276,11 @@
       "stakeTokenAddress": "0xE5A2ab5D2fb268E5fF43A5564e44c3309609aFF9"
     },
     {
+      "beraRewardsVault": "0x6135e9e556b7aaaf66d2d6e8e47b96e2de6b602f",
+      "slug": "kodiak-wbera-avl",
+      "stakeTokenAddress": "0x2BDB8C39A3808eB9A03dE69925b6b158A57c57e6"
+    },
+    {
       "beraRewardsVault": "0x524fc4f013d66e9fed424e58c5ada7d5b139761d",
       "slug": "kodiak-wbera-bitcoin",
       "stakeTokenAddress": "0x2cafe99db26cf86ae8587f5934830d25ad5c3cb3"
