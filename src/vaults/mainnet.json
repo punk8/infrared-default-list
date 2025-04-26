@@ -26,6 +26,11 @@
       "stakeTokenAddress": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8"
     },
     {
+      "beraRewardsVault": "0x11CB30910E6c01C431c64242587838FbeBb4bAc4",
+      "slug": "bex-ibera-wgbera",
+      "stakeTokenAddress": "0x5BC9C1C2a387b7048F915e30bc3AA7820c9c67c3"
+    },    
+    {
       "beraRewardsVault": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
       "slug": "bex-usdc.e-honey",
       "stakeTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621"

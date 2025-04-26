@@ -395,6 +395,19 @@
       ]
     },
     {
+      "address": "0x5BC9C1C2a387b7048F915e30bc3AA7820c9c67c3",
+      "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3000000000000000000000152/details/",
+      "name": "iBERA-wgBERA",
+      "protocol": "bex",
+      "symbol": "iBERA-wgBERA-STABLE",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+        "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
+      ]
+    },    
+    {
       "address": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
       "decimals": 18,
       "mintUrl": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details",
