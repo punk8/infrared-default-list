@@ -845,6 +845,19 @@
       ]
     },
     {
+      "address": "0x24afcEB372b755F4953e738d6b38E9e4646D9F57",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x24afcEB372b755F4953e738d6b38E9e4646D9F57?chain=berachain_mainnet",
+      "name": "iBERA-iBGT",
+      "protocol": "kodiak",
+      "symbol": "KODI iBERA-iBGT",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+        "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"
+      ]
+    },
+    {
       "address": "0xaD445256Ff81171043A5e7Cd8831e4371B000176",
       "decimals": 18,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xaD445256Ff81171043A5e7Cd8831e4371B000176?chain=berachain_mainnet",
