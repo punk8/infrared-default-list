@@ -1113,7 +1113,6 @@
     {
       "address": "0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc",
       "decimals": 18,
-      "image": "pollen.webp",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc?chain=berachain_mainnet",
       "name": "WBERA-POLLEN",
       "protocol": "kodiak",
