@@ -57,6 +57,7 @@
     "@infrared-dao/prettier-config": "^0.0.2",
     "@infrared-dao/tsconfig": "^0.0.2",
     "@neplex/vectorizer": "^0.0.5",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^22.15.3",
     "@types/slug": "^5.0.9",
     "ajv": "^8.17.1",
