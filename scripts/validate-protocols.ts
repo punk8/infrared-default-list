@@ -17,7 +17,7 @@ const validateProtocols = async () => {
   const promisedProtocolDetails = protocols.protocols.map(async (protocol) => {
     if (protocolIds.has(protocol.id)) {
       errors.push(
-        `Error in protocols: Duplicate protocol id found: ${protocol.id}`,
+        `Duplicate protocol found: ${protocol.id}. Protocol ids must be unique.`,
       )
     }
     protocolIds.add(protocol.id)

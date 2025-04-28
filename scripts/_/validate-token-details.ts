@@ -140,7 +140,7 @@ export const validateTokenDetails = async ({
   const lowercasedAddress = token.address.toLowerCase()
   if (addresses.has(lowercasedAddress)) {
     errors.push(
-      `Error in tokens: Duplicate token address found: ${token.address}`,
+      `Duplicate token address found: ${token.address}. Token addresses must be unique.`,
     )
   }
   addresses.add(lowercasedAddress)
