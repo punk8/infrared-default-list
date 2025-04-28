@@ -74,11 +74,11 @@
     "typescript": "^5.8.3",
     "viem": "^2.28.0"
   },
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@10.10.0",
   "engines": {
     "node": ">=20.5.1",
     "npm": "please-use-pnpm",
-    "pnpm": ">=8.6.1",
+    "pnpm": ">=10",
     "yarn": "please-use-pnpm"
   }
 }
