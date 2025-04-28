@@ -57,12 +57,12 @@
     "@infrared-dao/prettier-config": "^0.0.2",
     "@infrared-dao/tsconfig": "^0.0.2",
     "@neplex/vectorizer": "^0.0.5",
-    "@types/node": "^22.14.1",
+    "@types/node": "^22.15.3",
     "@types/slug": "^5.0.9",
     "ajv": "^8.17.1",
     "ajv-formats": "^2.1.1",
     "concurrently": "^9.1.2",
-    "glob": "^11.0.1",
+    "glob": "^11.0.2",
     "globals": "^16.0.0",
     "json-schema-to-typescript": "^15.0.4",
     "prettier": "^3.5.3",
@@ -72,7 +72,7 @@
     "svgo": "^3.3.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
-    "viem": "^2.27.0"
+    "viem": "^2.28.0"
   },
   "packageManager": "pnpm@9.15.2",
   "engines": {
