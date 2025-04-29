@@ -99,6 +99,13 @@
       "symbol": "ezETH"
     },
     {
+      "address": "0xcA9088895e3390E503cac9ae95abaccdba20822e",
+      "decimals": 18,
+      "image": "grq.png",
+      "name": "GetRichQuick",
+      "symbol": "GRQ"
+    },    
+    {
       "address": "0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5",
       "decimals": 18,
       "image": "henlo.svg",
@@ -1104,6 +1111,19 @@
         "0xd352dc6e5F0c45E2F2b38eb5565EB286A1ea4087"
       ]
     },
+    {
+      "address": "0x68Cac522833F38E088EEC5e356956C02F0268063",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x68Cac522833F38E088EEC5e356956C02F0268063?chain=berachain_mainnet",
+      "name": "WBERA-GRQ",
+      "protocol": "kodiak",
+      "symbol": "UNI-V2",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xcA9088895e3390E503cac9ae95abaccdba20822e"
+      ]
+    },    
     {
       "address": "0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da",
       "decimals": 18,
