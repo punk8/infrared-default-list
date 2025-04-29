@@ -318,14 +318,14 @@
     {
       "address": "0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4",
       "decimals": 18,
-      "image": "ybera.png",
+      "image": "ybera.svg",
       "name": "Bearn BERA",
       "symbol": "yBERA"
     },
     {
       "address": "0x7e768f47dfDD5DAe874Aac233f1Bc5817137E453",
       "decimals": 18,
-      "image": "ybgt.png",
+      "image": "ybgt.svg",
       "name": "Bearn BGT",
       "symbol": "yBGT"
     },
