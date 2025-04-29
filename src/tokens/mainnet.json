@@ -64,6 +64,13 @@
       "symbol": "BR"
     },
     {
+      "address": "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+      "decimals": 8,
+      "image": "brbtc.webp",
+      "name": "brBTC",
+      "symbol": "brBTC"
+    },
+    {
       "address": "0x0003eEDFdd020bf60D10cf684ABAc7C4534B7eAd",
       "decimals": 18,
       "image": "bread.webp",
@@ -817,6 +824,19 @@
       "underlyingTokens": [
         "0xb749584F9fC418Cf905d54f462fdbFdC7462011b",
         "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
+      "address": "0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953?chain=berachain_mainnet",
+      "name": "brBTC-uniBTC",
+      "protocol": "kodiak",
+      "symbol": "KODI brBTC-uniBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+        "0xC3827A4BC8224ee2D116637023b124CED6db6e90"
       ]
     },
     {
