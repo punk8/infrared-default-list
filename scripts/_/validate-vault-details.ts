@@ -57,7 +57,7 @@ const validateStakeTokenAndSlug = ({
 
   if (slugs.includes(vault.slug)) {
     errors.push(
-      `Slug "${vault.slug}" is not unique. Vault slugs must be unique`,
+      `Duplicate slug found: ${vault.slug}. Vault slugs must be unique.`,
     )
   }
   slugs.push(vault.slug)
@@ -81,7 +81,7 @@ export const validateVaultDetails = async ({
   const lowerCasedBeraRewardsVaults = vault.beraRewardsVault.toLowerCase()
   if (beraRewardsVaults.has(lowerCasedBeraRewardsVaults)) {
     errors.push(
-      `Error in vaults: Duplicate beraRewardsVault found: ${vault.beraRewardsVault}`,
+      `Duplicate beraRewardsVault found: ${vault.beraRewardsVault}. beraRewardsVaults must be unique.`,
     )
   }
   beraRewardsVaults.add(lowerCasedBeraRewardsVaults)
