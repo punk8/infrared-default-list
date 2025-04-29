@@ -104,7 +104,7 @@
       "image": "grq.png",
       "name": "GetRichQuick",
       "symbol": "GRQ"
-    },    
+    },
     {
       "address": "0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5",
       "decimals": 18,
@@ -1123,7 +1123,7 @@
         "0x6969696969696969696969696969696969696969",
         "0xcA9088895e3390E503cac9ae95abaccdba20822e"
       ]
-    },    
+    },
     {
       "address": "0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da",
       "decimals": 18,
