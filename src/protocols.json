@@ -119,6 +119,14 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
+    },
+    {
+      "description": "Get Rich Quick!",
+      "id": "grq",
+      "imageDark": "grq.svg",
+      "imageLight": "grq.svg",
+      "name": "GRQ",
+      "url": "https://grq.institute/"
     }
   ]
 }
