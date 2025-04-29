@@ -328,7 +328,7 @@
       "image": "ybgt.png",
       "name": "Bearn BGT",
       "symbol": "yBGT"
-    },        
+    },
     {
       "address": "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
       "decimals": 18,
@@ -1351,7 +1351,7 @@
         "0x7e768f47dfDD5DAe874Aac233f1Bc5817137E453",
         "0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4"
       ]
-    },    
+    },
     {
       "address": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1",
       "decimals": 18,
