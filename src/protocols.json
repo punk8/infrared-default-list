@@ -73,6 +73,14 @@
       "url": "https://dolomite.io"
     },
     {
+      "description": "Get Rich Quick!",
+      "id": "grq",
+      "imageDark": "grq.svg",
+      "imageLight": "grq.svg",
+      "name": "GRQ",
+      "url": "https://grq.institute/"
+    },
+    {
       "description": "Infrared simplifies interacting with Proof of Liquidity with our liquid staking products.",
       "id": "infrared",
       "imageDark": "infrared.svg",
@@ -119,14 +127,6 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
-    },
-    {
-      "description": "Get Rich Quick!",
-      "id": "grq",
-      "imageDark": "grq.svg",
-      "imageLight": "grq.svg",
-      "name": "GRQ",
-      "url": "https://grq.institute/"
     }
   ]
 }
