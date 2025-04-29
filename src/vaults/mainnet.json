@@ -386,6 +386,11 @@
       "stakeTokenAddress": "0xA0cAbFc04Fc420b3d31BA431d18eB5bD33B3f334"
     },
     {
+      "beraRewardsVault": "0xbd3d6db7b600b18252e2d5d21f29c5e61e1e3f05",
+      "slug": "kodiak-ybgt-ybera",
+      "stakeTokenAddress": "0x5347e5133b22A680Ee94b7e62803E848F8d8C92e"
+    },
+    {
       "beraRewardsVault": "0x0710ABFfB1A54211a5e88d18Bf9854Cba86d0819",
       "slug": "kodiak-yeet-wbera",
       "stakeTokenAddress": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1"

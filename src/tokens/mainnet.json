@@ -316,6 +316,20 @@
       "symbol": "xSolvBTC"
     },
     {
+      "address": "0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4",
+      "decimals": 18,
+      "image": "ybera.svg",
+      "name": "Bearn BERA",
+      "symbol": "yBERA"
+    },
+    {
+      "address": "0x7e768f47dfDD5DAe874Aac233f1Bc5817137E453",
+      "decimals": 18,
+      "image": "ybgt.svg",
+      "name": "Bearn BGT",
+      "symbol": "yBGT"
+    },
+    {
       "address": "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
       "decimals": 18,
       "image": "yeet.svg",
@@ -1323,6 +1337,19 @@
       "underlyingTokens": [
         "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
         "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7"
+      ]
+    },
+    {
+      "address": "0x5347e5133b22A680Ee94b7e62803E848F8d8C92e",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5347e5133b22A680Ee94b7e62803E848F8d8C92e?chain=berachain_mainnet",
+      "name": "yBGT-yBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI yBGT-yBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x7e768f47dfDD5DAe874Aac233f1Bc5817137E453",
+        "0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4"
       ]
     },
     {
