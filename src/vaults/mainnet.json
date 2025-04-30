@@ -251,6 +251,11 @@
       "stakeTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6"
     },
     {
+      "beraRewardsVault": "0xc6De36eceD67db9c17919708865b3eE94a7D987C",
+      "slug": "kodiak-rusd-usd₮0",
+      "stakeTokenAddress": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5"
+    },
+    {
       "beraRewardsVault": "0x3fc5cB0290C82680Afe9EF8CddE5468d74C85705",
       "slug": "kodiak-solvbtc-xsolvbtc",
       "stakeTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790"
@@ -404,11 +409,6 @@
       "beraRewardsVault": "0x0710ABFfB1A54211a5e88d18Bf9854Cba86d0819",
       "slug": "kodiak-yeet-wbera",
       "stakeTokenAddress": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1"
-    },
-    {
-      "beraRewardsVault": "0xc6De36eceD67db9c17919708865b3eE94a7D987C",
-      "slug": "kodiak-rusd-usd₮0",
-      "stakeTokenAddress": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5"
     },
     {
       "beraRewardsVault": "0x5aB58FD0c6e74ae10A74a5FD43E5B6D26e46a18f",
