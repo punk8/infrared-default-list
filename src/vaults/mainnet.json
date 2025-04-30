@@ -406,6 +406,11 @@
       "stakeTokenAddress": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1"
     },
     {
+      "beraRewardsVault": "0xc6De36eceD67db9c17919708865b3eE94a7D987C",
+      "slug": "rusd-usdt0",
+      "stakeTokenAddress": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5"
+    },
+    {
       "beraRewardsVault": "0x5aB58FD0c6e74ae10A74a5FD43E5B6D26e46a18f",
       "slug": "wasabee-wbera-ibera",
       "stakeTokenAddress": "0xe57d868d244d2cf2e9679eaba2a3048e58674565"
@@ -439,11 +444,6 @@
       "beraRewardsVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "slug": "webera-wewbera",
       "stakeTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea"
-    },
-    {
-      "beraRewardsVault": "0xc6De36eceD67db9c17919708865b3eE94a7D987C",
-      "slug": "rusd-usdt0",
-      "stakeTokenAddress": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5"
     }
   ]
 }
