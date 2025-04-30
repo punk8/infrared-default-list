@@ -1003,6 +1003,19 @@
       ]
     },
     {
+      "address": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5?chain=berachain_mainnet",
+      "name": "rUSD-USD₮0",
+      "protocol": "kodiak",
+      "symbol": "KODI rUSD-USD₮0",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+        "0x779ded0c9e1022225f8e0630b35a9b54be713736"
+      ]
+    },
+    {
       "address": "0x43e487126c4f37d1915cf02a90b5c5295afb1790",
       "decimals": 18,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x43e487126c4f37d1915cf02a90b5c5295afb1790?chain=berachain_mainnet",
