@@ -1008,7 +1008,7 @@
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5?chain=berachain_mainnet",
       "name": "rUSD-USD₮0",
       "protocol": "kodiak",
-      "symbol": "rUSD-USD₮0",
+      "symbol": "KODI rUSD-USD₮0",
       "type": "amm",
       "underlyingTokens": [
         "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
