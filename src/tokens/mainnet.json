@@ -1005,7 +1005,6 @@
     {
       "address": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5",
       "decimals": 18,
-      "image": "rusd-usdt0.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5?chain=berachain_mainnet",
       "name": "rUSD-USD₮0",
       "protocol": "kodiak",
