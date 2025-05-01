@@ -668,7 +668,7 @@ export const tokens = [
   {
     address: '0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8',
     decimals: 6,
-    image: 'dusdt.svg',
+    image: 'dusdt0.svg',
     mintUrl: 'https://app.dolomite.io/balances',
     name: 'dUSD₮0',
     protocol: 'dolomite',
