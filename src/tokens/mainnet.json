@@ -773,6 +773,17 @@
       "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
     },
     {
+      "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
+      "decimals": 18,
+      "image": "nect.webp",
+      "mintUrl": "https://app.euler.finance/vault/0x112B77A77753b092306b1c04Bd70215FeD4e00a1?network=berachain",
+      "name": "NECT",
+      "protocol": "euler",
+      "symbol": "eNECT-1",
+      "type": "vault",
+      "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
+    },
+    {
       "address": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
       "decimals": 18,
       "image": "ibera.svg",
@@ -1500,17 +1511,6 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
-      "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
-      "decimals": 18,
-      "image": "nect.webp",
-      "mintUrl": "https://app.euler.finance/vault/0x112B77A77753b092306b1c04Bd70215FeD4e00a1?network=berachain",
-      "name": "NECT",
-      "protocol": "euler",
-      "symbol": "eNECT-1",
-      "type": "vault",
-      "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
     }
   ]
 }
