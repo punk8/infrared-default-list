@@ -166,6 +166,11 @@
       "stakeTokenAddress": "0xf7b5127B510E568fdC39e6Bb54e2081BFaD489AF"
     },
     {
+      "beraRewardsVault": "0xe4c24b1da97325b183df8e4e489d54d2f6e15d58",
+      "slug": "euler-nect",
+      "stakeTokenAddress": "0x112b77a77753b092306b1c04bd70215fed4e00a1"
+    },
+    {
       "beraRewardsVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
       "slug": "infrared-ibgt",
       "stakeTokenAddress": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"
@@ -444,11 +449,6 @@
       "beraRewardsVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "slug": "webera-wewbera",
       "stakeTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea"
-    },
-    {
-      "beraRewardsVault": "0xe4c24b1da97325b183df8e4e489d54d2f6e15d58",
-      "slug": "euler-nect",
-      "stakeTokenAddress": "0x112b77a77753b092306b1c04bd70215fed4e00a1"
     }
   ]
 }
