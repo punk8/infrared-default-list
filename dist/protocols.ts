@@ -53,6 +53,15 @@ export const protocols = [
   },
   {
     description:
+      'D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies',
+    id: 'd2finance',
+    imageDark: 'd2-finance.svg',
+    imageLight: 'd2-finance.svg',
+    name: 'D2 Finance',
+    url: 'https://d2.finance/strategies',
+  },
+  {
+    description:
       "D8X powers leveraged trading on DEXs like MadHoney. Trade Berachain's prime assets, provide liquidity and earn.",
     id: 'd8x',
     imageDark: 'd8x-dark.svg',
@@ -68,6 +77,14 @@ export const protocols = [
     imageLight: 'dolomite-light.svg',
     name: 'Dolomite',
     url: 'https://dolomite.io',
+  },
+  {
+    description: 'Euler is a decentralized lending protocol on Berachain.',
+    id: 'euler',
+    imageDark: 'euler.svg',
+    imageLight: 'euler.svg',
+    name: 'Euler',
+    url: 'https://app.euler.finance',
   },
   {
     description:
@@ -103,6 +120,15 @@ export const protocols = [
     imageLight: 'wasabi_light.svg',
     name: 'Wasabi',
     url: 'https://wasabi.xyz',
+  },
+  {
+    description:
+      'WeBera is a decentralized lending and borrowing protocol on Berachain.',
+    id: 'webera',
+    imageDark: 'webera.webp',
+    imageLight: 'webera.webp',
+    name: 'WeBera',
+    url: 'https://app.webera.finance/',
   },
   {
     description: 'The premiere bonzi of Berachain',
