@@ -25,6 +25,11 @@ export const vaults = [
     stakeTokenAddress: '0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8',
   },
   {
+    beraRewardsVault: '0x11CB30910E6c01C431c64242587838FbeBb4bAc4',
+    slug: 'bex-ibera-wgbera',
+    stakeTokenAddress: '0x5BC9C1C2a387b7048F915e30bc3AA7820c9c67c3',
+  },
+  {
     beraRewardsVault: '0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84',
     slug: 'bex-usdc.e-honey',
     stakeTokenAddress: '0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621',
@@ -115,6 +120,16 @@ export const vaults = [
     stakeTokenAddress: '0x567f32e86be3e3963cdbc1887b5043b701f113d9',
   },
   {
+    beraRewardsVault: '0x70c359d85611e9a755997cc59281ef5edb04cf1b',
+    slug: 'd2finance-dgnberaland',
+    stakeTokenAddress: '0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79',
+  },
+  {
+    beraRewardsVault: '0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f',
+    slug: 'd2finance-usdc.e',
+    stakeTokenAddress: '0x36b933554782b108bb9962ac00c498acbceb706d',
+  },
+  {
     beraRewardsVault: '0x347106734e7b129dde92333a0007d64a4b08e266',
     slug: 'd8x-dbusd',
     stakeTokenAddress: '0x26bbc26415c6316890565f5f73017f85ee70b60c',
@@ -123,6 +138,11 @@ export const vaults = [
     beraRewardsVault: '0x0ec12590CBb9280ab22b81F62be587c5200A9711',
     slug: 'dolomite-dhoney',
     stakeTokenAddress: '0x7f2B60fDff1494A0E3e060532c9980d7fad0404B',
+  },
+  {
+    beraRewardsVault: '0x9136df2daabe52a97340cce8c53d4c1314d52c18',
+    slug: 'dolomite-drusd',
+    stakeTokenAddress: '0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d',
   },
   {
     beraRewardsVault: '0x9c3110123c515CAF1866B28C031dFeb5ed8EbF0C',
@@ -145,6 +165,11 @@ export const vaults = [
     stakeTokenAddress: '0xf7b5127B510E568fdC39e6Bb54e2081BFaD489AF',
   },
   {
+    beraRewardsVault: '0xe4c24b1da97325b183df8e4e489d54d2f6e15d58',
+    slug: 'euler-nect',
+    stakeTokenAddress: '0x112b77a77753b092306b1c04bd70215fed4e00a1',
+  },
+  {
     beraRewardsVault: '0x9b45388fc442343de9959d710eb47da8c09ee2d9',
     slug: 'infrared-ibgt',
     stakeTokenAddress: '0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b',
@@ -165,6 +190,11 @@ export const vaults = [
     stakeTokenAddress: '0x0fd67ac75f9df51f5d81f582417b318f44b45f5c',
   },
   {
+    beraRewardsVault: '0x6b9ae55362e65e2a615681824a6334cc3f29e658',
+    slug: 'kodiak-brbtc-unibtc',
+    stakeTokenAddress: '0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953',
+  },
+  {
     beraRewardsVault: '0x359424085d84c490a7b276e4bc72cef90a04068b',
     slug: 'kodiak-bread-lbgt',
     stakeTokenAddress: '0x54c603173CA92A42B81f8838d705fd3E0f98D5D4',
@@ -183,6 +213,11 @@ export const vaults = [
     beraRewardsVault: '0x4551c0e216f59cc081b6610637668b770ffdf843',
     slug: 'kodiak-hold-wbera',
     stakeTokenAddress: '0xdca120bd3a13250b67f6faa5c29c1f38ec6ebece',
+  },
+  {
+    beraRewardsVault: '0x199F156BbA61496401dC2a009B5F69eb9A7e6f21',
+    slug: 'kodiak-ibera-ibgt',
+    stakeTokenAddress: '0x24afcEB372b755F4953e738d6b38E9e4646D9F57',
   },
   {
     beraRewardsVault: '0x15f1156f56a06af851cbdc0aceb0780bbcb913c4',
@@ -218,6 +253,11 @@ export const vaults = [
     beraRewardsVault: '0x34852c863d266100f573d4d1fd1d0cfe20602da0',
     slug: 'kodiak-rusd-honey',
     stakeTokenAddress: '0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6',
+  },
+  {
+    beraRewardsVault: '0xc6De36eceD67db9c17919708865b3eE94a7D987C',
+    slug: 'kodiak-rusd-usd₮0',
+    stakeTokenAddress: '0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5',
   },
   {
     beraRewardsVault: '0x3fc5cB0290C82680Afe9EF8CddE5468d74C85705',
@@ -260,6 +300,11 @@ export const vaults = [
     stakeTokenAddress: '0xE5A2ab5D2fb268E5fF43A5564e44c3309609aFF9',
   },
   {
+    beraRewardsVault: '0x6135e9e556b7aaaf66d2d6e8e47b96e2de6b602f',
+    slug: 'kodiak-wbera-avl',
+    stakeTokenAddress: '0x2BDB8C39A3808eB9A03dE69925b6b158A57c57e6',
+  },
+  {
     beraRewardsVault: '0x524fc4f013d66e9fed424e58c5ada7d5b139761d',
     slug: 'kodiak-wbera-bitcoin',
     stakeTokenAddress: '0x2cafe99db26cf86ae8587f5934830d25ad5c3cb3',
@@ -268,6 +313,11 @@ export const vaults = [
     beraRewardsVault: '0xed0fb3170390ef82e13102f36fa7fd5047722890',
     slug: 'kodiak-wbera-br',
     stakeTokenAddress: '0x56449b16ff2b1E5EE61F532ceFFDa8F408f718a1',
+  },
+  {
+    beraRewardsVault: '0xa7782ff04dE0E7F7084EedB364F485efeD3fcc49',
+    slug: 'kodiak-wbera-grq',
+    stakeTokenAddress: '0x68Cac522833F38E088EEC5e356956C02F0268063',
   },
   {
     beraRewardsVault: '0x45325df4a6a6ebd268f4693474aaaa1f3f0ce8ca',
@@ -355,6 +405,11 @@ export const vaults = [
     stakeTokenAddress: '0xA0cAbFc04Fc420b3d31BA431d18eB5bD33B3f334',
   },
   {
+    beraRewardsVault: '0xbd3d6db7b600b18252e2d5d21f29c5e61e1e3f05',
+    slug: 'kodiak-ybgt-ybera',
+    stakeTokenAddress: '0x5347e5133b22A680Ee94b7e62803E848F8d8C92e',
+  },
+  {
     beraRewardsVault: '0x0710ABFfB1A54211a5e88d18Bf9854Cba86d0819',
     slug: 'kodiak-yeet-wbera',
     stakeTokenAddress: '0xec8ba456b4e009408d0776cde8b91f8717d13fa1',
@@ -383,5 +438,15 @@ export const vaults = [
     beraRewardsVault: '0x4eA84882228a5C881675151E951235e45256a484',
     slug: 'wasabi-swbera',
     stakeTokenAddress: '0xc95ab9eff8fb48760703c74416764b8f898afa1b',
+  },
+  {
+    beraRewardsVault: '0x5ecefd0f14b0085d5ec3600fd1a97fa1366f97d9',
+    slug: 'webera-weibera',
+    stakeTokenAddress: '0x396a3d0b799b1a0b1eaa17e75b4dea412400860b',
+  },
+  {
+    beraRewardsVault: '0x5e747644dd7a3e58485db8e836ca7654242dae2a',
+    slug: 'webera-wewbera',
+    stakeTokenAddress: '0x55a050f76541c2554e9dfa3a0b4e665914bf92ea',
   },
 ]

@@ -8,6 +8,8 @@ import {
 } from 'fs'
 import { resolve } from 'path'
 
+import type { TokensSchema } from '@/types/tokens'
+
 const INDENTATION_SPACES = 2
 
 const assetTypes = ['tokens', 'vaults', 'validators']
@@ -42,9 +44,29 @@ for (const assetType of assetTypes) {
     const jsonContent = readFileSync(jsonPath, 'utf-8')
     const data = JSON.parse(jsonContent)
 
-    const tsContent = `export const ${assetType} = ${JSON.stringify(data[assetType], null, INDENTATION_SPACES)}\n`
+    if (assetType === 'tokens') {
+      const tokens = data[assetType] as TokensSchema['tokens']
 
-    writeFileSync(tsPath, tsContent)
+      const tsContent = `export const ${assetType} = ${JSON.stringify(
+        tokens
+          .filter((token) => !!token.image)
+          .map((token) => ({
+            address: token.address,
+            decimals: token.decimals,
+            image: token.image,
+            name: token.name,
+            symbol: token.symbol,
+          }))
+          .sort((tokenA, tokenB) => tokenA.symbol.localeCompare(tokenB.symbol)),
+        null,
+        INDENTATION_SPACES,
+      )}\n`
+      writeFileSync(tsPath, tsContent)
+    } else {
+      const tsContent = `export const ${assetType} = ${JSON.stringify(data[assetType], null, INDENTATION_SPACES)}\n`
+      writeFileSync(tsPath, tsContent)
+    }
+
     console.log(`Converted ${assetType}/${jsonFile} to TypeScript`)
   }
 }
