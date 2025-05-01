@@ -127,14 +127,6 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
-    },
-    {
-      "description": "ZeroLend is a lending protocol on Berachain. Powered by Euler.",
-      "id": "zerolend",
-      "imageDark": "zerolend.svg",
-      "imageLight": "zerolend.svg",
-      "name": "Zerolend",
-      "url": "https://zerolend.xyz"
     }
   ]
 }
