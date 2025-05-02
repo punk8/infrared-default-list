@@ -7,7 +7,7 @@ import { getFile } from './get-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'
 import { validateDecimals } from './validate-decimals'
-import { validateImage } from './validate-image'
+import { validateTokenImage } from './validate-token-image'
 
 const validateSymbol = ({
   errors,
@@ -146,11 +146,10 @@ export const validateTokenDetails = async ({
   addresses.add(lowercasedAddress)
 
   await validateDecimals({ errors, publicClient, token })
-  await validateImage({
+  await validateTokenImage({
     errors,
-    item: token,
     required: false,
-    type: 'tokens',
+    token,
   })
   validateMintUrl({ errors, token })
   validateProtocol({ errors, token })

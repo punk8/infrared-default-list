@@ -25,7 +25,6 @@ const validateProtocols = async () => {
     return await validateProtocolImages({
       errors,
       protocol,
-      type: 'protocols',
     })
   })
   await Promise.all(promisedProtocolDetails)
