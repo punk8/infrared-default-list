@@ -6,7 +6,7 @@
       "imageDark": "aquabera.svg",
       "imageLight": "aquabera.svg",
       "name": "AquaBera",
-      "url": "https://aquabera.com/"
+      "url": "https://aquabera.com"
     },
     {
       "description": "Unlocking Instant liquidity for Berachain assets through the first PoL powered stablecoin NECT.",
@@ -51,8 +51,8 @@
     {
       "description": "D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies",
       "id": "d2finance",
-      "imageDark": "d2-finance.svg",
-      "imageLight": "d2-finance.svg",
+      "imageDark": "d2finance.svg",
+      "imageLight": "d2finance.svg",
       "name": "D2 Finance",
       "url": "https://d2.finance/strategies"
     },
@@ -62,7 +62,7 @@
       "imageDark": "d8x-dark.svg",
       "imageLight": "d8x-light.svg",
       "name": "D8X",
-      "url": "https://d8x.exchange/"
+      "url": "https://d8x.exchange"
     },
     {
       "description": "Dolomite is a lending and borrowing platform that can support over 1,000 unique assets.",
@@ -102,13 +102,13 @@
       "imageDark": "wasabee.svg",
       "imageLight": "wasabee.svg",
       "name": "Wasabee",
-      "url": "https://wasabee.honeypotfinance.xyz/"
+      "url": "https://wasabee.honeypotfinance.xyz"
     },
     {
       "description": "Wasabi is an on-chain money market that offers the highest yields across the widest range of assets.",
       "id": "wasabi",
-      "imageDark": "wasabi_dark.svg",
-      "imageLight": "wasabi_light.svg",
+      "imageDark": "wasabi-dark.svg",
+      "imageLight": "wasabi-light.svg",
       "name": "Wasabi",
       "url": "https://wasabi.xyz"
     },
@@ -118,7 +118,7 @@
       "imageDark": "webera.webp",
       "imageLight": "webera.webp",
       "name": "WeBera",
-      "url": "https://app.webera.finance/"
+      "url": "https://app.webera.finance"
     },
     {
       "description": "The premiere bonzi of Berachain",

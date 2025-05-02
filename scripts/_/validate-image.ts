@@ -25,6 +25,21 @@ export const validateImage = async ({
     }
     return
   }
+  const lowerCaseIdentifier = identifier.toLowerCase()
+  if (
+    type === 'Protocol' &&
+    image !== `${lowerCaseIdentifier}.svg` &&
+    image !== `${lowerCaseIdentifier}.webp` &&
+    image !== `${lowerCaseIdentifier}-dark.svg` &&
+    image !== `${lowerCaseIdentifier}-dark.webp` &&
+    image !== `${lowerCaseIdentifier}-light.svg` &&
+    image !== `${lowerCaseIdentifier}-light.webp`
+  ) {
+    errors.push(
+      `${type} image file "${image}" should use the name "${lowerCaseIdentifier}"`,
+    )
+    return
+  }
   const imagePath = path.join(`${ASSETS_FOLDER}/${folder}`, image)
   if (path.extname(imagePath).toLowerCase() === '.png') {
     errors.push(
