@@ -125,8 +125,8 @@ export const protocols = [
     description:
       'WeBera is a decentralized lending and borrowing protocol on Berachain.',
     id: 'webera',
-    imageDark: 'webera.webp',
-    imageLight: 'webera.webp',
+    imageDark: 'webera.svg',
+    imageLight: 'webera.svg',
     name: 'WeBera',
     url: 'https://app.webera.finance/',
   },
