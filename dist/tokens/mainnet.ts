@@ -58,7 +58,7 @@ export const tokens = [
   {
     address: '0xd352dc6e5F0c45E2F2b38eb5565EB286A1ea4087',
     decimals: 18,
-    image: 'br.webp',
+    image: 'br.svg',
     name: 'Bedrock',
     symbol: 'BR',
   },
