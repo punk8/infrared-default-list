@@ -6,50 +6,48 @@ import type { TokensSchema } from '@/types/tokens'
 import { checkImageSize } from './check-image-size'
 import { ASSETS_FOLDER } from './constants'
 
-export const validateImage = async ({
+export const validateTokenImage = async ({
   errors,
-  item,
   required,
-  type,
+  token,
 }: {
   errors: Array<string>
-  item: TokensSchema['tokens'][number]
   required: boolean
-  type: string
+  token: TokensSchema['tokens'][number]
 }) => {
-  if (!item.image) {
+  if (!token.image) {
     if (required) {
       errors.push(
-        `Image file "${item.image}" not found for ${type} "${item.symbol}"`,
+        `Token image file "${token.image}" not found for "${token.symbol}"`,
       )
     }
     return
   }
-  const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, item.image)
+  const imagePath = path.join(`${ASSETS_FOLDER}/tokens`, token.image)
   if (path.extname(imagePath).toLowerCase() === '.png') {
     errors.push(
-      `Image file "${item.image}" for ${type} "${item.symbol}" should be a webp file, not a png`,
+      `Token image file "${token.image}" for "${token.symbol}" should be a webp file, not a png`,
     )
   }
   if (!existsSync(imagePath)) {
     errors.push(
-      `Image file "${item.image}" not found for ${type} "${item.symbol}" at ${imagePath}`,
+      `Token image file "${token.image}" not found for "${token.symbol}" at ${imagePath}`,
     )
   }
   if (path.extname(imagePath).toLowerCase() === '.webp') {
     const isCorrectSize = await checkImageSize(imagePath)
     if (!isCorrectSize) {
       errors.push(
-        `Image file "${item.image}" for ${type} "${item.symbol}" is not 128x128 pixels`,
+        `Token image file "${token.image}" for "${token.symbol}" is not 128x128 pixels`,
       )
     }
     const pngImagePath = path.join(
-      `${ASSETS_FOLDER}/${type}/original`,
-      item.image.replace('.webp', '.png'),
+      `${ASSETS_FOLDER}/tokens/original`,
+      token.image.replace('.webp', '.png'),
     )
     if (!existsSync(pngImagePath)) {
       errors.push(
-        `Image file "${item.image}" for ${type} "${item.symbol}" does not have an original png file`,
+        `Token image file "${token.image}" for "${token.symbol}" does not have an original png file`,
       )
     }
   }
