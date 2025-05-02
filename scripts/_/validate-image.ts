@@ -25,18 +25,24 @@ export const validateImage = async ({
     }
     return
   }
-  const lowerCaseIdentifier = identifier.toLowerCase()
+  const expectedFileName = identifier
+    .toLowerCase()
+    .replace('.', '-')
+    .replace('₮', 't')
   if (
-    type === 'Protocol' &&
-    image !== `${lowerCaseIdentifier}.svg` &&
-    image !== `${lowerCaseIdentifier}.webp` &&
-    image !== `${lowerCaseIdentifier}-dark.svg` &&
-    image !== `${lowerCaseIdentifier}-dark.webp` &&
-    image !== `${lowerCaseIdentifier}-light.svg` &&
-    image !== `${lowerCaseIdentifier}-light.webp`
+    (type === 'Protocol' &&
+      image !== `${expectedFileName}.svg` &&
+      image !== `${expectedFileName}.webp` &&
+      image !== `${expectedFileName}-dark.svg` &&
+      image !== `${expectedFileName}-dark.webp` &&
+      image !== `${expectedFileName}-light.svg` &&
+      image !== `${expectedFileName}-light.webp`) ||
+    (type === 'Token' &&
+      image !== `${expectedFileName}.svg` &&
+      image !== `${expectedFileName}.webp`)
   ) {
     errors.push(
-      `${type} image file "${image}" should use the name "${lowerCaseIdentifier}"`,
+      `${type} image file "${image}" should use the name "${expectedFileName}"`,
     )
     return
   }

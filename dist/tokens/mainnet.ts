@@ -44,7 +44,7 @@ export const tokens = [
   {
     address: '0x147c9a7f5265d7ca9a671c3817b212a0cf88856e',
     decimals: 18,
-    image: 'beraxbt.webp',
+    image: 'bixbt.webp',
     name: 'BeraXBT',
     symbol: 'BIXBT',
   },
@@ -387,7 +387,7 @@ export const tokens = [
   {
     address: '0x549943e04f40284185054145c6E4e9568C1D3241',
     decimals: 6,
-    image: 'usdce.svg',
+    image: 'usdc-e.svg',
     name: 'Bridged USDC (Stargate)',
     symbol: 'USDC.e',
   },
