@@ -775,7 +775,7 @@
     {
       "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
       "decimals": 18,
-      "image": "enect-1.webp",
+      "image": "enect-1.svg",
       "mintUrl": "https://app.euler.finance/vault/0x112B77A77753b092306b1c04Bd70215FeD4e00a1?network=berachain",
       "name": "NECT",
       "protocol": "euler",
