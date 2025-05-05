@@ -197,20 +197,6 @@
       "symbol": "POLLEN"
     },
     {
-      "address": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e",
-      "decimals": 8,
-      "image": "primeliquidberabtc.svg",
-      "name": "Prime Ether.Fi Liquid Bera BTC",
-      "symbol": "primeLiquidBeraBTC"
-    },
-    {
-      "address": "0xB83742330443f7413DBD2aBdfc046dB0474a944e",
-      "decimals": 18,
-      "image": "primeliquidberaeth.svg",
-      "name": "Prime Ether.Fi Liquid Bera ETH",
-      "symbol": "primeLiquidBeraETH"
-    },
-    {
       "address": "0xb8B1Af593Dc37B33a2c87C8Db1c9051FC32858B7",
       "decimals": 18,
       "image": "ramen.svg",
@@ -789,6 +775,7 @@
     {
       "address": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e",
       "decimals": 8,
+      "image": "primeliquidberabtc.svg",
       "mintUrl": "",
       "name": "primeLiquidBeraBTC",
       "protocol": "etherfi",
@@ -799,6 +786,7 @@
     {
       "address": "0xB83742330443f7413DBD2aBdfc046dB0474a944e",
       "decimals": 18,
+      "image": "primeliquidberaeth.svg",
       "mintUrl": "",
       "name": "primeLiquidBeraETH",
       "protocol": "etherfi",
