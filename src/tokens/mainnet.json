@@ -787,6 +787,26 @@
       "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
     },
     {
+      "address": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e",
+      "decimals": 8,
+      "mintUrl": "",
+      "name": "primeLiquidBeraBTC",
+      "protocol": "etherfi",
+      "symbol": "primeLiquidBeraBTC",
+      "type": "vault",
+      "underlyingTokens": ["0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"]
+    },
+    {
+      "address": "0xB83742330443f7413DBD2aBdfc046dB0474a944e",
+      "decimals": 18,
+      "mintUrl": "",
+      "name": "primeLiquidBeraETH",
+      "protocol": "etherfi",
+      "symbol": "primeLiquidBeraETH",
+      "type": "vault",
+      "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
+    },
+    {
       "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
       "decimals": 18,
       "image": "enect-1.svg",
@@ -1012,30 +1032,6 @@
       "underlyingTokens": [
         "0x009af46Df68DB0E76BFe9EA35663f6Ed17877956",
         "0x6969696969696969696969696969696969696969"
-      ]
-    },
-    {
-      "address": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e",
-      "decimals": 8,
-      "mintUrl": "",
-      "name": "primeLiquidBeraBTC",
-      "protocol": "etherfi",
-      "symbol": "primeLiquidBeraBTC",
-      "type": "vault",
-      "underlyingTokens": [
-        "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
-      ]
-    },
-    {
-      "address": "0xB83742330443f7413DBD2aBdfc046dB0474a944e",
-      "decimals": 18,
-      "mintUrl": "",
-      "name": "primeLiquidBeraETH",
-      "protocol": "etherfi",
-      "symbol": "primeLiquidBeraETH",
-      "type": "vault",
-      "underlyingTokens": [
-        "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
       ]
     },
     {
