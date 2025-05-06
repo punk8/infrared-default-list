@@ -87,7 +87,7 @@
     {
       "address": "0x28e0e3B9817012b356119dF9e217c25932D609c2",
       "decimals": 18,
-      "image": "burr.png",
+      "image": "burr.svg",
       "name": "Burr Governance Token",
       "symbol": "BURR"
     },
