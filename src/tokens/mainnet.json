@@ -731,7 +731,7 @@
     {
       "address": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
       "decimals": 8,
-      "image": "unibtc.svg",
+      "image": "dunibtc.svg",
       "mintUrl": "https://app.dolomite.io/balances",
       "name": "duniBTC",
       "protocol": "dolomite",
