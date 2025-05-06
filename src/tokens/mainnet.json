@@ -734,6 +734,7 @@
     {
       "address": "0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e",
       "decimals": 27,
+      "image": "ctberabaddieshoney.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctBeraBaddiesHONEY",
       "protocol": "concrete",
@@ -744,6 +745,7 @@
     {
       "address": "0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
       "decimals": 27,
+      "image": "ctberabaddieswbera.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctBeraBaddiesWBERA",
       "protocol": "concrete",
@@ -754,6 +756,7 @@
     {
       "address": "0x49BEE393825BBAC404fEfE6E24f34854f30905D2",
       "decimals": 27,
+      "image": "ctberaeth.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctBeraETH",
       "protocol": "concrete",
@@ -775,6 +778,7 @@
     {
       "address": "0x81235952ad93987F74e074994Def2a7e1D6F1Fb0",
       "decimals": 27,
+      "image": "ctberahoney.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctHONEY",
       "protocol": "concrete",
@@ -796,6 +800,7 @@
     {
       "address": "0xd08E3652e6b29EBdD58fe93B422513862FB49899",
       "decimals": 27,
+      "image": "ctberasusde.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctsUSDe",
       "protocol": "concrete",
@@ -806,6 +811,7 @@
     {
       "address": "0x068D072d1ee7647B9d649a7C2046166Aa81af3D3",
       "decimals": 17,
+      "image": "ctberaunibtc.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctuniBTC",
       "protocol": "concrete",
@@ -816,6 +822,7 @@
     {
       "address": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
       "decimals": 15,
+      "image": "ctberausdt0.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctUSD₮0",
       "protocol": "concrete",
@@ -826,6 +833,7 @@
     {
       "address": "0xc3cac88fd629652BBe0C3454D5d3049368A73849",
       "decimals": 15,
+      "image": "ctberausdc-e.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctUSDC.e",
       "protocol": "concrete",
@@ -836,6 +844,7 @@
     {
       "address": "0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6",
       "decimals": 27,
+      "image": "ctberausde.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctUSDe",
       "protocol": "concrete",
@@ -846,6 +855,7 @@
     {
       "address": "0xEC577E989c02b294D5b8f4324224a5B63F5beef7",
       "decimals": 27,
+      "image": "ctberawbera.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctWBERA",
       "protocol": "concrete",
@@ -856,6 +866,7 @@
     {
       "address": "0x335e7b56054F830883D1509AFDce58DedceFb29C",
       "decimals": 17,
+      "image": "ctberawbtc.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctWBTC",
       "protocol": "concrete",
@@ -866,6 +877,7 @@
     {
       "address": "0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772",
       "decimals": 27,
+      "image": "ctberaweth.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
       "name": "ctWETH",
       "protocol": "concrete",
