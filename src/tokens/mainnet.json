@@ -874,16 +874,6 @@
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     },
     {
-      "address": "0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
-      "decimals": 27,
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "Concrete-BeraBaddies WBERA",
-      "protocol": "concrete",
-      "symbol": "ctBeraBaddiesWBERA",
-      "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
       "address": "0xbE75c8A7E58C7901D2e128dc8d3b6DE2481F1F79",
       "decimals": 6,
       "image": "dgnberaland.svg",
