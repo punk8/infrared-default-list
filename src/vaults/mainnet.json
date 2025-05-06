@@ -166,6 +166,16 @@
       "stakeTokenAddress": "0xf7b5127B510E568fdC39e6Bb54e2081BFaD489AF"
     },
     {
+      "beraRewardsVault": "0x063Df07B032e838De70165cdc39587A21910786E",
+      "slug": "etherfi-primeliquidberabtc",
+      "stakeTokenAddress": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e"
+    },
+    {
+      "beraRewardsVault": "0xaAB94d5178350B10FD772BED446dDEE43EAeBA46",
+      "slug": "etherfi-primeliquidberaeth",
+      "stakeTokenAddress": "0xB83742330443f7413DBD2aBdfc046dB0474a944e"
+    },
+    {
       "beraRewardsVault": "0xe4c24b1da97325b183df8e4e489d54d2f6e15d58",
       "slug": "euler-nect",
       "stakeTokenAddress": "0x112b77a77753b092306b1c04bd70215fed4e00a1"

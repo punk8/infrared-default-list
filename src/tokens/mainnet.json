@@ -773,6 +773,28 @@
       "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
     },
     {
+      "address": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e",
+      "decimals": 8,
+      "image": "primeliquidberabtc.svg",
+      "mintUrl": "https://www.ether.fi/app/liquid/bera-btc",
+      "name": "primeLiquidBeraBTC",
+      "protocol": "etherfi",
+      "symbol": "primeLiquidBeraBTC",
+      "type": "vault",
+      "underlyingTokens": ["0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"]
+    },
+    {
+      "address": "0xB83742330443f7413DBD2aBdfc046dB0474a944e",
+      "decimals": 18,
+      "image": "primeliquidberaeth.svg",
+      "mintUrl": "https://www.ether.fi/app/liquid/bera-eth",
+      "name": "primeLiquidBeraETH",
+      "protocol": "etherfi",
+      "symbol": "primeLiquidBeraETH",
+      "type": "vault",
+      "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
+    },
+    {
       "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
       "decimals": 18,
       "image": "enect-1.svg",

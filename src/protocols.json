@@ -73,6 +73,14 @@
       "url": "https://dolomite.io"
     },
     {
+      "description": "Ether.fi Liquid vaults offer automated DeFi strategies.",
+      "id": "etherfi",
+      "imageDark": "etherfi.svg",
+      "imageLight": "etherfi.svg",
+      "name": "ether.fi",
+      "url": "https://ether.fi"
+    },
+    {
       "description": "Euler is a decentralized lending protocol on Berachain.",
       "id": "euler",
       "imageDark": "euler.svg",
