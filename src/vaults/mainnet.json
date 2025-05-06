@@ -101,6 +101,11 @@
       "stakeTokenAddress": "0xcffbfd665bedb19b47837461a5abf4388c560d35"
     },
     {
+      "beraRewardsVault": "0x9bc3d407d930910a7af515d473ce9633624c1574",
+      "slug": "burrbear-burr-wgbera",
+      "stakeTokenAddress": "0xAc8a437d1e6905E419431662AEAd90fB04ac3008"
+    },    
+    {
       "beraRewardsVault": "0x82e206a61c026491dee3156fb6589cb786af779f",
       "slug": "burrbear-ibgt-lbgt",
       "stakeTokenAddress": "0x7ce7cb1893cfbd680cbfb9dd2a9ae6a62bde66a8"
