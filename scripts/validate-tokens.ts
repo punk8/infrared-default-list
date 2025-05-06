@@ -1,4 +1,3 @@
-import { config } from 'dotenv'
 import { readdirSync } from 'node:fs'
 import { createPublicClient } from 'viem'
 
@@ -12,8 +11,6 @@ import { outputScriptStatus } from './_/output-script-status'
 import { transport } from './_/transport'
 import { validateList } from './_/validate-list'
 import { validateTokenDetails } from './_/validate-token-details'
-
-config()
 
 const schema = getFile('schema/tokens-schema.json')
 const folderPath = 'src/tokens'

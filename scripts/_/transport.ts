@@ -1,4 +1,7 @@
+import { config } from 'dotenv'
 import { fallback, http } from 'viem'
+
+config()
 
 export const transport = fallback([
   http(

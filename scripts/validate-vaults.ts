@@ -1,4 +1,3 @@
-import { config } from 'dotenv'
 import { readdirSync } from 'node:fs'
 import { createPublicClient } from 'viem'
 
@@ -13,8 +12,6 @@ import { outputScriptStatus } from './_/output-script-status'
 import { transport } from './_/transport'
 import { validateList } from './_/validate-list'
 import { validateVaultDetails } from './_/validate-vault-details'
-
-config()
 
 const schema = getFile('schema/vaults-schema.json')
 const folderPath = 'src/vaults'
