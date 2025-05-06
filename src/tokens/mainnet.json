@@ -236,7 +236,7 @@
       "decimals": 18,
       "image": "asugar.webp",
       "name": "aSugar",
-      "symbol": "SUGAR"
+      "symbol": "aSUGAR"
     },
     {
       "address": "0x2840F9d9f96321435Ab0f977E7FDBf32EA8b304f",
@@ -420,7 +420,7 @@
       "address": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
       "decimals": 18,
       "mintUrl": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
-      "name": "aSugar-HONEY",
+      "name": "aSUGAR-HONEY",
       "protocol": "bex",
       "symbol": "50aSUGAR-50HONEY-WEIGHTED",
       "type": "amm",
