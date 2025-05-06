@@ -171,6 +171,11 @@
       "stakeTokenAddress": "0x068D072d1ee7647B9d649a7C2046166Aa81af3D3"
     },
     {
+      "beraRewardsVault": "0x52fe4126d6991d1095369dfe1a8ca17fd1aa401b",
+      "slug": "concrete-ctusd₮0",
+      "stakeTokenAddress": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a"
+    },
+    {
       "beraRewardsVault": "0xd5e8006cb675d6556915e92c6253e5a9b9df5431",
       "slug": "concrete-ctusdc.e",
       "stakeTokenAddress": "0xc3cac88fd629652BBe0C3454D5d3049368A73849"
@@ -179,11 +184,6 @@
       "beraRewardsVault": "0x9a4CCbbA792ea0f64D62f15416517fcd9ce30283",
       "slug": "concrete-ctusde",
       "stakeTokenAddress": "0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6"
-    },
-    {
-      "beraRewardsVault": "0x52fe4126d6991d1095369dfe1a8ca17fd1aa401b",
-      "slug": "concrete-ctusd₮0",
-      "stakeTokenAddress": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a"
     },
     {
       "beraRewardsVault": "0xea31ae7f4b4205badba164b1469e8f71de9ea867",

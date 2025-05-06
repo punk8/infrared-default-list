@@ -814,6 +814,16 @@
       "underlyingTokens": ["0xC3827A4BC8224ee2D116637023b124CED6db6e90"]
     },
     {
+      "address": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
+      "decimals": 15,
+      "mintUrl": "https://app.concrete.xyz/earn",
+      "name": "ctUSD₮0",
+      "protocol": "concrete",
+      "symbol": "ctBeraUSDT0",
+      "type": "cdp",
+      "underlyingTokens": ["0x779Ded0c9e1022225f8E0630b35a9b54bE713736"]
+    },
+    {
       "address": "0xc3cac88fd629652BBe0C3454D5d3049368A73849",
       "decimals": 15,
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -832,16 +842,6 @@
       "symbol": "ctBeraUSDe",
       "type": "cdp",
       "underlyingTokens": ["0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34"]
-    },
-    {
-      "address": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
-      "decimals": 15,
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctUSD₮0",
-      "protocol": "concrete",
-      "symbol": "ctBeraUSDT0",
-      "type": "cdp",
-      "underlyingTokens": ["0x779Ded0c9e1022225f8E0630b35a9b54bE713736"]
     },
     {
       "address": "0xEC577E989c02b294D5b8f4324224a5B63F5beef7",
