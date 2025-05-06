@@ -72,7 +72,7 @@ export const tokens = [
   {
     address: '0x0003eEDFdd020bf60D10cf684ABAc7C4534B7eAd',
     decimals: 18,
-    image: 'bread.webp',
+    image: 'bread.svg',
     name: 'Bread',
     symbol: 'BREAD',
   },
@@ -282,7 +282,7 @@ export const tokens = [
   {
     address: '0xC99e948E9D183848a6c4F5E6C1d225F02f171d79',
     decimals: 18,
-    image: 'pollen.webp',
+    image: 'pollen.svg',
     name: 'POLLEN',
     symbol: 'POLLEN',
   },
@@ -443,7 +443,7 @@ export const tokens = [
   {
     address: '0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912',
     decimals: 18,
-    image: 'wgbera.webp',
+    image: 'wgbera.svg',
     name: 'wgBERA',
     symbol: 'wgBERA',
   },
