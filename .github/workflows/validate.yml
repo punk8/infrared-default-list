@@ -10,6 +10,9 @@ on:
       - scripts/**/*.*
       - package.json
 
+env: 
+    QUICKNODE_TOKEN: ${{ secrets.QUICKNODE_TOKEN }}
+
 jobs:
   validate:
     runs-on: ubuntu-latest
