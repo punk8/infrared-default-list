@@ -127,12 +127,12 @@
     },
     {
       "beraRewardsVault": "0x040f89fcbae6ce2b3fbe47fc84b1248c91d716c2",
-      "slug": "concrete-fbtc",
+      "slug": "concrete-ctberafbtc",
       "stakeTokenAddress": "0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab"
     },
     {
       "beraRewardsVault": "0x894d3d9d4542a307a3c76c82695bf5581fcc1383",
-      "slug": "concrete-lbtc",
+      "slug": "concrete-ctberalbtc",
       "stakeTokenAddress": "0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120"
     },
     {
