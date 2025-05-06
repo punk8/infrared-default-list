@@ -120,6 +120,13 @@
       "symbol": "ezETH"
     },
     {
+      "address": "0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B",
+      "decimals": 8,
+      "image": "fbtc.svg",
+      "name": "Fire Bitcoin",
+      "symbol": "FBTC"
+    },
+    {
       "address": "0xcA9088895e3390E503cac9ae95abaccdba20822e",
       "decimals": 18,
       "image": "grq.webp",
@@ -153,6 +160,13 @@
       "image": "lbgt.svg",
       "name": "Liquid BGT",
       "symbol": "LBGT"
+    },
+    {
+      "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+      "decimals": 8,
+      "image": "lbtc.svg",
+      "name": "Lombard Staked Bitcoin",
+      "symbol": "LBTC"
     },
     {
       "address": "0x5B82028cfc477C4E7ddA7FF33d59A23FA7Be002a",
@@ -696,6 +710,28 @@
         "0x6969696969696969696969696969696969696969",
         "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
       ]
+    },
+    {
+      "address": "0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab",
+      "decimals": 17,
+      "image": "ctberafbtc.svg",
+      "mintUrl": "https://app.concrete.xyz/earn",
+      "name": "ctBeraFBTC",
+      "protocol": "concrete",
+      "symbol": "ctBeraFBTC",
+      "type": "cdp",
+      "underlyingTokens": ["0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B"]
+    },
+    {
+      "address": "0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120",
+      "decimals": 17,
+      "image": "ctberalbtc.svg",
+      "mintUrl": "https://app.concrete.xyz/earn",
+      "name": "ctBeraLBTC",
+      "protocol": "concrete",
+      "symbol": "ctBeraLBTC",
+      "type": "cdp",
+      "underlyingTokens": ["0xecAc9C5F704e954931349Da37F60E39f515c11c1"]
     },
     {
       "address": "0xbE75c8A7E58C7901D2e128dc8d3b6DE2481F1F79",
