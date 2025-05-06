@@ -49,6 +49,14 @@
       "url": "https://burrbear.io"
     },
     {
+      "description": "Concrete is a DeFi platform that allows you to borrow, protect, and earn on your crypto assets across multiple chains.",
+      "id": "concrete",
+      "imageDark": "concrete.svg",
+      "imageLight": "concrete.svg",
+      "name": "Concrete",
+      "url": "https://concrete.xyz"
+    },
+    {
       "description": "D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies",
       "id": "d2finance",
       "imageDark": "d2finance.svg",

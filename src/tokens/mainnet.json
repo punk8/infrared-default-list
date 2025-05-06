@@ -645,6 +645,42 @@
       ]
     },
     {
+      "address": "0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B",
+      "decimals": 8,
+      "image": "fbtc.svg",
+      "name": "Fire Bitcoin",
+      "symbol": "FBTC"
+    },
+    {
+      "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+      "decimals": 8,
+      "image": "lbtc.svg",
+      "name": "Lombard Staked Bitcoin",
+      "symbol": "LBTC"
+    },
+    {
+      "address": "0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120",
+      "decimals": 17,
+      "image": "ctberalbtc.svg",
+      "mintUrl": "https://app.concrete.xyz/earn",
+      "name": "LBTC",
+      "protocol": "concrete",
+      "symbol": "ctBeraLBTC",
+      "type": "cdp",
+      "underlyingTokens": ["0xecAc9C5F704e954931349Da37F60E39f515c11c1"]
+    },
+    {
+      "address": "0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab",
+      "decimals": 17,
+      "image": "ctberafbtc.svg",
+      "mintUrl": "https://app.concrete.xyz/earn",
+      "name": "FBTC",
+      "protocol": "concrete",
+      "symbol": "ctBeraFBTC",
+      "type": "cdp",
+      "underlyingTokens": ["0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B"]
+    },
+    {
       "address": "0xd170e25f6bcb5ace2108628c647be47d59900ade",
       "decimals": 18,
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xd170e25f6bcb5ace2108628c647be47d59900ade00020000000000000000000c/add-liquidity",

@@ -131,6 +131,16 @@
       "stakeTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79"
     },
     {
+      "beraRewardsVault": "0x040f89fcbae6ce2b3fbe47fc84b1248c91d716c2",
+      "slug": "concrete-fbtc",
+      "stakeTokenAddress": "0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab"
+    },
+    {
+      "beraRewardsVault": "0x894d3d9d4542a307a3c76c82695bf5581fcc1383",
+      "slug": "concrete-lbtc",
+      "stakeTokenAddress": "0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120"
+    },
+    {
       "beraRewardsVault": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
       "slug": "d2finance-usdc.e",
       "stakeTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d"
