@@ -72,7 +72,7 @@ export const tokens = [
   {
     address: '0x0003eEDFdd020bf60D10cf684ABAc7C4534B7eAd',
     decimals: 18,
-    image: 'bread.webp',
+    image: 'bread.svg',
     name: 'Bread',
     symbol: 'BREAD',
   },
