@@ -99,6 +99,13 @@
       "symbol": "DINERO"
     },
     {
+      "address": "0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654",
+      "decimals": 18,
+      "image": "dolo.svg",
+      "name": "Dolomite",
+      "symbol": "DOLO"
+    },
+    {
       "address": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
       "decimals": 8,
       "image": "ebtc.svg",
@@ -934,6 +941,19 @@
       "underlyingTokens": [
         "0x0003eEDFdd020bf60D10cf684ABAc7C4534B7eAd",
         "0x18878Df23e2a36f81e820e4b47b4A40576D3159C"
+      ]
+    },
+    {
+      "address": "0x5e4Fe86C4f6fB2203fbFb77FD6eC3Cb300B639AA",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5e4Fe86C4f6fB2203fbFb77FD6eC3Cb300B639AA?chain=berachain_mainnet",
+      "name": "DOLO-WBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI DOLO-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654",
+        "0x6969696969696969696969696969696969696969"
       ]
     },
     {
