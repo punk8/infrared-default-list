@@ -209,7 +209,7 @@
       "beraRewardsVault": "0x2461040526130a0ea1a0ed44b9c9d3331f3897ff",
       "slug": "kodiak-dolo-wbera",
       "stakeTokenAddress": "0x5e4Fe86C4f6fB2203fbFb77FD6eC3Cb300B639AA"
-    },    
+    },
     {
       "beraRewardsVault": "0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4",
       "slug": "kodiak-ezeth-weth",
