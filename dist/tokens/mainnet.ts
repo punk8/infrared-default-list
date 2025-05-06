@@ -443,7 +443,7 @@ export const tokens = [
   {
     address: '0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912',
     decimals: 18,
-    image: 'wgbera.webp',
+    image: 'wgbera.svg',
     name: 'wgBERA',
     symbol: 'wgBERA',
   },
