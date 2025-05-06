@@ -893,7 +893,7 @@
       "decimals": 18,
       "image": "enect-1.svg",
       "mintUrl": "https://app.euler.finance/vault/0x112B77A77753b092306b1c04Bd70215FeD4e00a1?network=berachain",
-      "name": "NECT",
+      "name": "eNECT",
       "protocol": "euler",
       "symbol": "eNECT-1",
       "type": "vault",
