@@ -10,6 +10,7 @@
           "imageDark": { "type": "string" },
           "imageLight": { "type": "string" },
           "name": { "type": "string" },
+          "prefix": { "type": "string" },
           "url": { "format": "uri", "type": "string" }
         },
         "required": [

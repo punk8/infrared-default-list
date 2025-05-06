@@ -14,6 +14,7 @@
       "imageDark": "beraborrow.webp",
       "imageLight": "beraborrow.webp",
       "name": "Beraborrow",
+      "prefix": "b",
       "url": "https://www.beraborrow.com"
     },
     {
@@ -54,6 +55,7 @@
       "imageDark": "concrete.svg",
       "imageLight": "concrete.svg",
       "name": "Concrete",
+      "prefix": "ct",
       "url": "https://concrete.xyz"
     },
     {
@@ -78,6 +80,7 @@
       "imageDark": "dolomite-dark.svg",
       "imageLight": "dolomite-light.svg",
       "name": "Dolomite",
+      "prefix": "d",
       "url": "https://dolomite.io"
     },
     {
@@ -94,6 +97,7 @@
       "imageDark": "euler.svg",
       "imageLight": "euler.svg",
       "name": "Euler",
+      "prefix": "e",
       "url": "https://app.euler.finance"
     },
     {

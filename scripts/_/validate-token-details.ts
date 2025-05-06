@@ -58,8 +58,19 @@ const validateName = ({
 
     if (token.name !== underlyingTokenSymbols) {
       if (token.name !== onChainName && token.name !== onChainSymbol) {
-        // exception for cases like bWBERA
-        errors.push(`${token.name} does not match ${underlyingTokenSymbols}`)
+        // onChainSymbol for cases like bWBERA
+
+        if ('protocol' in token) {
+          const protocol = protocolsList.protocols.find(
+            ({ id }) => id === token.protocol,
+          )
+          const expectedTokenName = `${protocol?.prefix}${underlyingTokenSymbols}`
+          if (token.name !== expectedTokenName) {
+            errors.push(
+              `${token.name} does not match ${expectedTokenName} or ${underlyingTokenSymbols}`,
+            )
+          }
+        }
       }
     }
   } else if (token.name !== onChainName && token.name !== onChainSymbol) {
