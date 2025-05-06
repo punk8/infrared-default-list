@@ -12,6 +12,7 @@ export interface ProtocolsSchema {
     imageDark: string
     imageLight: string
     name: string
+    prefix?: string
     url: string
   }[]
   [k: string]: unknown
