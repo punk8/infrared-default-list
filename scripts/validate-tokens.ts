@@ -1,5 +1,6 @@
+import { config } from 'dotenv'
 import { readdirSync } from 'node:fs'
-import { createPublicClient, http } from 'viem'
+import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
 import type { TokensSchema } from '@/types/tokens'
@@ -8,8 +9,11 @@ import { getFile } from './_/get-file'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
+import { transport } from './_/transport'
 import { validateList } from './_/validate-list'
 import { validateTokenDetails } from './_/validate-token-details'
+
+config()
 
 const schema = getFile('schema/tokens-schema.json')
 const folderPath = 'src/tokens'
@@ -27,7 +31,7 @@ const validateTokensByChain = async ({
   })
   const publicClient = createPublicClient({
     chain: supportedChains[chain],
-    transport: http(),
+    transport,
   })
   const addresses = new Set<string>()
 
