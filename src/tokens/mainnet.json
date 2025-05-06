@@ -1,6 +1,13 @@
 {
   "tokens": [
     {
+      "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
+      "decimals": 18,
+      "image": "asugar.png",
+      "name": "aSugar",
+      "symbol": "SUGAR"
+    },    
+    {
       "address": "0x89d2E832EDaAfF8C228A57a1602a1f7950Ea2D39",
       "decimals": 18,
       "image": "avl.svg",
@@ -409,6 +416,19 @@
       "type": "unknown",
       "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
     },
+    {
+      "address": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
+      "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
+      "name": "aSugar-HONEY",
+      "protocol": "bex",
+      "symbol": "50aSUGAR-50HONEY-WEIGHTED",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },    
     {
       "address": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
       "decimals": 18,
