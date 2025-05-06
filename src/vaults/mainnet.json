@@ -146,6 +146,11 @@
       "stakeTokenAddress": "0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d"
     },
     {
+      "beraRewardsVault": "0xc70e2af5eede9431536314bbbdf884e20179e3b7",
+      "slug": "dolomite-duniBTC",
+      "stakeTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd"
+    },    
+    {
       "beraRewardsVault": "0x9c3110123c515CAF1866B28C031dFeb5ed8EbF0C",
       "slug": "dolomite-dusd₮0",
       "stakeTokenAddress": "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8"

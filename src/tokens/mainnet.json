@@ -729,6 +729,17 @@
       "underlyingTokens": ["0x09D4214C03D01F49544C0448DBE3A27f768F2b34"]
     },
     {
+      "address": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
+      "decimals": 8,
+      "image": "unibtc.svg",
+      "mintUrl": "https://app.dolomite.io/balances",
+      "name": "duniBTC",
+      "protocol": "dolomite",
+      "symbol": "duniBTC",
+      "type": "cdp",
+      "underlyingTokens": ["0xC3827A4BC8224ee2D116637023b124CED6db6e90"]
+    },    
+    {
       "address": "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8",
       "decimals": 6,
       "image": "dusdt0.svg",
