@@ -131,14 +131,74 @@
       "stakeTokenAddress": "0x567f32e86be3e3963cdbc1887b5043b701f113d9"
     },
     {
+      "beraRewardsVault": "0x310532d9d047c5972cd60852c1a4b675edc55fad",
+      "slug": "concrete-ctberabaddieshoney",
+      "stakeTokenAddress": "0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e"
+    },
+    {
+      "beraRewardsVault": "0x6e0a95f6ac86ead002d58c83fc1b5a712ee9be7c",
+      "slug": "concrete-ctberabaddieswbera",
+      "stakeTokenAddress": "0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713"
+    },
+    {
+      "beraRewardsVault": "0xf59e889f55777cd5a8dddca918500c5d062c8a57",
+      "slug": "concrete-ctberaeth",
+      "stakeTokenAddress": "0x49BEE393825BBAC404fEfE6E24f34854f30905D2"
+    },
+    {
       "beraRewardsVault": "0x040f89fcbae6ce2b3fbe47fc84b1248c91d716c2",
-      "slug": "concrete-ctberafbtc",
+      "slug": "concrete-ctfbtc",
       "stakeTokenAddress": "0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab"
     },
     {
+      "beraRewardsVault": "0x41abc5119830bedf86a3c587f50db41400ffee96",
+      "slug": "concrete-cthoney",
+      "stakeTokenAddress": "0x81235952ad93987F74e074994Def2a7e1D6F1Fb0"
+    },
+    {
       "beraRewardsVault": "0x894d3d9d4542a307a3c76c82695bf5581fcc1383",
-      "slug": "concrete-ctberalbtc",
+      "slug": "concrete-ctlbtc",
       "stakeTokenAddress": "0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120"
+    },
+    {
+      "beraRewardsVault": "0xffb155ef53cb08a0722c9eeeea5cb362d77ba125",
+      "slug": "concrete-ctsusde",
+      "stakeTokenAddress": "0xd08E3652e6b29EBdD58fe93B422513862FB49899"
+    },
+    {
+      "beraRewardsVault": "0xDd31Db00885C948F1A30Ce28678dF8Ad63B15bB6",
+      "slug": "concrete-ctunibtc",
+      "stakeTokenAddress": "0x068D072d1ee7647B9d649a7C2046166Aa81af3D3"
+    },
+    {
+      "beraRewardsVault": "0x52fe4126d6991d1095369dfe1a8ca17fd1aa401b",
+      "slug": "concrete-ctusd₮0",
+      "stakeTokenAddress": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a"
+    },
+    {
+      "beraRewardsVault": "0xd5e8006cb675d6556915e92c6253e5a9b9df5431",
+      "slug": "concrete-ctusdc.e",
+      "stakeTokenAddress": "0xc3cac88fd629652BBe0C3454D5d3049368A73849"
+    },
+    {
+      "beraRewardsVault": "0x9a4CCbbA792ea0f64D62f15416517fcd9ce30283",
+      "slug": "concrete-ctusde",
+      "stakeTokenAddress": "0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6"
+    },
+    {
+      "beraRewardsVault": "0xea31ae7f4b4205badba164b1469e8f71de9ea867",
+      "slug": "concrete-ctwbera",
+      "stakeTokenAddress": "0xEC577E989c02b294D5b8f4324224a5B63F5beef7"
+    },
+    {
+      "beraRewardsVault": "0x4132997563d7621644a13a2dfeb925df527455d6",
+      "slug": "concrete-ctwbtc",
+      "stakeTokenAddress": "0x335e7b56054F830883D1509AFDce58DedceFb29C"
+    },
+    {
+      "beraRewardsVault": "0x238cb854d644cb9b7a08e65eb803bffc05cfb834",
+      "slug": "concrete-ctweth",
+      "stakeTokenAddress": "0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772"
     },
     {
       "beraRewardsVault": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",

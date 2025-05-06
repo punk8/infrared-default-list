@@ -159,7 +159,6 @@ export const validateTokenDetails = async ({
   await validateDecimals({ errors, publicClient, token })
   await validateTokenImage({
     errors,
-    required: false,
     token,
   })
   validateMintUrl({ errors, token })
