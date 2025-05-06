@@ -1,6 +1,13 @@
 {
   "tokens": [
     {
+      "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
+      "decimals": 18,
+      "image": "asugar.webp",
+      "name": "aSugar",
+      "symbol": "aSUGAR"
+    },
+    {
       "address": "0x89d2E832EDaAfF8C228A57a1602a1f7950Ea2D39",
       "decimals": 18,
       "image": "avl.svg",
@@ -230,13 +237,6 @@
       "image": "stone.svg",
       "name": "StakeStone Ether",
       "symbol": "STONE"
-    },
-    {
-      "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
-      "decimals": 18,
-      "image": "asugar.webp",
-      "name": "aSugar",
-      "symbol": "aSUGAR"
     },
     {
       "address": "0x2840F9d9f96321435Ab0f977E7FDBf32EA8b304f",
