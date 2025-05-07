@@ -1,6 +1,13 @@
 {
   "tokens": [
     {
+      "address": "0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F",
+      "decimals": 18,
+      "image": "aibera.png",
+      "name": "HoneyFun AI",
+      "symbol": "AIBERA"
+    },    
+    {
       "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
       "decimals": 18,
       "image": "asugar.svg",
@@ -1404,6 +1411,19 @@
         "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
     },
+    {
+      "address": "0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a?chain=berachain_mainnet",
+      "name": "WBERA-AIBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI WBERA-AIBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F"
+      ]
+    },    
     {
       "address": "0x2BDB8C39A3808eB9A03dE69925b6b158A57c57e6",
       "decimals": 18,
