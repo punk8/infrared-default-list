@@ -269,7 +269,7 @@
       "beraRewardsVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
       "slug": "infrared-ibgt",
       "stakeTokenAddress": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"
-    },    
+    },
     {
       "beraRewardsVault": "0x19Ecf480652A7DE3A60dd7fd7012dAeD6C79E3E9",
       "slug": "kodiak-beraeth-stone",
@@ -409,7 +409,7 @@
       "beraRewardsVault": "0x9a60189fc1372fab170fe642d162fc972b6ac31b",
       "slug": "kodiak-wbera-aibera",
       "stakeTokenAddress": "0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a"
-    },    
+    },
     {
       "beraRewardsVault": "0x6135e9e556b7aaaf66d2d6e8e47b96e2de6b602f",
       "slug": "kodiak-wbera-avl",
