@@ -434,7 +434,7 @@
       "decimals": 18,
       "image": "snect.webp",
       "mintUrl": "https://app.beraborrow.com/pool/deposit",
-      "name": "Staked Nectar",
+      "name": "sNECT",
       "protocol": "beraborrow",
       "symbol": "sNECT",
       "type": "cdp",
