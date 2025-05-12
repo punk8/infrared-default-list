@@ -49,7 +49,7 @@ for (const assetType of assetTypes) {
 
       const tsContent = `export const ${assetType} = ${JSON.stringify(
         tokens
-          .filter((token) => !!token.image)
+          .filter((token) => !!token.image && token.symbol !== 'BGT')
           .map((token) => ({
             address: token.address,
             decimals: token.decimals,
