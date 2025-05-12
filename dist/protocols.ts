@@ -6,7 +6,7 @@ export const protocols = [
     imageDark: 'aquabera.svg',
     imageLight: 'aquabera.svg',
     name: 'AquaBera',
-    url: 'https://aquabera.com/',
+    url: 'https://aquabera.com',
   },
   {
     description:
@@ -15,6 +15,7 @@ export const protocols = [
     imageDark: 'beraborrow.webp',
     imageLight: 'beraborrow.webp',
     name: 'Beraborrow',
+    prefix: 'b',
     url: 'https://www.beraborrow.com',
   },
   {
@@ -53,10 +54,20 @@ export const protocols = [
   },
   {
     description:
+      'Concrete is a DeFi platform that allows you to borrow, protect, and earn on your crypto assets across multiple chains.',
+    id: 'concrete',
+    imageDark: 'concrete.svg',
+    imageLight: 'concrete.svg',
+    name: 'Concrete',
+    prefix: 'ct',
+    url: 'https://concrete.xyz',
+  },
+  {
+    description:
       'D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies',
     id: 'd2finance',
-    imageDark: 'd2-finance.svg',
-    imageLight: 'd2-finance.svg',
+    imageDark: 'd2finance.svg',
+    imageLight: 'd2finance.svg',
     name: 'D2 Finance',
     url: 'https://d2.finance/strategies',
   },
@@ -67,7 +78,7 @@ export const protocols = [
     imageDark: 'd8x-dark.svg',
     imageLight: 'd8x-light.svg',
     name: 'D8X',
-    url: 'https://d8x.exchange/',
+    url: 'https://d8x.exchange',
   },
   {
     description:
@@ -76,7 +87,16 @@ export const protocols = [
     imageDark: 'dolomite-dark.svg',
     imageLight: 'dolomite-light.svg',
     name: 'Dolomite',
+    prefix: 'd',
     url: 'https://dolomite.io',
+  },
+  {
+    description: 'Ether.fi Liquid vaults offer automated DeFi strategies.',
+    id: 'etherfi',
+    imageDark: 'etherfi.svg',
+    imageLight: 'etherfi.svg',
+    name: 'ether.fi',
+    url: 'https://ether.fi',
   },
   {
     description: 'Euler is a decentralized lending protocol on Berachain.',
@@ -84,6 +104,7 @@ export const protocols = [
     imageDark: 'euler.svg',
     imageLight: 'euler.svg',
     name: 'Euler',
+    prefix: 'e',
     url: 'https://app.euler.finance',
   },
   {
@@ -110,14 +131,14 @@ export const protocols = [
     imageDark: 'wasabee.svg',
     imageLight: 'wasabee.svg',
     name: 'Wasabee',
-    url: 'https://wasabee.honeypotfinance.xyz/',
+    url: 'https://wasabee.honeypotfinance.xyz',
   },
   {
     description:
       'Wasabi is an on-chain money market that offers the highest yields across the widest range of assets.',
     id: 'wasabi',
-    imageDark: 'wasabi_dark.svg',
-    imageLight: 'wasabi_light.svg',
+    imageDark: 'wasabi-dark.svg',
+    imageLight: 'wasabi-light.svg',
     name: 'Wasabi',
     url: 'https://wasabi.xyz',
   },
@@ -128,7 +149,7 @@ export const protocols = [
     imageDark: 'webera.svg',
     imageLight: 'webera.svg',
     name: 'WeBera',
-    url: 'https://app.webera.finance/',
+    url: 'https://app.webera.finance',
   },
   {
     description: 'The premiere bonzi of Berachain',
