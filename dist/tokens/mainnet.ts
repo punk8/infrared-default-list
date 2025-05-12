@@ -42,13 +42,6 @@ export const tokens = [
     symbol: 'BERAMO',
   },
   {
-    address: '0x656b95E550C07a9ffe548bd4085c72418Ceb1dba',
-    decimals: 18,
-    image: 'bgt.svg',
-    name: 'Bera Governance Token',
-    symbol: 'BGT',
-  },
-  {
     address: '0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227',
     decimals: 8,
     image: 'bitcoin.svg',
