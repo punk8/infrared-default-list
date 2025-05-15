@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "protocols": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "description": { "type": "string" },
+          "id": { "type": "string" },
+          "imageDark": { "type": "string" },
+          "imageLight": { "type": "string" },
+          "name": { "type": "string" },
+          "prefix": { "type": "string" },
+          "url": { "format": "uri", "type": "string" }
+        },
+        "required": [
+          "description",
+          "id",
+          "imageDark",
+          "imageLight",
+          "name",
+          "url"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": ["protocols"],
+  "type": "object"
+}
