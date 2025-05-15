@@ -260,17 +260,6 @@
       "symbol": "SolvBTC"
     },
     {
-      "address": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B",
-      "decimals": 18,
-      "image": "solvbtc-bera.svg",
-      "mintUrl": "https://app.solv.finance/bera?network=ethereum",
-      "name": "SolvBTC.BERA",
-      "protocol": "solv",
-      "symbol": "SolvBTC.BERA",
-      "type": "unknown",
-      "underlyingTokens": ["0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"]
-    },
-    {
       "address": "0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb",
       "decimals": 18,
       "image": "stbgt.svg",
@@ -1733,6 +1722,17 @@
         "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
         "0x6969696969696969696969696969696969696969"
       ]
+    },
+    {
+      "address": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B",
+      "decimals": 18,
+      "image": "solvbtc-bera.svg",
+      "mintUrl": "https://app.solv.finance/bera?network=ethereum",
+      "name": "SolvBTC.BERA",
+      "protocol": "solv",
+      "symbol": "SolvBTC.BERA",
+      "type": "unknown",
+      "underlyingTokens": ["0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"]
     },
     {
       "address": "0xE57D868d244d2Cf2E9679eaBa2A3048E58674565",
