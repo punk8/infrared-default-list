@@ -18,7 +18,7 @@ export interface TokensSchema {
         address: string
         decimals: number
         image?: string
-        mintUrl?: string
+        mintUrl: string
         name: string
         protocol: string
         symbol: string

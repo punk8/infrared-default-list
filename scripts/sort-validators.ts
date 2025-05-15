@@ -1,7 +1,10 @@
 import { readdirSync } from 'node:fs'
+import { parse } from 'valibot'
 
-import type { ValidatorsSchema } from '@/types/validators'
-
+import {
+  type ValidatorsInput,
+  ValidatorsInputSchema,
+} from '../schema/validators-schema'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { sortValidators } from './_/sort-validators'
@@ -16,13 +19,14 @@ readdirSync(folderPath).forEach(async (file) => {
   }
 
   const path = `${folderPath}/${chain}.json`
-  const validators: ValidatorsSchema = getJsonFile({
+  const validatorsFile: { validators: ValidatorsInput } = getJsonFile({
     chain,
     path,
   })
+  const validators = parse(ValidatorsInputSchema, validatorsFile.validators)
 
   await sortValidators({
     path,
-    validators: validators.validators,
+    validators,
   })
 })
