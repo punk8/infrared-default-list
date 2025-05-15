@@ -126,6 +126,15 @@ export const protocols = [
     url: 'https://app.kodiak.finance',
   },
   {
+    description:
+      'Solv Protocol (SOLV) is a decentralized finance platform designed to unlock the earning potential of Bitcoin',
+    id: 'solv',
+    imageDark: 'solv-dark.svg',
+    imageLight: 'solv-light.svg',
+    name: 'Solv Protocol',
+    url: 'https://solv.finance/',
+  },
+  {
     description: 'Wasabee is a DEX from Honeypot Finance powered by Algebra',
     id: 'wasabee',
     imageDark: 'wasabee.svg',

@@ -476,6 +476,13 @@ export const tokens = [
     symbol: 'SolvBTC',
   },
   {
+    address: '0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B',
+    decimals: 18,
+    image: 'solvbtc-bera.svg',
+    name: 'SolvBTC.BERA',
+    symbol: 'SolvBTC.BERA',
+  },
+  {
     address: '0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb',
     decimals: 18,
     image: 'stbgt.svg',
