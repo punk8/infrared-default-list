@@ -1,13 +1,21 @@
+import { parse } from 'valibot'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
-import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokensSchema } from '@/types/tokens'
 
+import {
+  type ProtocolsInput,
+  ProtocolsInputSchema,
+} from '../../schema/protocols-schema'
 import { getFile } from './get-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'
 import { validateDecimals } from './validate-decimals'
 import { validateTokenImage } from './validate-token-image'
+
+const protocolsFile: { protocols: ProtocolsInput } =
+  getFile('src/protocols.json')
+const protocols = parse(ProtocolsInputSchema, protocolsFile.protocols)
 
 const validateSymbol = ({
   errors,
@@ -61,9 +69,7 @@ const validateName = ({
         // onChainSymbol for cases like bWBERA
 
         if ('protocol' in token) {
-          const protocol = protocolsList.protocols.find(
-            ({ id }) => id === token.protocol,
-          )
+          const protocol = protocols.find(({ id }) => id === token.protocol)
           const expectedTokenName = `${protocol?.prefix}${underlyingTokenSymbols}`
           if (token.name !== expectedTokenName) {
             errors.push(
@@ -78,8 +84,6 @@ const validateName = ({
   }
 }
 
-const protocolsList: ProtocolsSchema = getFile('src/protocols.json')
-
 const validateProtocol = ({
   errors,
   token,
@@ -91,9 +95,7 @@ const validateProtocol = ({
     return
   }
 
-  const protocol = protocolsList.protocols.find(
-    ({ id }) => id === token.protocol,
-  )
+  const protocol = protocols.find(({ id }) => id === token.protocol)
 
   if (!protocol) {
     errors.push(`${token.symbol} does not have a protocol (token validation)`)

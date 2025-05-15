@@ -21,8 +21,8 @@
   "type": "module",
   "exports": {
     "./protocols": "./dist/protocols.ts",
+    "./schema/protocols": "./protocols-schema.ts",
     "./tokens/mainnet": "./dist/tokens/mainnet.ts",
-    "./types/protocols": "./src/types/protocols.d.ts",
     "./types/tokens": "./src/types/tokens.d.ts",
     "./types/vaults": "./src/types/vaults.d.ts",
     "./types/validators": "./src/types/validators.d.ts",
@@ -40,7 +40,7 @@
     "json-to-ts-and-format": "pnpm json-to-ts && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
-    "schemas-to-typescript": "concurrently \"json2ts schema/vaults-schema.json src/types/vaults.d.ts\" \"json2ts schema/protocols-schema.json src/types/protocols.d.ts\" \"json2ts schema/tokens-schema.json src/types/tokens.d.ts\" \"json2ts schema/validators-schema.json src/types/validators.d.ts\"",
+    "schemas-to-typescript": "concurrently \"json2ts schema/vaults-schema.json src/types/vaults.d.ts\" \"json2ts schema/tokens-schema.json src/types/tokens.d.ts\" \"json2ts schema/validators-schema.json src/types/validators.d.ts\"",
     "schemas-to-typescript-and-format": "pnpm schemas-to-typescript && pnpm format",
     "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\" \"tsx scripts/sort-validators.ts\"",
     "sort-and-format": "pnpm sort && pnpm format",
@@ -78,6 +78,9 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.0",
     "viem": "^2.29.2"
+  },
+  "peerDependencies": {
+    "valibot": "^1.1.0"
   },
   "packageManager": "pnpm@10.10.0",
   "engines": {

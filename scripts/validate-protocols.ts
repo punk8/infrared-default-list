@@ -1,20 +1,22 @@
-import type { ProtocolsSchema } from '@/types/protocols'
+import { parse } from 'valibot'
 
+import {
+  type ProtocolsInput,
+  ProtocolsInputSchema,
+} from '../schema/protocols-schema'
 import { getFile } from './_/get-file'
 import { outputScriptStatus } from './_/output-script-status'
-import { validateList } from './_/validate-list'
 import { validateProtocolImages } from './_/validate-protocol-images'
 
-const schema = getFile('schema/protocols-schema.json')
 const path = 'src/protocols.json'
-const protocols: ProtocolsSchema = getFile(path)
+const protocolsFile: { protocols: ProtocolsInput } = getFile(path)
 
 const validateProtocols = async () => {
   const errors: Array<string> = []
   const protocolIds = new Set<string>()
 
-  validateList({ errors, list: protocols, schema, type: 'protocols' })
-  const promisedProtocolDetails = protocols.protocols.map(async (protocol) => {
+  const protocols = parse(ProtocolsInputSchema, protocolsFile.protocols)
+  const promisedProtocolDetails = protocols.map(async (protocol) => {
     if (protocolIds.has(protocol.id)) {
       errors.push(
         `Duplicate protocol found: ${protocol.id}. Protocol ids must be unique.`,

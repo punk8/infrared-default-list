@@ -1,5 +1,4 @@
-import type { ProtocolsSchema } from '@/types/protocols'
-
+import type { ProtocolInput } from '../../schema/protocols-schema'
 import { validateImage } from './validate-image'
 
 export const validateProtocolImages = async ({
@@ -7,7 +6,7 @@ export const validateProtocolImages = async ({
   protocol,
 }: {
   errors: Array<string>
-  protocol: ProtocolsSchema['protocols'][number]
+  protocol: ProtocolInput
 }) => {
   await validateImage({
     errors,
