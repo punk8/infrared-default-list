@@ -37,6 +37,7 @@
     "convert-new-assets-to-svg": "tsx scripts/convert-new-assets-to-svg.ts",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
     "json-to-ts": "tsx scripts/json-to-ts.ts",
+    "json-to-ts-and-format": "pnpm json-to-ts && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
     "schemas-to-typescript": "concurrently \"json2ts schema/vaults-schema.json src/types/vaults.d.ts\" \"json2ts schema/protocols-schema.json src/types/protocols.d.ts\" \"json2ts schema/tokens-schema.json src/types/tokens.d.ts\" \"json2ts schema/validators-schema.json src/types/validators.d.ts\"",
