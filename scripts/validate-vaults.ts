@@ -1,10 +1,11 @@
 import { readdirSync } from 'node:fs'
+import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
-import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
+import { type Tokens, TokensSchema } from '../schema/tokens-schema'
 import { getFile } from './_/get-file'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
@@ -27,10 +28,12 @@ const validateVaultsByChain = async ({
     chain,
     path,
   })
-  const tokens: TokensSchema = getJsonFile({
+  const tokensFile: { tokens: Tokens } = getJsonFile({
     chain,
     path: `src/tokens/${chain}.json`,
   })
+  const tokens = parse(TokensSchema, tokensFile.tokens)
+
   const publicClient = createPublicClient({
     chain: supportedChains[chain],
     transport,

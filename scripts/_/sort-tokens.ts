@@ -1,7 +1,6 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { TokensSchema } from '@/types/tokens'
-
+import type { Tokens } from '../../schema/tokens-schema'
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortTokens = async ({
@@ -9,7 +8,7 @@ export const sortTokens = async ({
   tokens,
 }: {
   path: string
-  tokens: TokensSchema['tokens']
+  tokens: Tokens
 }) => {
   const sortedTokens = tokens.sort((a, b) => {
     if (Object.prototype.hasOwnProperty.call(a, 'underlyingTokens')) {

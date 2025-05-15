@@ -1,6 +1,12 @@
-import { object, string, type InferOutput, array, optional } from 'valibot'
+import {
+  string,
+  type InferOutput,
+  array,
+  optional,
+  strictObject,
+} from 'valibot'
 
-export const ProtocolInputSchema = object({
+export const ProtocolInputSchema = strictObject({
   description: string(),
   id: string(),
   imageDark: string(),
@@ -14,7 +20,7 @@ export type ProtocolInput = InferOutput<typeof ProtocolInputSchema>
 export const ProtocolsInputSchema = array(ProtocolInputSchema)
 export type ProtocolsInput = InferOutput<typeof ProtocolsInputSchema>
 
-export const ProtocolsSchema = object({
+export const ProtocolsSchema = strictObject({
   id: ProtocolInputSchema.entries.id,
   imageDark: ProtocolInputSchema.entries.imageDark,
   imageLight: ProtocolInputSchema.entries.imageLight,

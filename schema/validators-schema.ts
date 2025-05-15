@@ -1,6 +1,6 @@
-import { object, string, type InferOutput, array } from 'valibot'
+import { string, type InferOutput, array, strictObject } from 'valibot'
 
-export const ValidatorInputSchema = object({
+export const ValidatorInputSchema = strictObject({
   name: string(),
 })
 export type ValidatorInput = InferOutput<typeof ValidatorInputSchema>

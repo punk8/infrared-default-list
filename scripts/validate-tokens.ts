@@ -1,18 +1,16 @@
 import { readdirSync } from 'node:fs'
+import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
-import type { TokensSchema } from '@/types/tokens'
 
-import { getFile } from './_/get-file'
+import { type Tokens, TokensSchema } from '../schema/tokens-schema'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
 import { transport } from './_/transport'
-import { validateList } from './_/validate-list'
 import { validateTokenDetails } from './_/validate-token-details'
 
-const schema = getFile('schema/tokens-schema.json')
 const folderPath = 'src/tokens'
 
 const validateTokensByChain = async ({
@@ -22,25 +20,25 @@ const validateTokensByChain = async ({
 }) => {
   const errors: Array<string> = []
   const path = `${folderPath}/${chain}.json`
-  const tokens: TokensSchema = getJsonFile({
+  const tokensFile: { tokens: Tokens } = getJsonFile({
     chain,
     path,
   })
+  const tokens = parse(TokensSchema, tokensFile.tokens)
   const publicClient = createPublicClient({
     chain: supportedChains[chain],
     transport,
   })
   const addresses = new Set<string>()
 
-  validateList({ errors, list: tokens, schema, type: 'tokens' })
-  const promisedVaultDetails = tokens.tokens.map(
+  const promisedVaultDetails = tokens.map(
     async (token) =>
       await validateTokenDetails({
         addresses,
         errors,
         publicClient,
         token,
-        tokens: tokens.tokens,
+        tokens,
       }),
   )
   await Promise.all(promisedVaultDetails)

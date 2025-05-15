@@ -1,7 +1,6 @@
 import addFormats from 'ajv-formats'
 import Ajv from 'ajv/dist/2020'
 
-import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
 const ajv = new Ajv({ allErrors: true })
@@ -14,7 +13,7 @@ export const validateList = ({
   type,
 }: {
   errors: Array<string>
-  list: VaultsSchema | TokensSchema
+  list: VaultsSchema
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   schema: any
   type: string
