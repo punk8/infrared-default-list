@@ -3,18 +3,15 @@ import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
-import type { VaultsSchema } from '@/types/vaults'
 
 import { type Tokens, TokensSchema } from '../schema/tokens-schema'
-import { getFile } from './_/get-file'
+import { type Vaults, VaultsSchema } from '../schema/vaults-schema'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
 import { transport } from './_/transport'
-import { validateList } from './_/validate-list'
 import { validateVaultDetails } from './_/validate-vault-details'
 
-const schema = getFile('schema/vaults-schema.json')
 const folderPath = 'src/vaults'
 
 const validateVaultsByChain = async ({
@@ -23,11 +20,11 @@ const validateVaultsByChain = async ({
   chain: keyof typeof supportedChains
 }) => {
   const errors: Array<string> = []
-  const path = `${folderPath}/${chain}.json`
-  const vaults: VaultsSchema = getJsonFile({
+  const vaultsFile: { vaults: Vaults } = getJsonFile({
     chain,
-    path,
+    path: `${folderPath}/${chain}.json`,
   })
+  const vaults = parse(VaultsSchema, vaultsFile.vaults)
   const tokensFile: { tokens: Tokens } = getJsonFile({
     chain,
     path: `src/tokens/${chain}.json`,
@@ -41,8 +38,7 @@ const validateVaultsByChain = async ({
   const slugs: Array<string> = []
   const beraRewardsVaults = new Set<string>()
 
-  validateList({ errors, list: vaults, schema, type: 'vaults' })
-  const promisedVaultDetails = vaults.vaults.map(
+  const promisedVaultDetails = vaults.map(
     async (vault) =>
       await validateVaultDetails({
         beraRewardsVaults,
