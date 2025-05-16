@@ -174,7 +174,7 @@
       "image": "lair.svg",
       "name": "LAIR",
       "symbol": "LAIR"
-    },    
+    },
     {
       "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
       "decimals": 18,
@@ -1534,7 +1534,7 @@
         "0x6969696969696969696969696969696969696969",
         "0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C"
       ]
-    },    
+    },
     {
       "address": "0x337eF1eB6c8BBeD571170Fc2b468608ab9e2Aac8",
       "decimals": 18,
