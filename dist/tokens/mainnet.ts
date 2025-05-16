@@ -310,7 +310,7 @@ export const tokens = [
   {
     address: '0xcA9088895e3390E503cac9ae95abaccdba20822e',
     decimals: 18,
-    image: 'grq.webp',
+    image: 'grq.svg',
     name: 'GetRichQuick',
     symbol: 'GRQ',
   },
