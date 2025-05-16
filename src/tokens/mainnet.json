@@ -169,6 +169,13 @@
       "symbol": "HONEY"
     },
     {
+      "address": "0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C",
+      "decimals": 18,
+      "image": "lair.svg",
+      "name": "LAIR",
+      "symbol": "LAIR"
+    },
+    {
       "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
       "decimals": 18,
       "image": "lbgt.svg",
@@ -1513,6 +1520,19 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"
+      ]
+    },
+    {
+      "address": "0x9f6cf7aCb2F16f7d906EeeCB0a6020a5Cf91A41d",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9f6cf7aCb2F16f7d906EeeCB0a6020a5Cf91A41d?chain=berachain_mainnet",
+      "name": "WBERA-LAIR",
+      "protocol": "kodiak",
+      "symbol": "KODI WBERA-LAIR",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C"
       ]
     },
     {
