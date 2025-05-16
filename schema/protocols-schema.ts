@@ -4,6 +4,9 @@ import {
   array,
   optional,
   strictObject,
+  pipe,
+  nonEmpty,
+  url,
 } from 'valibot'
 
 export const DefaultListProtocolSchema = strictObject({
@@ -13,7 +16,7 @@ export const DefaultListProtocolSchema = strictObject({
   imageLight: string(),
   name: string(),
   prefix: optional(string()),
-  url: string(),
+  url: pipe(string(), nonEmpty('Please enter a url'), url()),
 })
 export type DefaultListProtocol = InferOutput<typeof DefaultListProtocolSchema>
 
