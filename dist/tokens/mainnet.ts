@@ -415,7 +415,7 @@ export const tokens = [
   {
     address: '0x231A6BD8eB88Cfa42776B7Ac575CeCAf82bf1E21',
     decimals: 18,
-    image: 'plug.webp',
+    image: 'plug.svg',
     name: 'Beraplug',
     symbol: 'PLUG',
   },
