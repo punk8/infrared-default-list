@@ -1250,6 +1250,19 @@
       ]
     },
     {
+      "address": "0x8EF48ae9DF6165acc9754297BF28F5877c229C03",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x8EF48ae9DF6165acc9754297BF28F5877c229C03?chain=berachain_mainnet",
+      "name": "NECT-USD₮0",
+      "protocol": "kodiak",
+      "symbol": "KODI NECT-USD₮0",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+        "0x779Ded0c9e1022225f8E0630b35a9b54bE713736"
+      ]
+    },
+    {
       "address": "0x98bdeede9a45c28d229285d9d6e9139e9f505391",
       "decimals": 18,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x98bdeede9a45c28d229285d9d6e9139e9f505391?chain=berachain_mainnet",
