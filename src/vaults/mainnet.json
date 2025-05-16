@@ -341,6 +341,11 @@
       "stakeTokenAddress": "0xef8c3239e0d8be9d58f145e18f5909ddad681365"
     },
     {
+      "beraRewardsVault": "0xf02d129c35f3b4be77c15449e95000baa13b85a0",
+      "slug": "kodiak-nect-usd₮0",
+      "stakeTokenAddress": "0x8EF48ae9DF6165acc9754297BF28F5877c229C03"
+    },
+    {
       "beraRewardsVault": "0x815596fA7C4d983d1Ca5304e5b48978424C1B448",
       "slug": "kodiak-ohm-honey",
       "stakeTokenAddress": "0x98bdeede9a45c28d229285d9d6e9139e9f505391"
