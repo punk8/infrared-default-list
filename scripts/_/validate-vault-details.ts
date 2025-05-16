@@ -2,7 +2,7 @@ import slug from 'slug'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
 import type { Tokens } from '../../schema/tokens-schema'
-import type { Vault } from '../../schema/vaults-schema'
+import type { DefaultListVault } from '../../schema/vaults-schema'
 import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
@@ -17,7 +17,7 @@ const validateStakeTokenAndSlug = ({
   errors: Array<string>
   slugs: Array<string>
   tokens: Tokens
-  vault: Vault
+  vault: DefaultListVault
 }) => {
   const stakeToken = tokens.find(({ address }) =>
     isAddressEqual(address as Address, vault.stakeTokenAddress as Address),
@@ -75,7 +75,7 @@ export const validateVaultDetails = async ({
   publicClient: PublicClient
   slugs: Array<string>
   tokens: Tokens
-  vault: Vault
+  vault: DefaultListVault
 }) => {
   const lowerCasedBeraRewardsVaults = vault.beraRewardsVault.toLowerCase()
   if (beraRewardsVaults.has(lowerCasedBeraRewardsVaults)) {

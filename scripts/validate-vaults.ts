@@ -5,7 +5,10 @@ import { createPublicClient } from 'viem'
 import { supportedChains } from '@/config/chains'
 
 import { type Tokens, TokensSchema } from '../schema/tokens-schema'
-import { type Vaults, VaultsSchema } from '../schema/vaults-schema'
+import {
+  type DefaultListVaults,
+  DefaultListVaultsSchema,
+} from '../schema/vaults-schema'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
@@ -20,11 +23,11 @@ const validateVaultsByChain = async ({
   chain: keyof typeof supportedChains
 }) => {
   const errors: Array<string> = []
-  const vaultsFile: { vaults: Vaults } = getJsonFile({
+  const vaultsFile: { vaults: DefaultListVaults } = getJsonFile({
     chain,
     path: `${folderPath}/${chain}.json`,
   })
-  const vaults = parse(VaultsSchema, vaultsFile.vaults)
+  const vaults = parse(DefaultListVaultsSchema, vaultsFile.vaults)
   const tokensFile: { tokens: Tokens } = getJsonFile({
     chain,
     path: `src/tokens/${chain}.json`,

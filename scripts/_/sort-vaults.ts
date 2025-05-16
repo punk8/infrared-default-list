@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { Vaults } from '../../schema/vaults-schema'
+import type { DefaultListVaults } from '../../schema/vaults-schema'
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortVaults = async ({
@@ -8,7 +8,7 @@ export const sortVaults = async ({
   vaults,
 }: {
   path: string
-  vaults: Vaults
+  vaults: DefaultListVaults
 }) => {
   const sortedVaults = vaults.sort((a, b) => a.slug.localeCompare(b.slug))
 

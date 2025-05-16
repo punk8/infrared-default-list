@@ -2,12 +2,12 @@ import { string, type InferOutput, array, strictObject } from 'valibot'
 
 import { AddressSchema } from './address-schema'
 
-export const VaultSchema = strictObject({
+export const DefaultListVaultSchema = strictObject({
   beraRewardsVault: AddressSchema,
   slug: string(),
   stakeTokenAddress: AddressSchema,
 })
-export type Vault = InferOutput<typeof VaultSchema>
+export type DefaultListVault = InferOutput<typeof DefaultListVaultSchema>
 
-export const VaultsSchema = array(VaultSchema)
-export type Vaults = InferOutput<typeof VaultsSchema>
+export const DefaultListVaultsSchema = array(DefaultListVaultSchema)
+export type DefaultListVaults = InferOutput<typeof DefaultListVaultsSchema>

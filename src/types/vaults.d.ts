@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface VaultsSchema {
+export interface DefaultListVaultsSchema {
   vaults: {
     beraRewardsVault: string
     slug: string
