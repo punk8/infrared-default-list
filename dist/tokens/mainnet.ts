@@ -51,7 +51,7 @@ export const tokens = [
   {
     address: '0x147c9a7f5265d7ca9a671c3817b212a0cf88856e',
     decimals: 18,
-    image: 'bixbt.webp',
+    image: 'bixbt.svg',
     name: 'BeraXBT',
     symbol: 'BIXBT',
   },
