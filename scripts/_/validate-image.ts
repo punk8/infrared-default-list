@@ -8,6 +8,7 @@ export const validateImage = async ({
   errors,
   folder,
   identifier,
+  identifier2,
   image,
   required,
   type,
@@ -15,6 +16,7 @@ export const validateImage = async ({
   errors: Array<string>
   folder: string
   identifier: string
+  identifier2?: string
   image: string | undefined
   required: boolean
   type: string
@@ -29,6 +31,9 @@ export const validateImage = async ({
     .toLowerCase()
     .replace('.', '-')
     .replace('₮', 't')
+  const expectedFileName2 = identifier2
+    ? identifier2.toLowerCase().replace('.', '-').replace('₮', 't')
+    : undefined
   if (
     (type === 'Protocol' &&
       image !== `${expectedFileName}.svg` &&
@@ -39,10 +44,10 @@ export const validateImage = async ({
       image !== `${expectedFileName}-light.webp`) ||
     (type === 'Token' &&
       image !== `${expectedFileName}.svg` &&
-      image !== `${expectedFileName}.webp`)
+      image !== `${expectedFileName2}.svg`)
   ) {
     errors.push(
-      `${type} image file "${image}" should use the name "${expectedFileName}"`,
+      `${type} image file "${image}" should use the name "${expectedFileName}.svg"${expectedFileName2 ? ` or "${expectedFileName2}.svg"` : ''}`,
     )
     return
   }

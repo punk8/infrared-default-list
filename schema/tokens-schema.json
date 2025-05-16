@@ -28,6 +28,7 @@
               },
               "decimals": { "type": "number" },
               "image": { "type": "string" },
+              "imageNotFromUnderlying": { "type": "boolean" },
               "mintUrl": { "format": "uri", "type": "string" },
               "name": { "type": "string" },
               "protocol": { "type": "string" },
@@ -43,6 +44,7 @@
             "required": [
               "address",
               "decimals",
+              "image",
               "mintUrl",
               "name",
               "protocol",
