@@ -387,7 +387,7 @@ export const tokens = [
   {
     address: '0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3',
     decimals: 18,
-    image: 'nect.webp',
+    image: 'nect.svg',
     name: 'Nectar',
     symbol: 'NECT',
   },
