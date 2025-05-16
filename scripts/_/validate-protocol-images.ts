@@ -1,4 +1,5 @@
-import type { DefaultListProtocol } from '../../schema/protocols-schema'
+import type { DefaultListProtocol } from '@/schemas/protocols-schema'
+
 import { validateImage } from './validate-image'
 
 export const validateProtocolImages = async ({

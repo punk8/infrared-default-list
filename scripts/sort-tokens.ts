@@ -1,7 +1,8 @@
 import { readdirSync } from 'node:fs'
 import { parse } from 'valibot'
 
-import { type Tokens, TokensSchema } from '../schema/tokens-schema'
+import { type Tokens, TokensSchema } from '@/schemas/tokens-schema'
+
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { sortTokens } from './_/sort-tokens'

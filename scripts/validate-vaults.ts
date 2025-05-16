@@ -3,12 +3,12 @@ import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
-
-import { type Tokens, TokensSchema } from '../schema/tokens-schema'
+import { type Tokens, TokensSchema } from '@/schemas/tokens-schema'
 import {
   type DefaultListVaults,
   DefaultListVaultsSchema,
-} from '../schema/vaults-schema'
+} from '@/schemas/vaults-schema'
+
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'

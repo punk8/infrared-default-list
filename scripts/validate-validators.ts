@@ -2,11 +2,11 @@ import { readdirSync } from 'node:fs'
 import { parse } from 'valibot'
 
 import type { supportedChains } from '@/config/chains'
-
 import {
   type ValidatorsInput,
   ValidatorsInputSchema,
-} from '../schema/validators-schema'
+} from '@/schemas/validators-schema'
+
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'

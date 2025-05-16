@@ -4,7 +4,8 @@ import { parse } from 'valibot'
 import {
   type ValidatorsInput,
   ValidatorsInputSchema,
-} from '../schema/validators-schema'
+} from '@/schemas/validators-schema'
+
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { sortValidators } from './_/sort-validators'

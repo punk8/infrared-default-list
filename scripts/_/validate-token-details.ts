@@ -4,8 +4,9 @@ import { type Address, isAddressEqual, type PublicClient } from 'viem'
 import {
   type DefaultListProtocol,
   DefaultListProtocolsSchema,
-} from '../../schema/protocols-schema'
-import type { Token, Tokens } from '../../schema/tokens-schema'
+} from '@/schemas/protocols-schema'
+import type { Token, Tokens } from '@/schemas/tokens-schema'
+
 import { getFile } from './get-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'

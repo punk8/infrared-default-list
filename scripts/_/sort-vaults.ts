@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { DefaultListVaults } from '../../schema/vaults-schema'
+import type { DefaultListVaults } from '@/schemas/vaults-schema'
+
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortVaults = async ({

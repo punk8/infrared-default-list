@@ -1,6 +1,7 @@
 import { isAddressEqual, type Address, type PublicClient } from 'viem'
 
-import type { DefaultListVault } from '../../schema/vaults-schema'
+import type { DefaultListVault } from '@/schemas/vaults-schema'
+
 import { getRewardsVaultForStakeToken } from './get-rewards-vault-for-stake-token'
 
 export const validateBeraRewardsVault = async ({

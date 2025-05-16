@@ -3,7 +3,8 @@ import { parse } from 'valibot'
 import {
   type DefaultListProtocols,
   DefaultListProtocolsSchema,
-} from '../schema/protocols-schema'
+} from '@/schemas/protocols-schema'
+
 import { getFile } from './_/get-file'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateProtocolImages } from './_/validate-protocol-images'

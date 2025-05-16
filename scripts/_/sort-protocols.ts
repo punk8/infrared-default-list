@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { DefaultListProtocols } from '../../schema/protocols-schema'
+import type { DefaultListProtocols } from '@/schemas/protocols-schema'
+
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortProtocols = async ({

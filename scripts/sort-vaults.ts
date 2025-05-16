@@ -4,7 +4,8 @@ import { parse } from 'valibot'
 import {
   type DefaultListVaults,
   DefaultListVaultsSchema,
-} from '../schema/vaults-schema'
+} from '@/schemas/vaults-schema'
+
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { sortVaults } from './_/sort-vaults'

@@ -1,4 +1,5 @@
-import type { Token } from '../../schema/tokens-schema'
+import type { Token } from '@/schemas/tokens-schema'
+
 import { validateImage } from './validate-image'
 
 export const validateTokenImage = async ({

@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { ValidatorsInput } from '../../schema/validators-schema'
+import type { ValidatorsInput } from '@/schemas/validators-schema'
+
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortValidators = async ({

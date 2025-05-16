@@ -1,6 +1,6 @@
 {
   "name": "@infrared-dao/default-list",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Default lists for Infrared interfaces including vaults, tokens, and validators",
   "keywords": [
     "berachain",
@@ -21,10 +21,10 @@
   "type": "module",
   "exports": {
     "./protocols": "./src/protocols.json",
-    "./schema/protocols": "./schema/protocols-schema.ts",
-    "./schema/tokens": "./schema/tokens-schema.ts",
-    "./schema/validators": "./schema/validators-schema.ts",
-    "./schema/vaults": "./schema/vaults-schema.ts",
+    "./schemas/protocols": "./src/schemas/protocols-schema.ts",
+    "./schemas/tokens": "./src/schemas/tokens-schema.ts",
+    "./schemas/validators": "./src/schemas/validators-schema.ts",
+    "./schemas/vaults": "./src/schemas/vaults-schema.ts",
     "./tokens/mainnet": "./src/tokens/mainnet.json",
     "./vaults/mainnet": "./src/vaults/mainnet.json"
   },

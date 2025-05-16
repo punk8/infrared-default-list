@@ -1,6 +1,7 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { Tokens } from '../../schema/tokens-schema'
+import type { Tokens } from '@/schemas/tokens-schema'
+
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortTokens = async ({

@@ -1,6 +1,7 @@
 import type { Address, PublicClient } from 'viem'
 
-import type { Token } from '../../schema/tokens-schema'
+import type { Token } from '@/schemas/tokens-schema'
+
 import { getTokenDecimals } from './get-token-decimals'
 
 export const validateDecimals = async ({

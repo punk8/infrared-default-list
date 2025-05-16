@@ -1,8 +1,9 @@
 import slug from 'slug'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
-import type { Tokens } from '../../schema/tokens-schema'
-import type { DefaultListVault } from '../../schema/vaults-schema'
+import type { Tokens } from '@/schemas/tokens-schema'
+import type { DefaultListVault } from '@/schemas/vaults-schema'
+
 import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
