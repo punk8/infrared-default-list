@@ -420,10 +420,10 @@
     },
     {
       "address": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852",
-      "decimals": 18,
-      "image": "unibtc.svg",
+      "decimals": 8,
+      "image": "bunibtc.svg",
       "mintUrl": "https://app.beraborrow.com/den/borrow/uniBTC",
-      "name": "Beraborrow: uniBTC",
+      "name": "bUNIBTC",
       "protocol": "beraborrow",
       "symbol": "bUNIBTC",
       "type": "cdp",
