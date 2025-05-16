@@ -464,7 +464,7 @@ export const tokens = [
   {
     address: '0x597877Ccf65be938BD214C4c46907669e3E62128',
     decimals: 18,
-    image: 'snect.webp',
+    image: 'snect.svg',
     name: 'sNECT',
     symbol: 'sNECT',
   },
