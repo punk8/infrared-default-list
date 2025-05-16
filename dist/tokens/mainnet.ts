@@ -58,7 +58,7 @@ export const tokens = [
   {
     address: '0xb749584F9fC418Cf905d54f462fdbFdC7462011b',
     decimals: 18,
-    image: 'bm.webp',
+    image: 'bm.svg',
     name: 'bm',
     symbol: 'bm',
   },
