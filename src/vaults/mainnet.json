@@ -11,6 +11,11 @@
       "stakeTokenAddress": "0x04fD6a7B02E2e48caedaD7135420604de5f834f8"
     },
     {
+      "beraRewardsVault": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
+      "slug": "beraborrow-bunibtc",
+      "stakeTokenAddress": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852"
+    },
+    {
       "beraRewardsVault": "0xb8fF36Ba70aD9eab492bD538b9B00350D53c59e2",
       "slug": "beraborrow-bwbera",
       "stakeTokenAddress": "0x6751C09113a83a83a43829fD0b3BC0D7bdbe07bf"
@@ -20,11 +25,6 @@
       "slug": "beraborrow-snect",
       "stakeTokenAddress": "0x597877Ccf65be938BD214C4c46907669e3E62128"
     },
-    {
-      "beraRewardsVault": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
-      "slug": "beraborrow-bunibtc",
-      "stakeTokenAddress": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852"
-    },    
     {
       "beraRewardsVault": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
       "slug": "bex-asugar-honey",

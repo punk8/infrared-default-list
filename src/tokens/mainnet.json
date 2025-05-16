@@ -419,6 +419,17 @@
       ]
     },
     {
+      "address": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852",
+      "decimals": 18,
+      "image": "unibtc.svg",
+      "mintUrl": "https://app.beraborrow.com/den/borrow/uniBTC",
+      "name": "Beraborrow: uniBTC",
+      "protocol": "beraborrow",
+      "symbol": "bUNIBTC",
+      "type": "cdp",
+      "underlyingTokens": ["0xC3827A4BC8224ee2D116637023b124CED6db6e90"]
+    },
+    {
       "address": "0x6751C09113a83a83a43829fD0b3BC0D7bdbe07bf",
       "decimals": 18,
       "image": "bwbera.svg",
@@ -440,17 +451,6 @@
       "type": "cdp",
       "underlyingTokens": ["0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3"]
     },
-    {
-      "address": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852",
-      "decimals": 18,
-      "image": "unibtc.svg",
-      "mintUrl": "https://app.beraborrow.com/den/borrow/uniBTC",
-      "name": "Beraborrow: uniBTC",
-      "protocol": "beraborrow",
-      "symbol": "bUNIBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0xC3827A4BC8224ee2D116637023b124CED6db6e90"]
-    },    
     {
       "address": "0x6969696969696969696969696969696969696969",
       "decimals": 18,
