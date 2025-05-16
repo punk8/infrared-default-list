@@ -2,7 +2,7 @@ export const tokens = [
   {
     address: '0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F',
     decimals: 18,
-    image: 'aibera.webp',
+    image: 'aibera.svg',
     name: 'HoneyFun AI',
     symbol: 'AIBERA',
   },
