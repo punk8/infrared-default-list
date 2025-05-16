@@ -2,8 +2,8 @@ import { parse } from 'valibot'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
 import {
-  type ProtocolsInput,
-  ProtocolsInputSchema,
+  type DefaultListProtocol,
+  DefaultListProtocolsSchema,
 } from '../../schema/protocols-schema'
 import type { Token, Tokens } from '../../schema/tokens-schema'
 import { getFile } from './get-file'
@@ -12,9 +12,9 @@ import { getTokenSymbol } from './get-token-symbol'
 import { validateDecimals } from './validate-decimals'
 import { validateTokenImage } from './validate-token-image'
 
-const protocolsFile: { protocols: ProtocolsInput } =
+const protocolsFile: { protocols: DefaultListProtocol } =
   getFile('src/protocols.json')
-const protocols = parse(ProtocolsInputSchema, protocolsFile.protocols)
+const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const validateSymbol = ({
   errors,

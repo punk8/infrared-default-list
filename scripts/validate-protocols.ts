@@ -1,21 +1,21 @@
 import { parse } from 'valibot'
 
 import {
-  type ProtocolsInput,
-  ProtocolsInputSchema,
+  type DefaultListProtocols,
+  DefaultListProtocolsSchema,
 } from '../schema/protocols-schema'
 import { getFile } from './_/get-file'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateProtocolImages } from './_/validate-protocol-images'
 
 const path = 'src/protocols.json'
-const protocolsFile: { protocols: ProtocolsInput } = getFile(path)
+const protocolsFile: { protocols: DefaultListProtocols } = getFile(path)
 
 const validateProtocols = async () => {
   const errors: Array<string> = []
   const protocolIds = new Set<string>()
 
-  const protocols = parse(ProtocolsInputSchema, protocolsFile.protocols)
+  const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
   const promisedProtocolDetails = protocols.map(async (protocol) => {
     if (protocolIds.has(protocol.id)) {
       errors.push(

@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { ProtocolsInput } from '../../schema/protocols-schema'
+import type { DefaultListProtocols } from '../../schema/protocols-schema'
 import { formatDataToJson } from './format-data-to-json'
 
 export const sortProtocols = async ({
@@ -8,7 +8,7 @@ export const sortProtocols = async ({
   protocols,
 }: {
   path: string
-  protocols: ProtocolsInput
+  protocols: DefaultListProtocols
 }) => {
   const sortedProtocols = protocols.sort((a, b) => a.id.localeCompare(b.id))
 

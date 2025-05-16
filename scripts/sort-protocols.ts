@@ -1,15 +1,15 @@
 import { parse } from 'valibot'
 
 import {
-  type ProtocolsInput,
-  ProtocolsInputSchema,
+  type DefaultListProtocols,
+  DefaultListProtocolsSchema,
 } from '../schema/protocols-schema'
 import { getFile } from './_/get-file'
 import { sortProtocols } from './_/sort-protocols'
 
 const path = 'src/protocols.json'
-const protocolsFile: { protocols: ProtocolsInput } = getFile(path)
-const protocols = parse(ProtocolsInputSchema, protocolsFile.protocols)
+const protocolsFile: { protocols: DefaultListProtocols } = getFile(path)
+const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const sortProtocolsScript = async () => {
   await sortProtocols({

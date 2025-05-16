@@ -6,7 +6,7 @@ import {
   strictObject,
 } from 'valibot'
 
-export const ProtocolInputSchema = strictObject({
+export const DefaultListProtocolSchema = strictObject({
   description: string(),
   id: string(),
   imageDark: string(),
@@ -15,17 +15,9 @@ export const ProtocolInputSchema = strictObject({
   prefix: optional(string()),
   url: string(),
 })
-export type ProtocolInput = InferOutput<typeof ProtocolInputSchema>
+export type DefaultListProtocol = InferOutput<typeof DefaultListProtocolSchema>
 
-export const ProtocolsInputSchema = array(ProtocolInputSchema)
-export type ProtocolsInput = InferOutput<typeof ProtocolsInputSchema>
-
-export const ProtocolsSchema = strictObject({
-  id: ProtocolInputSchema.entries.id,
-  imageDark: ProtocolInputSchema.entries.imageDark,
-  imageLight: ProtocolInputSchema.entries.imageLight,
-  name: ProtocolInputSchema.entries.name,
-  url: ProtocolInputSchema.entries.url,
-})
-
-export type Protocol = InferOutput<typeof ProtocolsSchema>
+export const DefaultListProtocolsSchema = array(DefaultListProtocolSchema)
+export type DefaultListProtocols = InferOutput<
+  typeof DefaultListProtocolsSchema
+>
