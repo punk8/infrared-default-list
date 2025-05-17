@@ -63,10 +63,11 @@ const generateTokenImage = async ({
       if (token.underlyingTokens.length === 2) {
         try {
           const combinedSVGs = SVG()
-            // eslint-disable-next-line no-magic-numbers
-            .size(IMAGE_WIDTH + GAP_BETWEEN * 2, IMAGE_HEIGHT)
+            .size(IMAGE_WIDTH + GAP_BETWEEN, IMAGE_HEIGHT)
             .add(SVG(underLyingTokenImageFiles[0]))
             .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
+            // @ts-expect-error false-positive - the types are very old
+            .flatten()
             .svg()
 
           const fileName = cleanFileName(
@@ -84,11 +85,13 @@ const generateTokenImage = async ({
       try {
         const combinedSVGs = SVG()
           // eslint-disable-next-line no-magic-numbers
-          .size(IMAGE_WIDTH + GAP_BETWEEN * 3, IMAGE_HEIGHT)
+          .size(IMAGE_WIDTH + GAP_BETWEEN * 2, IMAGE_HEIGHT)
           .add(SVG(underLyingTokenImageFiles[0]))
           .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
           // eslint-disable-next-line no-magic-numbers
           .add(SVG(underLyingTokenImageFiles[2]).move(GAP_BETWEEN * 2, 0))
+          // @ts-expect-error - the types are very old
+          .flatten()
           .svg()
 
         const fileName = cleanFileName(
