@@ -1,4 +1,4 @@
-import type { ProtocolsSchema } from '@/types/protocols'
+import type { DefaultListProtocol } from '@/schemas/protocols-schema'
 
 import { validateImage } from './validate-image'
 
@@ -7,7 +7,7 @@ export const validateProtocolImages = async ({
   protocol,
 }: {
   errors: Array<string>
-  protocol: ProtocolsSchema['protocols'][number]
+  protocol: DefaultListProtocol
 }) => {
   await validateImage({
     errors,

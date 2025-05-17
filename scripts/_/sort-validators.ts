@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises'
 
-import type { ValidatorsSchema } from '@/types/validators'
+import type { DefaultListValidators } from '@/schemas/validators-schema'
 
 import { formatDataToJson } from './format-data-to-json'
 
@@ -9,7 +9,7 @@ export const sortValidators = async ({
   validators,
 }: {
   path: string
-  validators: ValidatorsSchema['validators']
+  validators: DefaultListValidators
 }) => {
   const sortedValidators = validators.sort((a, b) =>
     a.name.localeCompare(b.name),

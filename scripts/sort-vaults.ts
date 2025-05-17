@@ -1,6 +1,10 @@
 import { readdirSync } from 'node:fs'
+import { parse } from 'valibot'
 
-import type { VaultsSchema } from '@/types/vaults'
+import {
+  type DefaultListVaults,
+  DefaultListVaultsSchema,
+} from '@/schemas/vaults-schema'
 
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
@@ -16,13 +20,14 @@ readdirSync(folderPath).forEach(async (file) => {
   }
 
   const path = `${folderPath}/${chain}.json`
-  const vaults: VaultsSchema = getJsonFile({
+  const vaultsFile: { vaults: DefaultListVaults } = getJsonFile({
     chain,
     path,
   })
+  const vaults = parse(DefaultListVaultsSchema, vaultsFile.vaults)
 
   await sortVaults({
     path,
-    vaults: vaults.vaults,
+    vaults,
   })
 })

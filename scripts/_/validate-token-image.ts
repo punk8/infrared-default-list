@@ -1,4 +1,4 @@
-import type { TokensSchema } from '@/types/tokens'
+import type { DefaultListToken } from '@/schemas/tokens-schema'
 
 import { validateImage } from './validate-image'
 
@@ -7,7 +7,7 @@ export const validateTokenImage = async ({
   token,
 }: {
   errors: Array<string>
-  token: TokensSchema['tokens'][number]
+  token: DefaultListToken
 }) => {
   const hasUnderlyingTokens = 'underlyingTokens' in token
 

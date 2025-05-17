@@ -1,13 +1,24 @@
+import { parse } from 'valibot'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
-import type { ProtocolsSchema } from '@/types/protocols'
-import type { TokensSchema } from '@/types/tokens'
+import {
+  type DefaultListProtocol,
+  DefaultListProtocolsSchema,
+} from '@/schemas/protocols-schema'
+import type {
+  DefaultListToken,
+  DefaultListTokens,
+} from '@/schemas/tokens-schema'
 
 import { getFile } from './get-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'
 import { validateDecimals } from './validate-decimals'
 import { validateTokenImage } from './validate-token-image'
+
+const protocolsFile: { protocols: DefaultListProtocol } =
+  getFile('src/protocols.json')
+const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const validateSymbol = ({
   errors,
@@ -16,7 +27,7 @@ const validateSymbol = ({
 }: {
   errors: Array<string>
   onChainSymbol: string
-  token: TokensSchema['tokens'][number]
+  token: DefaultListToken
 }) => {
   if (token.symbol !== onChainSymbol) {
     errors.push(
@@ -35,8 +46,8 @@ const validateName = ({
   errors: Array<string>
   onChainName: string
   onChainSymbol: string
-  token: TokensSchema['tokens'][number]
-  tokens: TokensSchema['tokens']
+  token: DefaultListToken
+  tokens: DefaultListTokens
 }) => {
   if ('underlyingTokens' in token) {
     const underlyingTokens = token.underlyingTokens.map((underlyingToken) => {
@@ -61,9 +72,7 @@ const validateName = ({
         // onChainSymbol for cases like bWBERA
 
         if ('protocol' in token) {
-          const protocol = protocolsList.protocols.find(
-            ({ id }) => id === token.protocol,
-          )
+          const protocol = protocols.find(({ id }) => id === token.protocol)
           const expectedTokenName = `${protocol?.prefix}${underlyingTokenSymbols}`
           if (token.name !== expectedTokenName) {
             errors.push(
@@ -78,22 +87,18 @@ const validateName = ({
   }
 }
 
-const protocolsList: ProtocolsSchema = getFile('src/protocols.json')
-
 const validateProtocol = ({
   errors,
   token,
 }: {
   errors: Array<string>
-  token: TokensSchema['tokens'][number]
+  token: DefaultListToken
 }) => {
   if (!('protocol' in token)) {
     return
   }
 
-  const protocol = protocolsList.protocols.find(
-    ({ id }) => id === token.protocol,
-  )
+  const protocol = protocols.find(({ id }) => id === token.protocol)
 
   if (!protocol) {
     errors.push(`${token.symbol} does not have a protocol (token validation)`)
@@ -105,7 +110,7 @@ const validateMintUrl = ({
   token,
 }: {
   errors: Array<string>
-  token: TokensSchema['tokens'][number]
+  token: DefaultListToken
 }) => {
   if (!('mintUrl' in token) || !token.mintUrl) {
     return
@@ -145,8 +150,8 @@ export const validateTokenDetails = async ({
   addresses: Set<string>
   errors: Array<string>
   publicClient: PublicClient
-  token: TokensSchema['tokens'][number]
-  tokens: TokensSchema['tokens']
+  token: DefaultListToken
+  tokens: DefaultListTokens
 }) => {
   const lowercasedAddress = token.address.toLowerCase()
   if (addresses.has(lowercasedAddress)) {
