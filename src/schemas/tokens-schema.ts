@@ -33,11 +33,11 @@ export const DefaultListTokenWithUnderlyingSchema = strictObject({
   underlyingTokens: array(AddressSchema),
 })
 
-export const TokenSchema = union([
+export const DefaultListTokenSchema = union([
   DefaultListBasicTokenSchema,
   DefaultListTokenWithUnderlyingSchema,
 ])
-export type Token = InferOutput<typeof TokenSchema>
+export type DefaultListToken = InferOutput<typeof DefaultListTokenSchema>
 
-export const TokensSchema = array(TokenSchema)
-export type Tokens = InferOutput<typeof TokensSchema>
+export const DefaultListTokensSchema = array(DefaultListTokenSchema)
+export type DefaultListTokens = InferOutput<typeof DefaultListTokensSchema>

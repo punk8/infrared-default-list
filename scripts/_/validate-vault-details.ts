@@ -1,7 +1,7 @@
 import slug from 'slug'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
-import type { Tokens } from '@/schemas/tokens-schema'
+import type { DefaultListTokens } from '@/schemas/tokens-schema'
 import type { DefaultListVault } from '@/schemas/vaults-schema'
 
 import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
@@ -17,7 +17,7 @@ const validateStakeTokenAndSlug = ({
 }: {
   errors: Array<string>
   slugs: Array<string>
-  tokens: Tokens
+  tokens: DefaultListTokens
   vault: DefaultListVault
 }) => {
   const stakeToken = tokens.find(({ address }) =>
@@ -75,7 +75,7 @@ export const validateVaultDetails = async ({
   errors: Array<string>
   publicClient: PublicClient
   slugs: Array<string>
-  tokens: Tokens
+  tokens: DefaultListTokens
   vault: DefaultListVault
 }) => {
   const lowerCasedBeraRewardsVaults = vault.beraRewardsVault.toLowerCase()

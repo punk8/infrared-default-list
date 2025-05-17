@@ -5,7 +5,10 @@ import {
   type DefaultListProtocol,
   DefaultListProtocolsSchema,
 } from '@/schemas/protocols-schema'
-import type { Token, Tokens } from '@/schemas/tokens-schema'
+import type {
+  DefaultListToken,
+  DefaultListTokens,
+} from '@/schemas/tokens-schema'
 
 import { getFile } from './get-file'
 import { getTokenName } from './get-token-name'
@@ -24,7 +27,7 @@ const validateSymbol = ({
 }: {
   errors: Array<string>
   onChainSymbol: string
-  token: Token
+  token: DefaultListToken
 }) => {
   if (token.symbol !== onChainSymbol) {
     errors.push(
@@ -43,8 +46,8 @@ const validateName = ({
   errors: Array<string>
   onChainName: string
   onChainSymbol: string
-  token: Token
-  tokens: Tokens
+  token: DefaultListToken
+  tokens: DefaultListTokens
 }) => {
   if ('underlyingTokens' in token) {
     const underlyingTokens = token.underlyingTokens.map((underlyingToken) => {
@@ -89,7 +92,7 @@ const validateProtocol = ({
   token,
 }: {
   errors: Array<string>
-  token: Token
+  token: DefaultListToken
 }) => {
   if (!('protocol' in token)) {
     return
@@ -107,7 +110,7 @@ const validateMintUrl = ({
   token,
 }: {
   errors: Array<string>
-  token: Token
+  token: DefaultListToken
 }) => {
   if (!('mintUrl' in token) || !token.mintUrl) {
     return
@@ -147,8 +150,8 @@ export const validateTokenDetails = async ({
   addresses: Set<string>
   errors: Array<string>
   publicClient: PublicClient
-  token: Token
-  tokens: Tokens
+  token: DefaultListToken
+  tokens: DefaultListTokens
 }) => {
   const lowercasedAddress = token.address.toLowerCase()
   if (addresses.has(lowercasedAddress)) {

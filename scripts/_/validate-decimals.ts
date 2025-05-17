@@ -1,6 +1,6 @@
 import type { Address, PublicClient } from 'viem'
 
-import type { Token } from '@/schemas/tokens-schema'
+import type { DefaultListToken } from '@/schemas/tokens-schema'
 
 import { getTokenDecimals } from './get-token-decimals'
 
@@ -11,7 +11,7 @@ export const validateDecimals = async ({
 }: {
   errors: Array<string>
   publicClient: PublicClient
-  token: Token
+  token: DefaultListToken
 }) => {
   const decimals = await getTokenDecimals({
     errors,

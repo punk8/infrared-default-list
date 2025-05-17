@@ -1,7 +1,10 @@
 import { readdirSync } from 'node:fs'
 import { parse } from 'valibot'
 
-import { type Tokens, TokensSchema } from '@/schemas/tokens-schema'
+import {
+  type DefaultListTokens,
+  DefaultListTokensSchema,
+} from '@/schemas/tokens-schema'
 
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
@@ -17,11 +20,11 @@ readdirSync(folderPath).forEach(async (file) => {
   }
 
   const path = `${folderPath}/${chain}.json`
-  const tokensFile: { tokens: Tokens } = getJsonFile({
+  const tokensFile: { tokens: DefaultListTokens } = getJsonFile({
     chain,
     path,
   })
-  const tokens = parse(TokensSchema, tokensFile.tokens)
+  const tokens = parse(DefaultListTokensSchema, tokensFile.tokens)
 
   await sortTokens({
     path,

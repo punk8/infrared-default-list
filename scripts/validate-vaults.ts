@@ -3,7 +3,10 @@ import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
-import { type Tokens, TokensSchema } from '@/schemas/tokens-schema'
+import {
+  type DefaultListTokens,
+  DefaultListTokensSchema,
+} from '@/schemas/tokens-schema'
 import {
   type DefaultListVaults,
   DefaultListVaultsSchema,
@@ -28,11 +31,11 @@ const validateVaultsByChain = async ({
     path: `${folderPath}/${chain}.json`,
   })
   const vaults = parse(DefaultListVaultsSchema, vaultsFile.vaults)
-  const tokensFile: { tokens: Tokens } = getJsonFile({
+  const tokensFile: { tokens: DefaultListTokens } = getJsonFile({
     chain,
     path: `src/tokens/${chain}.json`,
   })
-  const tokens = parse(TokensSchema, tokensFile.tokens)
+  const tokens = parse(DefaultListTokensSchema, tokensFile.tokens)
 
   const publicClient = createPublicClient({
     chain: supportedChains[chain],
