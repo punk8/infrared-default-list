@@ -3,8 +3,8 @@ import { parse } from 'valibot'
 
 import type { supportedChains } from '@/config/chains'
 import {
-  type ValidatorsInput,
-  ValidatorsInputSchema,
+  type DefaultListValidators,
+  DefaultListValidatorsSchema,
 } from '@/schemas/validators-schema'
 
 import { getJsonFile } from './_/get-json-file'
@@ -20,11 +20,11 @@ const validateValidatorsByChain = async ({
 }) => {
   const errors: Array<string> = []
   const path = `${folderPath}/${chain}.json`
-  const validatorsFile: { validators: ValidatorsInput } = getJsonFile({
+  const validatorsFile: { validators: DefaultListValidators } = getJsonFile({
     chain,
     path,
   })
-  parse(ValidatorsInputSchema, validatorsFile.validators)
+  parse(DefaultListValidatorsSchema, validatorsFile.validators)
   outputScriptStatus({ chain, errors, type: 'Validator' })
 }
 

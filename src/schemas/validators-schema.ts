@@ -1,9 +1,13 @@
 import { string, type InferOutput, array, strictObject } from 'valibot'
 
-export const ValidatorInputSchema = strictObject({
+export const DefaultListValidatorSchema = strictObject({
   name: string(),
 })
-export type ValidatorInput = InferOutput<typeof ValidatorInputSchema>
+export type DefaultListValidator = InferOutput<
+  typeof DefaultListValidatorSchema
+>
 
-export const ValidatorsInputSchema = array(ValidatorInputSchema)
-export type ValidatorsInput = InferOutput<typeof ValidatorsInputSchema>
+export const DefaultListValidatorsSchema = array(DefaultListValidatorSchema)
+export type DefaultListValidators = InferOutput<
+  typeof DefaultListValidatorsSchema
+>
