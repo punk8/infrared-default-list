@@ -2,7 +2,7 @@ export const tokens = [
   {
     address: '0xCc6A16bcFda7D0ebE168F69Ef7b946e96A90E67F',
     decimals: 18,
-    image: 'aibera.webp',
+    image: 'aibera.svg',
     name: 'HoneyFun AI',
     symbol: 'AIBERA',
   },
@@ -51,14 +51,14 @@ export const tokens = [
   {
     address: '0x147c9a7f5265d7ca9a671c3817b212a0cf88856e',
     decimals: 18,
-    image: 'bixbt.webp',
+    image: 'bixbt.svg',
     name: 'BeraXBT',
     symbol: 'BIXBT',
   },
   {
     address: '0xb749584F9fC418Cf905d54f462fdbFdC7462011b',
     decimals: 18,
-    image: 'bm.webp',
+    image: 'bm.svg',
     name: 'bm',
     symbol: 'bm',
   },
@@ -72,7 +72,7 @@ export const tokens = [
   {
     address: '0x93919784C523f39CACaa98Ee0a9d96c3F32b593e',
     decimals: 8,
-    image: 'brbtc.webp',
+    image: 'brbtc.svg',
     name: 'brBTC',
     symbol: 'brBTC',
   },
@@ -310,7 +310,7 @@ export const tokens = [
   {
     address: '0xcA9088895e3390E503cac9ae95abaccdba20822e',
     decimals: 18,
-    image: 'grq.webp',
+    image: 'grq.svg',
     name: 'GetRichQuick',
     symbol: 'GRQ',
   },
@@ -387,7 +387,7 @@ export const tokens = [
   {
     address: '0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3',
     decimals: 18,
-    image: 'nect.webp',
+    image: 'nect.svg',
     name: 'Nectar',
     symbol: 'NECT',
   },
@@ -415,7 +415,7 @@ export const tokens = [
   {
     address: '0x231A6BD8eB88Cfa42776B7Ac575CeCAf82bf1E21',
     decimals: 18,
-    image: 'plug.webp',
+    image: 'plug.svg',
     name: 'Beraplug',
     symbol: 'PLUG',
   },
@@ -464,7 +464,7 @@ export const tokens = [
   {
     address: '0x597877Ccf65be938BD214C4c46907669e3E62128',
     decimals: 18,
-    image: 'snect.webp',
+    image: 'snect.svg',
     name: 'sNECT',
     symbol: 'sNECT',
   },
