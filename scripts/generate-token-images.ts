@@ -63,8 +63,7 @@ const generateTokenImage = async ({
       if (token.underlyingTokens.length === 2) {
         try {
           const combinedSVGs = SVG()
-            // eslint-disable-next-line no-magic-numbers
-            .size(IMAGE_WIDTH + GAP_BETWEEN * 2, IMAGE_HEIGHT)
+            .size(IMAGE_WIDTH + GAP_BETWEEN, IMAGE_HEIGHT)
             .add(SVG(underLyingTokenImageFiles[0]))
             .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
             .svg()
@@ -84,7 +83,7 @@ const generateTokenImage = async ({
       try {
         const combinedSVGs = SVG()
           // eslint-disable-next-line no-magic-numbers
-          .size(IMAGE_WIDTH + GAP_BETWEEN * 3, IMAGE_HEIGHT)
+          .size(IMAGE_WIDTH + GAP_BETWEEN * 2, IMAGE_HEIGHT)
           .add(SVG(underLyingTokenImageFiles[0]))
           .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
           // eslint-disable-next-line no-magic-numbers
