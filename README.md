@@ -122,3 +122,16 @@ Thank you for contributing to our ecosystem!
 ### Internal review process
 
 If a `png`/`webp` image is submitted, ensure a `svg` has been generated. If not, ensure the assets are in the `assets/*/new` folder and run `convert-new-assets-to-svg`. If the svg looks good and is smaller than the webp then use it, otherwise use the webp.
+
+## Converting assets from png to svg
+
+1. Try to convert the image by adding it to `src/assets/tokens/new` and then running `pnpm convert-new-assets-to-svg` or using https://vectormagic.com
+2. If that doesn't produce a good result:
+   1. Add the image to a figma file
+   2. Resize it down to 256px x 256px. If it is smaller, leave it
+   3. Export the image as a png
+   4. Use https://tinypng.com to compress the image
+   5. Add the compressed image to figma
+   6. Resize it to 128px x 128px
+   7. Copy & paste as SVG
+   8. Add the file to this repo
