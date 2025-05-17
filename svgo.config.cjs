@@ -9,6 +9,9 @@ module.exports = {
       name: 'preset-default',
       params: {
         overrides: {
+          cleanupIds: {
+            preservePrefixes: '_'
+          },
           removeViewBox: false
         }
       }
