@@ -15,6 +15,7 @@ export const validateTokenImage = async ({
     errors,
     folder: 'tokens',
     identifier: token.symbol,
+    identifier2: token.name,
     image: token.image,
     required:
       !hasUnderlyingTokens ||
