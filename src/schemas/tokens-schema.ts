@@ -23,14 +23,10 @@ export const DefaultListBasicTokenSchema = strictObject({
   symbol: string(),
 })
 export const DefaultListTokenWithUnderlyingSchema = strictObject({
-  address: DefaultListBasicTokenSchema.entries.address,
-  decimals: DefaultListBasicTokenSchema.entries.decimals,
-  image: DefaultListBasicTokenSchema.entries.image,
+  ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
   mintUrl: pipe(string(), nonEmpty('Please enter a mintUrl'), url()),
-  name: DefaultListBasicTokenSchema.entries.name,
   protocol: string(),
-  symbol: DefaultListBasicTokenSchema.entries.symbol,
   type: picklist(['amm', 'cdp', 'perpetuals', 'unknown', 'vault']),
   underlyingTokens: array(AddressSchema),
 })
