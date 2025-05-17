@@ -66,6 +66,8 @@ const generateTokenImage = async ({
             .size(IMAGE_WIDTH + GAP_BETWEEN, IMAGE_HEIGHT)
             .add(SVG(underLyingTokenImageFiles[0]))
             .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
+            // @ts-expect-error false-positive - the types are very old
+            .flatten()
             .svg()
 
           const fileName = cleanFileName(
@@ -88,6 +90,8 @@ const generateTokenImage = async ({
           .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
           // eslint-disable-next-line no-magic-numbers
           .add(SVG(underLyingTokenImageFiles[2]).move(GAP_BETWEEN * 2, 0))
+          // @ts-expect-error - the types are very old
+          .flatten()
           .svg()
 
         const fileName = cleanFileName(
