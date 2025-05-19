@@ -1,11 +1,6 @@
 {
   "vaults": [
     {
-      "beraRewardsVault": "0x4796039d56892A324585d77A76059b1cD2b9D02a",
-      "slug": "aquabera-wbera-beramo",
-      "stakeTokenAddress": "0xf9845a03F7e6b06645A03a28b943C8A4B5fE7BCC"
-    },
-    {
       "beraRewardsVault": "0x16e8031814e58f581c8a1d6e087458b5110879fa",
       "slug": "aquabera-wbera-henlo",
       "stakeTokenAddress": "0x04fD6a7B02E2e48caedaD7135420604de5f834f8"
@@ -279,6 +274,11 @@
       "beraRewardsVault": "0x19Ecf480652A7DE3A60dd7fd7012dAeD6C79E3E9",
       "slug": "kodiak-beraeth-stone",
       "stakeTokenAddress": "0x57161d6272F47cd48BA165646c802f001040C2E0"
+    },
+    {
+      "beraRewardsVault": "0xBC8c3d0CecEf980E1f4A4775bd354614bE163556",
+      "slug": "kodiak-beramo-wbera",
+      "stakeTokenAddress": "0x7aEF016302C3a27417372CF3AA74A1708D1Ca291"
     },
     {
       "beraRewardsVault": "0xDf5C6c28479e21C5F36cEB0C44Ae15975dE844ba",
