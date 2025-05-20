@@ -274,6 +274,13 @@
       "symbol": "stBGT"
     },
     {
+      "address": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+      "decimals": 18,
+      "image": "stg.svg",
+      "name": "Stargate Token",
+      "symbol": "STG"
+    },    
+    {
       "address": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
       "decimals": 18,
       "image": "stone.svg",
@@ -1411,6 +1418,20 @@
         "0x6969696969696969696969696969696969696969"
       ]
     },
+    {
+      "address": "0x595b1ecd5ec42fb5f321d4162b04965eab8f1388",
+      "decimals": 18,
+      "image": "stg-honey.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x595b1ecd5ec42fb5f321d4162b04965eab8f1388?chain=berachain_mainnet",
+      "name": "STG-HONEY",
+      "protocol": "kodiak",
+      "symbol": "KODI STG-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },    
     {
       "address": "0x7CeBCc76A2faecC0aE378b340815fcbb71eC1Fe0",
       "decimals": 18,
