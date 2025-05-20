@@ -277,9 +277,9 @@
       "address": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
       "decimals": 18,
       "image": "stg.svg",
-      "name": "Stargate Token",
+      "name": "StargateToken",
       "symbol": "STG"
-    },    
+    },
     {
       "address": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
       "decimals": 18,
@@ -1431,7 +1431,7 @@
         "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
         "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
-    },    
+    },
     {
       "address": "0x7CeBCc76A2faecC0aE378b340815fcbb71eC1Fe0",
       "decimals": 18,
