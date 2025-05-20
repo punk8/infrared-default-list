@@ -407,20 +407,6 @@
       "symbol": "YEET"
     },
     {
-      "address": "0xf9845a03F7e6b06645A03a28b943C8A4B5fE7BCC",
-      "decimals": 18,
-      "image": "wbera-beramo.svg",
-      "mintUrl": "https://app.aquabera.com/vault/0xf9845a03F7e6b06645A03a28b943C8A4B5fE7BCC",
-      "name": "WBERA-BERAMO",
-      "protocol": "aquabera",
-      "symbol": "AB-KODIAK-WBERA-BERAMO-10000",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x6969696969696969696969696969696969696969",
-        "0x1F7210257FA157227D09449229a9266b0D581337"
-      ]
-    },
-    {
       "address": "0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
       "decimals": 18,
       "image": "wbera-henlo.svg",
@@ -1122,6 +1108,20 @@
       "underlyingTokens": [
         "0x6fc6545d5cDE268D5C7f1e476D444F39c995120d",
         "0xEc901DA9c68E90798BbBb74c11406A32A70652C3"
+      ]
+    },
+    {
+      "address": "0x7aEF016302C3a27417372CF3AA74A1708D1Ca291",
+      "decimals": 18,
+      "image": "beramo-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7aEF016302C3a27417372CF3AA74A1708D1Ca291?chain=berachain_mainnet",
+      "name": "BERAMO-WBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI BERAMO-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1F7210257FA157227D09449229a9266b0D581337",
+        "0x6969696969696969696969696969696969696969"
       ]
     },
     {
