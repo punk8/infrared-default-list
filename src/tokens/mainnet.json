@@ -1118,6 +1118,20 @@
       ]
     },
     {
+      "address": "0x7aEF016302C3a27417372CF3AA74A1708D1Ca291",
+      "decimals": 18,
+      "image": "beramo-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7aEF016302C3a27417372CF3AA74A1708D1Ca291?chain=berachain_mainnet",
+      "name": "BERAMO-WBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI BERAMO-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1F7210257FA157227D09449229a9266b0D581337",
+        "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
       "address": "0xe454C546C8F3875e928910Abc653De5f8c432F11",
       "decimals": 18,
       "image": "bixbt-wbera.svg",
