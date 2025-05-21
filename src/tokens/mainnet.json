@@ -190,6 +190,13 @@
       "symbol": "LBTC"
     },
     {
+      "address": "0xEDB5180661F56077292C92Ab40B1AC57A279a396",
+      "decimals": 18,
+      "image": "mead.svg",
+      "name": "Roots Stable",
+      "symbol": "MEAD"
+    },
+    {
       "address": "0x5B82028cfc477C4E7ddA7FF33d59A23FA7Be002a",
       "decimals": 18,
       "image": "mim.svg",
@@ -504,6 +511,20 @@
       "underlyingTokens": [
         "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
         "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
+      ]
+    },
+    {
+      "address": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab",
+      "decimals": 18,
+      "image": "mead-honey.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab000000000000000000000162/details/",
+      "name": "MEAD-HONEY",
+      "protocol": "bex",
+      "symbol": "MEAD-HONEY-STABLE",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xEDB5180661F56077292C92Ab40B1AC57A279a396",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
     },
     {
