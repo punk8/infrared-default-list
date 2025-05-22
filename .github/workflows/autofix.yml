@@ -45,6 +45,10 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm convert-new-assets-to-svg
 
+      - name: Generate token images
+        if: ${{ !cancelled() }}
+        run: pnpm generate-token-images
+
       - name: Clean assets
         if: ${{ !cancelled() }}
         run: pnpm clean-assets
