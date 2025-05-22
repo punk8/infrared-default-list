@@ -29,8 +29,8 @@ You only need to provide assets if they're not already in the `src/assets` folde
 
 Add any new token assets to `/src/assets/tokens` and new protocol assets to `src/assets/protocols`.
 
-- You should use an SVG file.
-- If you absolutely do not have an SVG file add a png to `src/assets/tokens/new` or `src/assets/protocols/new`. Ensure it is larger than 128x128 and is very high quality.
+- You should use a high quality SVG file (no base64).
+- If you absolutely do not have an SVG file add a png to `src/assets/tokens/new` or `src/assets/protocols/new`. Ensure it is larger than 128x128 and is very high quality. This process will take more time as the team will convert the assets to svg.
 
 ### 3. Update JSON files
 
@@ -45,14 +45,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "stakeTokenAddress": "0x..."
    }
    ```
-
-   Ensure that:
-
-   - The `mintUrl` field is a direct link to provide liquidity for the LP token
-   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
-   - `protocol` matches an `id` in the `protocols` array
-   - `types` contains valid types from the `types` object
-   - All `underlyingTokens` are listed in the tokens (`src/tokens/{network}.json`)
 
 3. If your protocol is not listed in the `protocols` array, add it:
 
@@ -70,7 +62,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    Ensure that:
 
    - The `id` field is lowercase.
-   - The `Name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
+   - The `name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
    - You've added the protocol image to the `src/assets/protocols` folder if it's not already there.
 
 4. If your vault uses tokens not in the tokens, add them to `src/tokens/{network}.json`:
@@ -95,6 +87,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - You've added the token image to the `src/assets/tokens` folder if it's not already there.
+   - All `underlyingTokens` are listed in the tokens (`src/tokens/{network}.json`)
 
 5. Commit your changes and push to your forked repository.
 
@@ -119,13 +112,9 @@ After submitting your PR:
 
 Thank you for contributing to our ecosystem!
 
-### Internal review process
-
-If a `png`/`webp` image is submitted, ensure a `svg` has been generated. If not, ensure the assets are in the `assets/*/new` folder and run `convert-new-assets-to-svg`. If the svg looks good and is smaller than the webp then use it, otherwise use the webp.
-
 ## Converting assets from png to svg
 
-1. Try to convert the image by adding it to `src/assets/tokens/new` and then running `pnpm convert-new-assets-to-svg` or using https://vectormagic.com
+1. Try to convert the image by adding it to `src/assets/tokens/new` and then using https://vectormagic.com or running `pnpm convert-new-assets-to-svg`
 2. If that doesn't produce a good result:
    1. Add the image to a figma file
    2. Resize it down to 256px x 256px. If it is smaller, leave it
