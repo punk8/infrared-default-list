@@ -20,6 +20,7 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
+    "./assets/*": "./assets/*",
     "./protocols": "./src/protocols.json",
     "./schemas/protocols": "./src/schemas/protocols-schema.ts",
     "./schemas/tokens": "./src/schemas/tokens-schema.ts",
