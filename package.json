@@ -36,7 +36,6 @@
     "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets:svg && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
-    "publish": "npm publish --access public",
     "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\" \"tsx scripts/sort-validators.ts\"",
     "sort-and-format": "pnpm sort && pnpm format",
     "sort-package-json": "pnpm dlx sort-package-json",
