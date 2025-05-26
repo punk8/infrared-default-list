@@ -23,6 +23,14 @@ Please make sure that the respective beraRewardsVault is whitelisted. In order t
 
 ### 1. Fork the repository
 
+### 2. Use semantic commit messages
+
+When adding a new vault or token use a message such as
+
+```
+feat: add WBERA-HONEY vault
+```
+
 ### 2. Add your assets
 
 You only need to provide assets if they're not already in the `src/assets` folder or if you're introducing new elements (e.g., a new protocol or token). For any new or missing assets:
