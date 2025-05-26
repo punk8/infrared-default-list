@@ -2,10 +2,8 @@ name: Release
 
 on:
   push:
-
-permissions:
-  checks: write
-  contents: write
+    branches:
+      - main
 
 jobs:
   release:
@@ -21,6 +19,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        with:
-          dry_run: true
-
