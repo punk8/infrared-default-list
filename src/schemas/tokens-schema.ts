@@ -22,6 +22,9 @@ export const DefaultListBasicTokenSchema = strictObject({
   name: string(),
   symbol: string(),
 })
+export type DefaultListBasicToken = InferOutput<
+  typeof DefaultListBasicTokenSchema
+>
 export const DefaultListTokenWithUnderlyingSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
@@ -30,6 +33,9 @@ export const DefaultListTokenWithUnderlyingSchema = strictObject({
   type: picklist(['amm', 'cdp', 'perpetuals', 'unknown', 'vault']),
   underlyingTokens: array(AddressSchema),
 })
+export type DefaultListTokenWithUnderlying = InferOutput<
+  typeof DefaultListTokenWithUnderlyingSchema
+>
 
 export const DefaultListTokenSchema = union([
   DefaultListBasicTokenSchema,
