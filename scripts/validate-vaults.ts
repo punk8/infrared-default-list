@@ -1,4 +1,5 @@
 import { readdirSync } from 'node:fs'
+import { writeFile } from 'node:fs/promises'
 import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
@@ -12,6 +13,9 @@ import {
   DefaultListVaultsSchema,
 } from '@/schemas/vaults-schema'
 
+import { cleanToken } from './_/clean-token'
+import { cleanVault } from './_/clean-vault'
+import { formatDataToJson } from './_/format-data-to-json'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
@@ -25,17 +29,22 @@ const validateVaultsByChain = async ({
 }: {
   chain: keyof typeof supportedChains
 }) => {
+  const path = `${folderPath}/${chain}.json`
   const errors: Array<string> = []
   const vaultsFile: { vaults: DefaultListVaults } = getJsonFile({
     chain,
-    path: `${folderPath}/${chain}.json`,
+    path,
   })
-  const vaults = parse(DefaultListVaultsSchema, vaultsFile.vaults)
+  const vaults = parse(DefaultListVaultsSchema, vaultsFile.vaults).map(
+    (vault) => cleanVault({ vault }),
+  )
   const tokensFile: { tokens: DefaultListTokens } = getJsonFile({
     chain,
     path: `src/tokens/${chain}.json`,
   })
-  const tokens = parse(DefaultListTokensSchema, tokensFile.tokens)
+  const tokens = parse(DefaultListTokensSchema, tokensFile.tokens).map(
+    (token) => cleanToken({ token }),
+  )
 
   const publicClient = createPublicClient({
     chain: supportedChains[chain],
@@ -56,6 +65,7 @@ const validateVaultsByChain = async ({
       }),
   )
   await Promise.all(promisedVaultDetails)
+  await writeFile(path, formatDataToJson({ data: { vaults } }))
   outputScriptStatus({ chain, errors, type: 'Vaults' })
 }
 
