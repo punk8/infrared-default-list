@@ -428,6 +428,20 @@
       "symbol": "YEET"
     },
     {
+      "address": "0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
+      "decimals": 18,
+      "image": "wbera-beramo.svg",
+      "mintUrl": "https://app.aquabera.com/vault/0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
+      "name": "WBERA-BERAMO",
+      "protocol": "aquabera",
+      "symbol": "AB-KODIAK-WBERA-BERAMO-10000",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x1f7210257fa157227d09449229a9266b0d581337"
+      ]
+    },
+    {
       "address": "0x04fd6a7b02e2e48caedad7135420604de5f834f8",
       "decimals": 18,
       "image": "wbera-henlo.svg",
