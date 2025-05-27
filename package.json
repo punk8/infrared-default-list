@@ -34,7 +34,7 @@
     "convert-new-assets-to-svg": "tsx scripts/convert-new-assets-to-svg.ts",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
     "generate-token-images": "tsx scripts/generate-token-images.ts",
-    "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets:svg && pnpm format",
+    "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
     "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\" \"tsx scripts/sort-validators.ts\"",
