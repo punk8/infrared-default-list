@@ -1,4 +1,5 @@
 import { readdirSync } from 'node:fs'
+import { writeFile } from 'node:fs/promises'
 import { parse } from 'valibot'
 import { createPublicClient } from 'viem'
 
@@ -8,6 +9,8 @@ import {
   DefaultListTokensSchema,
 } from '@/schemas/tokens-schema'
 
+import { cleanToken } from './_/clean-token'
+import { formatDataToJson } from './_/format-data-to-json'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
@@ -27,7 +30,9 @@ const validateTokensByChain = async ({
     chain,
     path,
   })
-  const tokens = parse(DefaultListTokensSchema, tokensFile.tokens)
+  const tokens = parse(DefaultListTokensSchema, tokensFile.tokens).map(
+    (token) => cleanToken({ token }),
+  )
   const publicClient = createPublicClient({
     chain: supportedChains[chain],
     transport,
@@ -46,6 +51,12 @@ const validateTokensByChain = async ({
   )
   await Promise.all(promisedVaultDetails)
 
+  await writeFile(
+    path,
+    formatDataToJson({
+      data: { tokens },
+    }),
+  )
   outputScriptStatus({ chain, errors, type: 'Token' })
 }
 
