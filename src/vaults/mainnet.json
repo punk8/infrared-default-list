@@ -141,6 +141,11 @@
       "stakeTokenAddress": "0x567f32e86be3e3963cdbc1887b5043b701f113d9"
     },
     {
+      "beraRewardsVault": "0x576374e222ec51608f9631f074536b9f897d2638",
+      "slug": "burrbear-wbtc-solvbtc-xsolvbtc",
+      "stakeTokenAddress": "0xcbef1b65399065c2de2c495971e90466ff38f2d0"
+    },
+    {
       "beraRewardsVault": "0x310532d9d047c5972cd60852c1a4b675edc55fad",
       "slug": "concrete-ctberabaddieshoney",
       "stakeTokenAddress": "0xe49ff31b2b3fd346b0d1832d9fe224ee0d1c1f9e"
