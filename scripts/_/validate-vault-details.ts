@@ -38,11 +38,15 @@ const validateStakeTokenAndSlug = ({
     return
   }
 
+  const cleanStakeTokenName = stakeToken.name
+    .replace(/\s|_|\//g, '-')
+    .toLowerCase()
+
   let expectedSlug = ''
   if (stakeToken.name.startsWith(stakeToken.protocol)) {
-    expectedSlug = stakeToken.name
+    expectedSlug = cleanStakeTokenName
   } else {
-    expectedSlug = `${slug(stakeToken.protocol)}-${slug(stakeToken.name)}`
+    expectedSlug = `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`
   }
 
   if (vault.slug !== expectedSlug) {
