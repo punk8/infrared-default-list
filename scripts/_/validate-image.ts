@@ -28,10 +28,13 @@ export const validateImage = async ({
   }
   const expectedFileName = identifier
     .toLowerCase()
-    .replace('.', '-')
+    .replace(/\s|_|\/|\./g, '-')
     .replace('₮', 't')
   const expectedFileName2 = identifier2
-    ? identifier2.toLowerCase().replace('.', '-').replace('₮', 't')
+    ? identifier2
+        .toLowerCase()
+        .replace(/\s|_|\/|\./g, '-')
+        .replace('₮', 't')
     : undefined
   if (
     (type === 'Protocol' &&

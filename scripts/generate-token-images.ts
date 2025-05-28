@@ -22,7 +22,7 @@ const IMAGE_WIDTH = 128
 const GAP_BETWEEN = 64
 
 const cleanFileName = (fileName: string) =>
-  `${fileName.replace(/\s|_/g, '-').toLowerCase()}`
+  `${fileName.replace(/\s|_|\//g, '-').toLowerCase()}`
 
 const generateTokenImage = async ({
   token,
