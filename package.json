@@ -42,10 +42,10 @@
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
     "validate": "concurrently \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-validators.ts\" \"tsx scripts/validate-vaults.ts\" && pnpm sort-and-format",
-    "validate-protocols": "concurrently \"tsx scripts/validate-protocols.ts\" \"tsx scripts/sort-protocols.ts\" && pnpm format",
-    "validate-tokens": "concurrently \"tsx scripts/validate-tokens.ts\" \"tsx scripts/sort-tokens.ts\" && pnpm format",
-    "validate-validators": "concurrently \"tsx scripts/validate-validators.ts\" \"tsx scripts/sort-validators.ts\" && pnpm format",
-    "validate-vaults": "concurrently \"tsx scripts/validate-vaults.ts\" \"tsx scripts/sort-vaults.ts\" && pnpm format"
+    "validate-protocols": "tsx scripts/validate-protocols.ts && tsx scripts/sort-protocols.ts && pnpm format",
+    "validate-tokens": "tsx scripts/validate-tokens.ts && tsx scripts/sort-tokens.ts && pnpm format",
+    "validate-validators": "tsx scripts/validate-validators.ts && tsx scripts/sort-validators.ts && pnpm format",
+    "validate-vaults": "tsx scripts/validate-vaults.ts && tsx scripts/sort-vaults.ts && pnpm format"
   },
   "devDependencies": {
     "@infrared-dao/eslint-config": "^0.0.8",
