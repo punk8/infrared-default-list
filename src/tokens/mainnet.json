@@ -1938,7 +1938,7 @@
       "name": "SolvBTC.BERA",
       "protocol": "solv",
       "symbol": "SolvBTC.BERA",
-      "type": "unknown",
+      "type": "vault",
       "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     },
     {
