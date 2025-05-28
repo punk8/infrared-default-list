@@ -1139,6 +1139,17 @@
       "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
     },
     {
+      "address": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
+      "decimals": 18,
+      "image": "ewbera-4.svg",
+      "mintUrl": "https://app.euler.finance/vault/0xcaa70d2aa873ef057980844e18d9a9560bdffcc0?network=berachain",
+      "name": "EVK Vault eWBERA-4",
+      "protocol": "euler",
+      "symbol": "eWBERA-4",
+      "type": "cdp",
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
       "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
       "decimals": 18,
       "image": "ibera.svg",
@@ -1270,6 +1281,20 @@
       "underlyingTokens": [
         "0x0f81001ef0a83ecce5ccebf63eb302c70a39a654",
         "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
+      "address": "0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632",
+      "decimals": 18,
+      "image": "ewbera-4-osbgt.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632?chain=berachain_mainnet",
+      "name": "eWBERA-4-osBGT",
+      "protocol": "kodiak",
+      "symbol": "KODI eWBERA-4-osBGT",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
+        "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
       ]
     },
     {
