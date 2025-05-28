@@ -827,7 +827,7 @@
       "decimals": 18,
       "image": "wbtc-solvbtc-xsolvbtc.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xcbef1b65399065c2de2c495971e90466ff38f2d000000000000000000000001e/add-liquidity",
-      "name": "WBTC/solvBTC/xSolvBTC",
+      "name": "WBTC-SolvBTC-xSolvBTC",
       "protocol": "burrbear",
       "symbol": "WBTC/solvBTC/xSolvBTC",
       "type": "amm",
