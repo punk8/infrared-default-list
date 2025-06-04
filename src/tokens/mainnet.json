@@ -98,6 +98,7 @@
       "image": "bull-ish-v2.svg",
       "isSoulbound": true,
       "isUnpriced": true,
+      "mintUrl": "https://game.bullas.xyz/",
       "name": "BULL ISH V2",
       "protocol": "bullish",
       "symbol": "BULL ISH V2",
