@@ -1,19 +1,28 @@
 import {
-  number,
-  string,
-  type InferOutput,
   array,
-  url,
+  boolean,
+  nonEmpty,
+  number,
+  optional,
   picklist,
   pipe,
-  nonEmpty,
   strictObject,
+  string,
+  type InferOutput,
   union,
-  boolean,
-  optional,
+  url,
 } from 'valibot'
 
 import { AddressSchema } from './address-schema'
+
+const ProtocolSchema = string()
+const TokenTypeSchema = picklist([
+  'amm',
+  'cdp',
+  'perpetuals',
+  'unknown',
+  'vault',
+])
 
 export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
@@ -29,8 +38,8 @@ export const DefaultListTokenWithUnderlyingSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
   mintUrl: pipe(string(), nonEmpty('Please enter a mintUrl'), url()),
-  protocol: string(),
-  type: picklist(['amm', 'cdp', 'perpetuals', 'unknown', 'vault']),
+  protocol: ProtocolSchema,
+  type: TokenTypeSchema,
   underlyingTokens: array(AddressSchema),
 })
 export type DefaultListTokenWithUnderlying = InferOutput<
