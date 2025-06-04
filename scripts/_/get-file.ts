@@ -1,4 +1,3 @@
 import { readFileSync } from 'node:fs'
 
-export const getFile = (fileName: string) =>
-  JSON.parse(readFileSync(fileName, 'utf-8'))
+export const getFile = (fileName: string) => readFileSync(fileName, 'utf-8')

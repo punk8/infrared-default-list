@@ -1,6 +1,26 @@
 import type { DefaultListToken } from '@/schemas/tokens-schema'
 
+import {
+  IMAGE_SIZE,
+  IMAGE_WIDTH_2_TOKENS,
+  IMAGE_WIDTH_3_TOKENS,
+} from './constants'
 import { validateImage } from './validate-image'
+
+const getExpectedWidth = ({ token }: { token: DefaultListToken }) => {
+  const hasUnderlyingTokens = 'underlyingTokens' in token
+  if (hasUnderlyingTokens && !token.imageNotFromUnderlying) {
+    // eslint-disable-next-line no-magic-numbers
+    if (token.underlyingTokens.length === 2) {
+      return IMAGE_WIDTH_2_TOKENS
+    }
+    // eslint-disable-next-line no-magic-numbers
+    if (token.underlyingTokens.length === 3) {
+      return IMAGE_WIDTH_3_TOKENS
+    }
+  }
+  return IMAGE_SIZE
+}
 
 export const validateTokenImage = async ({
   errors,
@@ -14,6 +34,7 @@ export const validateTokenImage = async ({
   return validateImage({
     errors,
     folder: 'tokens',
+    height: 128,
     identifier: token.symbol,
     identifier2: token.name,
     image: token.image,
@@ -21,5 +42,6 @@ export const validateTokenImage = async ({
       !hasUnderlyingTokens ||
       (hasUnderlyingTokens && token.underlyingTokens.length === 1),
     type: 'Token',
+    width: getExpectedWidth({ token }),
   })
 }
