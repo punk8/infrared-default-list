@@ -553,7 +553,7 @@
     {
       "beraRewardsVault": "0x753f2e214ad6954297622b7f8db9b07711ef028f",
       "slug": "kodiak-xusd-honey",
-      "stakeTokenAddress": "0x939fb917bF8579C959094364708Ef03f17e71f25"
+      "stakeTokenAddress": "0x939fb917bf8579c959094364708ef03f17e71f25"
     },
     {
       "beraRewardsVault": "0xbd3d6db7b600b18252e2d5d21f29c5e61e1e3f05",
@@ -568,7 +568,7 @@
     {
       "beraRewardsVault": "0x5fc9d951787c297b3b1ade8a871b84d9aa717608",
       "slug": "kodiak-yeet-wgbera",
-      "stakeTokenAddress": "0x412c9f79779AE6C3a13a318252b29c559be756Ca"
+      "stakeTokenAddress": "0x412c9f79779ae6c3a13a318252b29c559be756ca"
     },
     {
       "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
