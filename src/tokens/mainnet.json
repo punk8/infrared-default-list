@@ -46,6 +46,7 @@
       "address": "0x656b95e550c07a9ffe548bd4085c72418ceb1dba",
       "decimals": 18,
       "image": "bgt.svg",
+      "isSoulbound": true,
       "name": "Bera Governance Token",
       "symbol": "BGT"
     },
