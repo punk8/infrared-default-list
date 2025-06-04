@@ -51,3 +51,6 @@ jobs:
 
       - name: Validate protocols, tokens, validators, and vaults
         run: pnpm validate
+
+      - name: Commit clean data
+        uses: autofix-ci/action@ff86a557419858bb967097bfc916833f5647fa8c
