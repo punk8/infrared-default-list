@@ -20,6 +20,7 @@ const TokenTypeSchema = picklist([
   'amm',
   'cdp',
   'perpetuals',
+  'points',
   'unknown',
   'vault',
 ])
@@ -29,8 +30,11 @@ export const DefaultListBasicTokenSchema = strictObject({
   decimals: number(),
   image: string(),
   isSoulbound: optional(boolean()),
+  isUnpriced: optional(boolean()),
   name: string(),
+  protocol: optional(ProtocolSchema),
   symbol: string(),
+  type: optional(TokenTypeSchema),
 })
 export type DefaultListBasicToken = InferOutput<
   typeof DefaultListBasicTokenSchema
