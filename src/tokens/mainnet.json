@@ -1921,10 +1921,10 @@
       ]
     },
     {
-      "address": "0x939fb917bF8579C959094364708Ef03f17e71f25",
+      "address": "0x939fb917bf8579c959094364708ef03f17e71f25",
       "decimals": 18,
       "image": "xusd-honey.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x939fb917bF8579C959094364708Ef03f17e71f25?chain=berachain_mainnet",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x939fb917bf8579c959094364708ef03f17e71f25?chain=berachain_mainnet",
       "name": "xUSD-HONEY",
       "protocol": "kodiak",
       "symbol": "KODI xUSD-HONEY",
@@ -1963,10 +1963,10 @@
       ]
     },
     {
-      "address": "0x412c9f79779AE6C3a13a318252b29c559be756Ca",
+      "address": "0x412c9f79779ae6c3a13a318252b29c559be756ca",
       "decimals": 18,
       "image": "yeet-wgbera.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x412c9f79779AE6C3a13a318252b29c559be756Ca?chain=berachain_mainnet",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x412c9f79779ae6c3a13a318252b29c559be756ca?chain=berachain_mainnet",
       "name": "YEET-wgBERA",
       "protocol": "kodiak",
       "symbol": "KODI YEET-wgBERA",
