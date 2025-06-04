@@ -11,8 +11,8 @@
     {
       "description": "Unlocking Instant liquidity for Berachain assets through the first PoL powered stablecoin NECT.",
       "id": "beraborrow",
-      "imageDark": "beraborrow.webp",
-      "imageLight": "beraborrow.webp",
+      "imageDark": "beraborrow.svg",
+      "imageLight": "beraborrow.svg",
       "name": "Beraborrow",
       "prefix": "b",
       "url": "https://www.beraborrow.com"
