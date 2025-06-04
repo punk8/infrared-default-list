@@ -15,6 +15,11 @@ import {
 
 import { AddressSchema } from './address-schema'
 
+export const MintUrlSchema = pipe(
+  string(),
+  nonEmpty('Please enter a mintUrl'),
+  url(),
+)
 export const ProtocolSchema = string()
 export const TokenTypeSchema = picklist([
   'amm',
@@ -32,9 +37,7 @@ export const DefaultListBasicTokenSchema = strictObject({
   isSoulbound: optional(boolean()),
   isUnpriced: optional(boolean()),
   name: string(),
-  protocol: optional(ProtocolSchema),
   symbol: string(),
-  type: optional(TokenTypeSchema),
 })
 export type DefaultListBasicToken = InferOutput<
   typeof DefaultListBasicTokenSchema
@@ -42,7 +45,7 @@ export type DefaultListBasicToken = InferOutput<
 export const DefaultListTokenWithUnderlyingSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
-  mintUrl: pipe(string(), nonEmpty('Please enter a mintUrl'), url()),
+  mintUrl: MintUrlSchema,
   protocol: ProtocolSchema,
   type: TokenTypeSchema,
   underlyingTokens: array(AddressSchema),
@@ -50,10 +53,20 @@ export const DefaultListTokenWithUnderlyingSchema = strictObject({
 export type DefaultListTokenWithUnderlying = InferOutput<
   typeof DefaultListTokenWithUnderlyingSchema
 >
+export const DefaultListAdvancedTokenSchema = strictObject({
+  ...DefaultListBasicTokenSchema.entries,
+  mintUrl: MintUrlSchema,
+  protocol: ProtocolSchema,
+  type: TokenTypeSchema,
+})
+export type DefaultListAdvancedToken = InferOutput<
+  typeof DefaultListAdvancedTokenSchema
+>
 
 export const DefaultListTokenSchema = union([
   DefaultListBasicTokenSchema,
   DefaultListTokenWithUnderlyingSchema,
+  DefaultListAdvancedTokenSchema,
 ])
 export type DefaultListToken = InferOutput<typeof DefaultListTokenSchema>
 
