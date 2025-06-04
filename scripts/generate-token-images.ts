@@ -10,16 +10,20 @@ import type {
   DefaultListTokens,
 } from '@/schemas/tokens-schema'
 
-import { TOKENS_FOLDER } from './_/constants'
+import {
+  IMAGE_GAP_BETWEEN,
+  IMAGE_SIZE,
+  IMAGE_WIDTH_2_TOKENS,
+  IMAGE_WIDTH_3_TOKENS,
+  TOKENS_FOLDER,
+} from './_/constants'
 import { formatDataToJson } from './_/format-data-to-json'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 
 const folderPath = 'src/tokens'
 
-const IMAGE_HEIGHT = 128
-const IMAGE_WIDTH = 128
-const GAP_BETWEEN = 64
+const IMAGE_HEIGHT = IMAGE_SIZE
 
 const cleanFileName = (fileName: string) =>
   `${fileName.replace(/\s|_|\//g, '-').toLowerCase()}`
@@ -63,9 +67,9 @@ const generateTokenImage = async ({
       if (token.underlyingTokens.length === 2) {
         try {
           const combinedSVGs = SVG()
-            .size(IMAGE_WIDTH + GAP_BETWEEN, IMAGE_HEIGHT)
+            .size(IMAGE_WIDTH_2_TOKENS, IMAGE_HEIGHT)
             .add(SVG(underLyingTokenImageFiles[0]))
-            .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
+            .add(SVG(underLyingTokenImageFiles[1]).move(IMAGE_GAP_BETWEEN, 0))
             // @ts-expect-error false-positive - the types are very old
             .flatten()
             .svg()
@@ -85,11 +89,11 @@ const generateTokenImage = async ({
       try {
         const combinedSVGs = SVG()
           // eslint-disable-next-line no-magic-numbers
-          .size(IMAGE_WIDTH + GAP_BETWEEN * 2, IMAGE_HEIGHT)
+          .size(IMAGE_WIDTH_3_TOKENS, IMAGE_HEIGHT)
           .add(SVG(underLyingTokenImageFiles[0]))
-          .add(SVG(underLyingTokenImageFiles[1]).move(GAP_BETWEEN, 0))
+          .add(SVG(underLyingTokenImageFiles[1]).move(IMAGE_GAP_BETWEEN, 0))
           // eslint-disable-next-line no-magic-numbers
-          .add(SVG(underLyingTokenImageFiles[2]).move(GAP_BETWEEN * 2, 0))
+          .add(SVG(underLyingTokenImageFiles[2]).move(IMAGE_GAP_BETWEEN * 2, 0))
           // @ts-expect-error - the types are very old
           .flatten()
           .svg()

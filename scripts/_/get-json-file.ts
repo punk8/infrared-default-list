@@ -6,7 +6,7 @@ export const getJsonFile = ({
   chain,
   path,
 }: {
-  chain: string
+  chain?: string
   path: string
 }) => {
   try {

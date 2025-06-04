@@ -5,12 +5,12 @@ import {
   DefaultListProtocolsSchema,
 } from '@/schemas/protocols-schema'
 
-import { getFile } from './_/get-file'
+import { getJsonFile } from './_/get-json-file'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateProtocolImages } from './_/validate-protocol-images'
 
 const path = 'src/protocols.json'
-const protocolsFile: { protocols: DefaultListProtocols } = getFile(path)
+const protocolsFile: { protocols: DefaultListProtocols } = getJsonFile({ path })
 
 const validateProtocols = async () => {
   const errors: Array<string> = []

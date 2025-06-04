@@ -10,14 +10,15 @@ import type {
   DefaultListTokens,
 } from '@/schemas/tokens-schema'
 
-import { getFile } from './get-file'
+import { getJsonFile } from './get-json-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'
 import { validateDecimals } from './validate-decimals'
 import { validateTokenImage } from './validate-token-image'
 
-const protocolsFile: { protocols: DefaultListProtocol } =
-  getFile('src/protocols.json')
+const protocolsFile: { protocols: DefaultListProtocol } = getJsonFile({
+  path: 'src/protocols.json',
+})
 const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const validateSymbol = ({
