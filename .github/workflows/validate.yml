@@ -3,6 +3,7 @@ name: Validate protocols, tokens, validators, and vaults
 on:
   pull_request:
     paths:
+      - .github/workflows/validate.yml
       - src/vaults/**/*.json
       - src/tokens/**/*.json
       - src/validator/**/*.json
