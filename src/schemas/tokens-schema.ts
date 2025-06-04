@@ -15,8 +15,8 @@ import {
 
 import { AddressSchema } from './address-schema'
 
-const ProtocolSchema = string()
-const TokenTypeSchema = picklist([
+export const ProtocolSchema = string()
+export const TokenTypeSchema = picklist([
   'amm',
   'cdp',
   'perpetuals',
