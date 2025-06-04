@@ -5,11 +5,11 @@ import {
   DefaultListProtocolsSchema,
 } from '@/schemas/protocols-schema'
 
-import { getFile } from './_/get-file'
+import { getJsonFile } from './_/get-json-file'
 import { sortProtocols } from './_/sort-protocols'
 
 const path = 'src/protocols.json'
-const protocolsFile: { protocols: DefaultListProtocols } = getFile(path)
+const protocolsFile: { protocols: DefaultListProtocols } = getJsonFile({ path })
 const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const sortProtocolsScript = async () => {
