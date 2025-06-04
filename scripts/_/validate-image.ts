@@ -39,11 +39,8 @@ export const validateImage = async ({
   if (
     (type === 'Protocol' &&
       image !== `${expectedFileName}.svg` &&
-      image !== `${expectedFileName}.webp` &&
       image !== `${expectedFileName}-dark.svg` &&
-      image !== `${expectedFileName}-dark.webp` &&
-      image !== `${expectedFileName}-light.svg` &&
-      image !== `${expectedFileName}-light.webp`) ||
+      image !== `${expectedFileName}-light.svg`) ||
     (type === 'Token' &&
       image !== `${expectedFileName}.svg` &&
       image !== `${expectedFileName2}.svg`)
