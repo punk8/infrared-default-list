@@ -1,4 +1,4 @@
-name: Validate vaults, tokens, and validators
+name: Validate protocols, tokens, validators, and vaults
 
 on:
   pull_request:
@@ -49,5 +49,5 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Validate JSON schema and rules
+      - name: Validate protocols, tokens, validators, and vaults
         run: pnpm validate
