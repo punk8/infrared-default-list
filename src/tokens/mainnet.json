@@ -407,6 +407,13 @@
       "symbol": "xSolvBTC"
     },
     {
+      "address": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "decimals": 6,
+      "image": "xusd.svg",
+      "name": "Staked Stream USD",
+      "symbol": "xUSD"
+    },
+    {
       "address": "0x982940ebfc5caa2f5b5a82aac2dfa99f18bb7da4",
       "decimals": 18,
       "image": "ybera.svg",
@@ -1911,6 +1918,20 @@
       "underlyingTokens": [
         "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
         "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7"
+      ]
+    },
+    {
+      "address": "0x939fb917bF8579C959094364708Ef03f17e71f25",
+      "decimals": 18,
+      "image": "xusd-honey.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x939fb917bF8579C959094364708Ef03f17e71f25?chain=berachain_mainnet",
+      "name": "xUSD-HONEY",
+      "protocol": "kodiak",
+      "symbol": "KODI xUSD-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
