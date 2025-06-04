@@ -28,6 +28,7 @@ export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
   decimals: number(),
   image: string(),
+  isSoulbound: optional(boolean()),
   name: string(),
   symbol: string(),
 })
