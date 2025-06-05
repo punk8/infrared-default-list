@@ -50,7 +50,7 @@ const validateName = ({
   token: DefaultListToken
   tokens: DefaultListTokens
 }) => {
-  if ('underlyingTokens' in token) {
+  if ('underlyingTokens' in token && !!token.underlyingTokens) {
     const underlyingTokens = token.underlyingTokens.map((underlyingToken) => {
       const foundToken = tokens.find(({ address }) =>
         isAddressEqual(address as Address, underlyingToken as Address),

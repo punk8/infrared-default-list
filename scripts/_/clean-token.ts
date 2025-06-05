@@ -14,7 +14,7 @@ export const cleanToken = ({
         mintUrl: token.mintUrl.toLowerCase(),
       }
     : {}),
-  ...('underlyingTokens' in token
+  ...('underlyingTokens' in token && !!token.underlyingTokens
     ? {
         underlyingTokens: token.underlyingTokens.map((underlyingToken) =>
           lowercaseAddress(underlyingToken),
