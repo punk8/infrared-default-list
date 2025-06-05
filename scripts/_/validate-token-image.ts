@@ -8,8 +8,11 @@ import {
 import { validateImage } from './validate-image'
 
 const getExpectedWidth = ({ token }: { token: DefaultListToken }) => {
-  const hasUnderlyingTokens = 'underlyingTokens' in token
-  if (hasUnderlyingTokens && !token.imageNotFromUnderlying) {
+  if (
+    'underlyingTokens' in token &&
+    !!token.underlyingTokens &&
+    !token.imageNotFromUnderlying
+  ) {
     // eslint-disable-next-line no-magic-numbers
     if (token.underlyingTokens.length === 2) {
       return IMAGE_WIDTH_2_TOKENS
@@ -29,7 +32,8 @@ export const validateTokenImage = async ({
   errors: Array<string>
   token: DefaultListToken
 }) => {
-  const hasUnderlyingTokens = 'underlyingTokens' in token
+  const hasUnderlyingTokens =
+    'underlyingTokens' in token && !!token.underlyingTokens
 
   return validateImage({
     errors,
@@ -40,7 +44,7 @@ export const validateTokenImage = async ({
     image: token.image,
     required:
       !hasUnderlyingTokens ||
-      (hasUnderlyingTokens && token.underlyingTokens.length === 1),
+      (hasUnderlyingTokens && token.underlyingTokens?.length === 1),
     type: 'Token',
     width: getExpectedWidth({ token }),
   })

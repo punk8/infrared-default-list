@@ -42,28 +42,21 @@ export const DefaultListBasicTokenSchema = strictObject({
 export type DefaultListBasicToken = InferOutput<
   typeof DefaultListBasicTokenSchema
 >
-export const DefaultListAdvancedTokenSchema = strictObject({
+export const DefaultListStakeTokenSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
+  imageNotFromUnderlying: optional(boolean()),
   mintUrl: MintUrlSchema,
   protocol: ProtocolSchema,
   type: TokenTypeSchema,
+  underlyingTokens: optional(array(AddressSchema)),
 })
-export type DefaultListAdvancedToken = InferOutput<
-  typeof DefaultListAdvancedTokenSchema
->
-export const DefaultListAdvancedTokenWithUnderlyingSchema = strictObject({
-  ...DefaultListAdvancedTokenSchema.entries,
-  imageNotFromUnderlying: optional(boolean()),
-  underlyingTokens: array(AddressSchema),
-})
-export type DefaultListAdvancedTokenWithUnderlying = InferOutput<
-  typeof DefaultListAdvancedTokenWithUnderlyingSchema
+export type DefaultListStakeToken = InferOutput<
+  typeof DefaultListStakeTokenSchema
 >
 
 export const DefaultListTokenSchema = union([
   DefaultListBasicTokenSchema,
-  DefaultListAdvancedTokenSchema,
-  DefaultListAdvancedTokenWithUnderlyingSchema,
+  DefaultListStakeTokenSchema,
 ])
 export type DefaultListToken = InferOutput<typeof DefaultListTokenSchema>
 

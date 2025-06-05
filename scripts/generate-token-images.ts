@@ -35,7 +35,11 @@ const generateTokenImage = async ({
   token: DefaultListToken
   tokens: DefaultListTokens
 }) => {
-  if ('underlyingTokens' in token && !token.imageNotFromUnderlying) {
+  if (
+    'underlyingTokens' in token &&
+    !!token.underlyingTokens &&
+    !token.imageNotFromUnderlying
+  ) {
     const window = createSVGWindow()
     const document = window.document
     registerWindow(window, document)
