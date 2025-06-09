@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs'
 import path from 'path'
 
-import { ASSETS_FOLDER } from './constants'
+import { ASSETS_FOLDER, IMAGE_SIZE } from './constants'
 import { getFile } from './get-file'
 
 const viewboxRegex = /viewBox="(\d+\s\d+\s\d+\s\d+)"/
@@ -9,13 +9,13 @@ const viewboxRegex = /viewBox="(\d+\s\d+\s\d+\s\d+)"/
 export const validateImage = async ({
   errors,
   folder,
-  height,
+  height = IMAGE_SIZE,
   identifier,
   identifier2,
   image,
   required,
   type,
-  width,
+  width = IMAGE_SIZE,
 }: {
   errors: Array<string>
   folder: string
