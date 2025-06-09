@@ -87,28 +87,30 @@ const generateTokenImage = async ({
           console.error(token.name, error)
         }
       }
-    }
-    // eslint-disable-next-line no-magic-numbers
-    if (token.underlyingTokens.length === 3) {
-      try {
-        const combinedSVGs = SVG()
-          // eslint-disable-next-line no-magic-numbers
-          .size(IMAGE_WIDTH_3_TOKENS, IMAGE_HEIGHT)
-          .add(SVG(underLyingTokenImageFiles[0]))
-          .add(SVG(underLyingTokenImageFiles[1]).move(IMAGE_GAP_BETWEEN, 0))
-          // eslint-disable-next-line no-magic-numbers
-          .add(SVG(underLyingTokenImageFiles[2]).move(IMAGE_GAP_BETWEEN * 2, 0))
-          // @ts-expect-error - the types are very old
-          .flatten()
-          .svg()
+      // eslint-disable-next-line no-magic-numbers
+      if (token.underlyingTokens.length === 3) {
+        try {
+          const combinedSVGs = SVG()
+            // eslint-disable-next-line no-magic-numbers
+            .size(IMAGE_WIDTH_3_TOKENS, IMAGE_HEIGHT)
+            .add(SVG(underLyingTokenImageFiles[0]))
+            .add(SVG(underLyingTokenImageFiles[1]).move(IMAGE_GAP_BETWEEN, 0))
+            // eslint-disable-next-line no-magic-numbers
+            .add(
+              SVG(underLyingTokenImageFiles[2]).move(IMAGE_GAP_BETWEEN * 2, 0),
+            )
+            // @ts-expect-error - the types are very old
+            .flatten()
+            .svg()
 
-        const fileName = cleanFileName(
-          token.name.replace('.', '-').replace('₮', 't'),
-        )
-        await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
-        return `${fileName}.svg`
-      } catch (error) {
-        console.error(token.name, error)
+          const fileName = cleanFileName(
+            token.name.replace('.', '-').replace('₮', 't'),
+          )
+          await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
+          return `${fileName}.svg`
+        } catch (error) {
+          console.error(token.name, error)
+        }
       }
     }
   }
