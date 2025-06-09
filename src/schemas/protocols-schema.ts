@@ -17,6 +17,7 @@ export const DefaultListProtocolSchema = strictObject({
   imageOnTop: optional(string()),
   name: string(),
   prefix: optional(string()),
+  type: string(),
   url: pipe(string(), nonEmpty('Please enter a url'), url()),
 })
 export type DefaultListProtocol = InferOutput<typeof DefaultListProtocolSchema>
