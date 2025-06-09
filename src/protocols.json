@@ -216,8 +216,8 @@
     {
       "description": "Lending protocol for L2s, LRTs, RWAs & BTCFi—capital-efficient, secure, and multichain-ready.",
       "id": "zerolend",
-      "imageDark": "zerolend.svg",
-      "imageLight": "zerolend.svg",
+      "imageDark": "zerolend-dark.svg",
+      "imageLight": "zerolend-light.svg",
       "name": "ZeroLend",
       "type": "unknown",
       "url": "https://zerolend.xyz"
