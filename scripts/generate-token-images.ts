@@ -2,9 +2,14 @@ import { SVG, registerWindow } from '@svgdotjs/svg.js'
 import { readdirSync, readFileSync } from 'node:fs'
 import { writeFile } from 'node:fs/promises'
 import { createSVGWindow } from 'svgdom'
+import { parse } from 'valibot'
 import { type Address, isAddressEqual } from 'viem'
 
 import type { supportedChains } from '@/config/chains'
+import {
+  type DefaultListProtocol,
+  DefaultListProtocolsSchema,
+} from '@/schemas/protocols-schema'
 import type {
   DefaultListToken,
   DefaultListTokens,
@@ -15,6 +20,7 @@ import {
   IMAGE_SIZE,
   IMAGE_WIDTH_2_TOKENS,
   IMAGE_WIDTH_3_TOKENS,
+  PROTOCOLS_FOLDER,
   TOKENS_FOLDER,
 } from './_/constants'
 import { formatDataToJson } from './_/format-data-to-json'
@@ -23,7 +29,13 @@ import { isValidChain } from './_/is-valid-chain'
 
 const folderPath = 'src/tokens'
 
+const protocolsFile: { protocols: DefaultListProtocol } = getJsonFile({
+  path: 'src/protocols.json',
+})
+const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
+
 const IMAGE_HEIGHT = IMAGE_SIZE
+const PROTOCOL_IMAGE_SIZE = 64
 
 const cleanFileName = (fileName: string) =>
   `${fileName.replace(/\s|_|\//g, '-').toLowerCase()}`
@@ -68,7 +80,36 @@ const generateTokenImage = async ({
     )
     if (underLyingTokenImageFiles) {
       // eslint-disable-next-line no-magic-numbers
-      if (token.underlyingTokens.length === 2) {
+      if (token.underlyingTokens.length === 1) {
+        try {
+          const protocol = protocols.find(({ id }) => id === token.protocol)
+          const protocolImageFile = readFileSync(
+            `${PROTOCOLS_FOLDER}/${protocol?.imageOnTop || protocol?.imageDark}`,
+            'utf-8',
+          )
+
+          const combinedSVGs = SVG()
+            .size(IMAGE_SIZE, IMAGE_HEIGHT)
+            .add(SVG(underLyingTokenImageFiles[0]))
+            .add(
+              SVG(protocolImageFile)
+                .size(PROTOCOL_IMAGE_SIZE, PROTOCOL_IMAGE_SIZE)
+                .move(IMAGE_SIZE - PROTOCOL_IMAGE_SIZE, 0),
+            )
+            // @ts-expect-error false-positive - the types are very old
+            .flatten()
+            .svg()
+
+          const fileName = cleanFileName(
+            token.symbol.replace('.', '-').replace('₮', 't'),
+          )
+          await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
+          return `${fileName}.svg`
+        } catch (error) {
+          console.error(token.name, error)
+        }
+        // eslint-disable-next-line no-magic-numbers
+      } else if (token.underlyingTokens.length === 2) {
         try {
           const combinedSVGs = SVG()
             .size(IMAGE_WIDTH_2_TOKENS, IMAGE_HEIGHT)
@@ -86,17 +127,16 @@ const generateTokenImage = async ({
         } catch (error) {
           console.error(token.name, error)
         }
-      }
-      // eslint-disable-next-line no-magic-numbers
-      if (token.underlyingTokens.length === 3) {
+        // eslint-disable-next-line no-magic-numbers
+      } else if (token.underlyingTokens.length === 3) {
         try {
           const combinedSVGs = SVG()
             // eslint-disable-next-line no-magic-numbers
             .size(IMAGE_WIDTH_3_TOKENS, IMAGE_HEIGHT)
             .add(SVG(underLyingTokenImageFiles[0]))
             .add(SVG(underLyingTokenImageFiles[1]).move(IMAGE_GAP_BETWEEN, 0))
-            // eslint-disable-next-line no-magic-numbers
             .add(
+              // eslint-disable-next-line no-magic-numbers
               SVG(underLyingTokenImageFiles[2]).move(IMAGE_GAP_BETWEEN * 2, 0),
             )
             // @ts-expect-error - the types are very old

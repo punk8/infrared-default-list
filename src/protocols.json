@@ -87,6 +87,7 @@
       "id": "dolomite",
       "imageDark": "dolomite-dark.svg",
       "imageLight": "dolomite-light.svg",
+      "imageOnTop": "dolomite-on-top.svg",
       "name": "Dolomite",
       "prefix": "d",
       "url": "https://dolomite.io"
@@ -104,6 +105,7 @@
       "id": "euler",
       "imageDark": "euler.svg",
       "imageLight": "euler.svg",
+      "imageOnTop": "euler-on-top.svg",
       "name": "Euler",
       "prefix": "e",
       "url": "https://app.euler.finance"
