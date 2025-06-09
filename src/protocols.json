@@ -6,15 +6,26 @@
       "imageDark": "aquabera.svg",
       "imageLight": "aquabera.svg",
       "name": "AquaBera",
+      "type": "unknown",
       "url": "https://aquabera.com"
     },
     {
-      "description": "Unlocking Instant liquidity for Berachain assets through the first PoL powered stablecoin NECT.",
+      "description": "Multichain yield optimizer offering automated, compounding strategies across DeFi platforms.",
+      "id": "beefy",
+      "imageDark": "beefy-dark.svg",
+      "imageLight": "beefy-light.svg",
+      "name": "Beefy",
+      "type": "aggregator",
+      "url": "https://beefy.com"
+    },
+    {
+      "description": "Instant liquidity protocol offering flexible borrowing options across multiple assets.",
       "id": "beraborrow",
       "imageDark": "beraborrow.svg",
       "imageLight": "beraborrow.svg",
       "name": "Beraborrow",
       "prefix": "b",
+      "type": "other",
       "url": "https://www.beraborrow.com"
     },
     {
@@ -23,6 +34,7 @@
       "imageDark": "berachain.svg",
       "imageLight": "berachain.svg",
       "name": "Berachain",
+      "type": "unknown",
       "url": "https://berachain.com"
     },
     {
@@ -31,14 +43,16 @@
       "imageDark": "bex.svg",
       "imageLight": "bex.svg",
       "name": "BEX",
+      "type": "unknown",
       "url": "https://hub.berachain.com/swap"
     },
     {
-      "description": "Bulla is a capital efficient AMM on Berachain",
+      "description": "Native AMM on Berachain, enabling seamless token swaps and liquidity provision with low fees.",
       "id": "bulla",
       "imageDark": "bulla.svg",
       "imageLight": "bulla.svg",
       "name": "Bulla",
+      "type": "dex",
       "url": "https://bulla.exchange"
     },
     {
@@ -47,23 +61,26 @@
       "imageDark": "bullish-dark.svg",
       "imageLight": "bullish-light.svg",
       "name": "Bull ish",
+      "type": "unknown",
       "url": "https://game.bullas.xyz"
     },
     {
-      "description": "Swap tokens and manage your assets on BurrBear Protocol.",
+      "description": "DeFi platform focused on innovative financial products and community-driven initiatives.",
       "id": "burrbear",
       "imageDark": "burrbear.svg",
       "imageLight": "burrbear.svg",
       "name": "BurrBear",
+      "type": "dex",
       "url": "https://burrbear.io"
     },
     {
-      "description": "Concrete is a DeFi platform that allows you to borrow, protect, and earn on your crypto assets across multiple chains.",
+      "description": "DeFi liquidity metalayer powering high yields and unlocking new derivatives for on-chain assets.",
       "id": "concrete",
       "imageDark": "concrete.svg",
       "imageLight": "concrete.svg",
       "name": "Concrete",
       "prefix": "ct",
+      "type": "unknown",
       "url": "https://concrete.xyz"
     },
     {
@@ -72,43 +89,57 @@
       "imageDark": "d2finance.svg",
       "imageLight": "d2finance.svg",
       "name": "D2 Finance",
+      "type": "unknown",
       "url": "https://d2.finance/strategies"
     },
     {
-      "description": "D8X powers leveraged trading on DEXs like MadHoney. Trade Berachain's prime assets, provide liquidity and earn.",
+      "description": "Decentralized derivatives exchange providing innovative trading products and services.",
       "id": "d8x",
       "imageDark": "d8x-dark.svg",
       "imageLight": "d8x-light.svg",
       "name": "D8X",
+      "type": "unknown",
       "url": "https://d8x.exchange"
     },
     {
-      "description": "Dolomite is a lending and borrowing platform that can support over 1,000 unique assets.",
+      "description": "Decentralized margin trading platform offering advanced trading tools and strategies.",
       "id": "dolomite",
       "imageDark": "dolomite-dark.svg",
       "imageLight": "dolomite-light.svg",
       "imageOnTop": "dolomite-on-top.svg",
       "name": "Dolomite",
       "prefix": "d",
+      "type": "lending",
       "url": "https://dolomite.io"
     },
     {
-      "description": "Ether.fi Liquid vaults offer automated DeFi strategies.",
+      "description": "Decentralized Ethereum staking protocol offering secure and efficient staking solutions.",
       "id": "etherfi",
       "imageDark": "etherfi.svg",
       "imageLight": "etherfi.svg",
       "name": "ether.fi",
+      "type": "unknown",
       "url": "https://ether.fi"
     },
     {
-      "description": "Euler is a decentralized lending protocol on Berachain.",
+      "description": "Permissionless lending protocol with risk-adjusted interest rates and innovative features.",
       "id": "euler",
       "imageDark": "euler.svg",
       "imageLight": "euler.svg",
       "imageOnTop": "euler-on-top.svg",
       "name": "Euler",
       "prefix": "e",
+      "type": "unknown",
       "url": "https://app.euler.finance"
+    },
+    {
+      "description": "Vault strategies optimized for Berachain assets, offering balanced risk and reward profiles.",
+      "id": "goldilocks",
+      "imageDark": "goldilocks.svg",
+      "imageLight": "goldilocks.svg",
+      "name": "Goldilocks",
+      "type": "other",
+      "url": "https://www.goldilocksdao.io"
     },
     {
       "description": "Infrared simplifies interacting with Proof of Liquidity with our liquid staking products.",
@@ -116,55 +147,80 @@
       "imageDark": "infrared.svg",
       "imageLight": "infrared.svg",
       "name": "Infrared",
+      "type": "unknown",
       "url": "https://infrared.finance"
     },
     {
-      "description": "Kodiak, is a vertically-integrated liquidity hub on Berachain",
+      "description": "Efficient on-chain derivatives trading platform with low fees and deep liquidity.",
       "id": "kodiak",
       "imageDark": "kodiak-dark.svg",
       "imageLight": "kodiak-light.svg",
       "name": "Kodiak",
+      "type": "dex",
       "url": "https://app.kodiak.finance"
     },
     {
-      "description": "Solv Protocol (SOLV) is a decentralized finance platform designed to unlock the earning potential of Bitcoin",
+      "description": "Tokenized automation platform bringing leveraged yield strategies to DeFi users.",
+      "id": "origami",
+      "imageDark": "origami-dark.svg",
+      "imageLight": "origami-light.svg",
+      "name": "Origami",
+      "type": "aggregator",
+      "url": "https://origami.finance"
+    },
+    {
+      "description": "Unlocking liquidity for digital assets through innovative financial instruments and solutions.",
       "id": "solv",
       "imageDark": "solv-dark.svg",
       "imageLight": "solv-light.svg",
       "name": "Solv Protocol",
+      "type": "unknown",
       "url": "https://solv.finance/"
     },
     {
-      "description": "Wasabee is a DEX from Honeypot Finance powered by Algebra",
+      "description": "Innovative DeFi solutions on Berachain, offering unique financial products and services.",
       "id": "wasabee",
       "imageDark": "wasabee.svg",
       "imageLight": "wasabee.svg",
       "name": "Wasabee",
+      "type": "unknown",
       "url": "https://wasabee.honeypotfinance.xyz"
     },
     {
-      "description": "Wasabi is an on-chain money market that offers the highest yields across the widest range of assets.",
+      "description": "Options protocol for DeFi traders, providing advanced trading strategies and tools.",
       "id": "wasabi",
       "imageDark": "wasabi-dark.svg",
       "imageLight": "wasabi-light.svg",
       "name": "Wasabi",
+      "type": "unknown",
       "url": "https://wasabi.xyz"
     },
     {
-      "description": "WeBera is a decentralized lending and borrowing protocol on Berachain.",
+      "description": "Empowering decentralized finance on Berachain with cutting-edge financial solutions.",
       "id": "webera",
       "imageDark": "webera.svg",
       "imageLight": "webera.svg",
       "name": "WeBera",
+      "type": "unknown",
       "url": "https://app.webera.finance"
     },
     {
-      "description": "The premiere bonzi of Berachain",
+      "description": "Thermonuclear gigabonzi with multiple ways to play and earn rewards in the DeFi space.",
       "id": "yeet",
       "imageDark": "yeet.svg",
       "imageLight": "yeet.svg",
       "name": "YEET",
+      "type": "unknown",
       "url": "https://yeetit.xyz"
+    },
+    {
+      "description": "Lending protocol for L2s, LRTs, RWAs & BTCFi—capital-efficient, secure, and multichain-ready.",
+      "id": "zerolend",
+      "imageDark": "zerolend.svg",
+      "imageLight": "zerolend.svg",
+      "name": "ZeroLend",
+      "type": "unknown",
+      "url": "https://zerolend.xyz"
     }
   ]
 }
