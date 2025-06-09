@@ -38,7 +38,6 @@ export const validateTokenImage = async ({
   return validateImage({
     errors,
     folder: 'tokens',
-    height: 128,
     identifier: token.symbol,
     identifier2: token.name,
     image: token.image,
