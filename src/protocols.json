@@ -10,7 +10,16 @@
       "url": "https://aquabera.com"
     },
     {
-      "description": "Multichain yield optimizer offering automated, compounding strategies across DeFi platforms.",
+      "description": "A liquid restaking pioneer.",
+      "id": "bedrock",
+      "imageDark": "bedrock.svg",
+      "imageLight": "bedrock.svg",
+      "name": "Bedrock",
+      "type": "LST",
+      "url": "https://www.bedrock.technology"
+    },
+    {
+      "description": "Multichain yield optimizer and autocompounder.",
       "id": "beefy",
       "imageDark": "beefy-dark.svg",
       "imageLight": "beefy-light.svg",
@@ -19,13 +28,13 @@
       "url": "https://beefy.com"
     },
     {
-      "description": "Instant liquidity protocol offering flexible borrowing options across multiple assets.",
+      "description": "Unlock instant liquidity against Berachain assets through the first PoL powered stablecoin, Nectar.",
       "id": "beraborrow",
       "imageDark": "beraborrow.svg",
       "imageLight": "beraborrow.svg",
       "name": "Beraborrow",
       "prefix": "b",
-      "type": "other",
+      "type": "money-market",
       "url": "https://www.beraborrow.com"
     },
     {
@@ -36,6 +45,15 @@
       "name": "Berachain",
       "type": "unknown",
       "url": "https://berachain.com"
+    },
+    {
+      "description": "Native liquidity marketplace on Berachain.",
+      "id": "beradrome",
+      "imageDark": "beradrome.svg",
+      "imageLight": "beradrome.svg",
+      "name": "Beradrome",
+      "type": "dex",
+      "url": "https://www.beradrome.com"
     },
     {
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
@@ -169,6 +187,15 @@
       "url": "https://origami.finance"
     },
     {
+      "description": "Tokenize and trade future yield. Unlock fixed yields or speculate on yield.",
+      "id": "pendle",
+      "imageDark": "pendle.svg",
+      "imageLight": "pendle.svg",
+      "name": "Pendle",
+      "type": "yield",
+      "url": "https://www.pendle.finance"
+    },
+    {
       "description": "Unlocking liquidity for digital assets through innovative financial instruments and solutions.",
       "id": "solv",
       "imageDark": "solv-dark.svg",
@@ -196,7 +223,7 @@
       "url": "https://wasabee.honeypotfinance.xyz"
     },
     {
-      "description": "Options protocol for DeFi traders, providing advanced trading strategies and tools.",
+      "description": "Trading platform for memes and long-tail assets.",
       "id": "wasabi",
       "imageDark": "wasabi-dark.svg",
       "imageLight": "wasabi-light.svg",
