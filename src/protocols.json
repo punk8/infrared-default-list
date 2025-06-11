@@ -223,6 +223,15 @@
       "url": "https://lair.fi"
     },
     {
+      "description": "Options protocol with maximized liquidity.",
+      "id": "moby",
+      "imageDark": "moby.svg",
+      "imageLight": "moby.svg",
+      "name": "Moby",
+      "type": "yield",
+      "url": "https://lair.fi"
+    },
+    {
       "description": "Tokenized automation platform bringing leveraged yield strategies to DeFi users.",
       "id": "origami",
       "imageDark": "origami-dark.svg",
