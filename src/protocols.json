@@ -47,7 +47,7 @@
       "url": "https://berachain.com"
     },
     {
-      "description": "Beradrome is Berachain’s native restaking & liquidity marketplace",
+      "description": "Native liquidity marketplace on Berachain.",
       "id": "beradrome",
       "imageDark": "beradrome.svg",
       "imageLight": "beradrome.svg",
