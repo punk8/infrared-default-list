@@ -19,6 +19,15 @@
       "url": "https://www.bedrock.technology"
     },
     {
+      "description": "DeFi Made Effortless - One click to swap, bridge, and deposit into high-yield vaults.",
+      "id": "beratrax",
+      "imageDark": "beratrax.svg",
+      "imageLight": "beratrax.svg",
+      "name": "Beratrax",
+      "type": "yield",
+      "url": "https://beratrax.com"
+    },
+    {
       "description": "Multichain yield optimizer and autocompounder.",
       "id": "beefy",
       "imageDark": "beefy-dark.svg",
@@ -65,7 +74,7 @@
       "url": "https://hub.berachain.com/swap"
     },
     {
-      "description": "Native AMM on Berachain, enabling seamless token swaps and liquidity provision with low fees.",
+      "description": "Decentralized exchange (DEX) based on Algebra Integral, explicitly built for the Berachain network.",
       "id": "bulla",
       "imageDark": "bulla.svg",
       "imageLight": "bulla.svg",
@@ -83,7 +92,7 @@
       "url": "https://game.bullas.xyz"
     },
     {
-      "description": "DeFi platform focused on innovative financial products and community-driven initiatives.",
+      "description": "\"One Stop Stablecoin Shop\" for the Berachain ecosystem.",
       "id": "burrbear",
       "imageDark": "burrbear.svg",
       "imageLight": "burrbear.svg",
@@ -92,17 +101,17 @@
       "url": "https://burrbear.io"
     },
     {
-      "description": "DeFi liquidity metalayer powering high yields and unlocking new derivatives for on-chain assets.",
+      "description": "DeFi platform that allows you to borrow, protect, and earn on your crypto assets while benefiting from capital efficiency, liquidity protection, and yield optimization.",
       "id": "concrete",
       "imageDark": "concrete.svg",
       "imageLight": "concrete.svg",
       "name": "Concrete",
       "prefix": "ct",
-      "type": "unknown",
+      "type": "defi",
       "url": "https://concrete.xyz"
     },
     {
-      "description": "D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies",
+      "description": "Multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies.",
       "id": "d2finance",
       "imageDark": "d2finance.svg",
       "imageLight": "d2finance.svg",
@@ -111,13 +120,22 @@
       "url": "https://d2.finance/strategies"
     },
     {
-      "description": "Decentralized derivatives exchange providing innovative trading products and services.",
+      "description": "Enabling Leverage on Everything, Everywhere. As a White-label Solution.",
       "id": "d8x",
       "imageDark": "d8x-dark.svg",
       "imageLight": "d8x-light.svg",
       "name": "D8X",
-      "type": "unknown",
+      "type": "derivatives",
       "url": "https://d8x.exchange"
+    },
+    {
+      "description": "DeFi Consumer App Layer for Ethereum L2s & EVMs.",
+      "id": "dapdap",
+      "imageDark": "dapdap.svg",
+      "imageLight": "dapdap.svg",
+      "name": "DapDap",
+      "type": "defi",
+      "url": "https://www.dapdap.net"
     },
     {
       "description": "Decentralized margin trading platform offering advanced trading tools and strategies.",
