@@ -27,27 +27,27 @@
     },
     {
       "beraRewardsVault": "0x8412561faddd6c85f5a17e07e0f29428b813e69b",
-      "slug": "beradrome-henlocker100m",
+      "slug": "beradrome-henlocked100m",
       "stakeTokenAddress": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b"
     },
     {
       "beraRewardsVault": "0xa6a3e6fb89fa4c6554e82d05b449639eebfc564f",
-      "slug": "beradrome-henlocker1b",
+      "slug": "beradrome-henlocked1b",
       "stakeTokenAddress": "0xfb32f8c7d363790a6ccd89f8d20047612aba633b"
     },
     {
       "beraRewardsVault": "0xa713816e8d190efdf35d66b723eb63f8c8c4d5d2",
-      "slug": "beradrome-henlocker330m",
+      "slug": "beradrome-henlocked330m",
       "stakeTokenAddress": "0x94ca1028ee60e5b28cda22c0e7b6743017a9b7b6"
     },
     {
       "beraRewardsVault": "0x15970fcf2dbb9ffcc4e2f79c3fd777b871540d5b",
-      "slug": "beradrome-henlocker420m",
+      "slug": "beradrome-henlocked420m",
       "stakeTokenAddress": "0x94b12404d6163c3e49ed876fb25034a946a40dd8"
     },
     {
       "beraRewardsVault": "0x610b6a27a3a83cea0574c5001f30d9eea3699b1a",
-      "slug": "beradrome-henlocker690m",
+      "slug": "beradrome-henlocked690m",
       "stakeTokenAddress": "0x872130ced110e2a4325693c0802b6a0112b3615b"
     },
     {
