@@ -74,10 +74,14 @@ const validateName = ({
 
         if ('protocol' in token) {
           const protocol = protocols.find(({ id }) => id === token.protocol)
-          const expectedTokenName = `${protocol?.prefix}${underlyingTokenSymbols}`
-          if (token.name !== expectedTokenName) {
+          const expectedTokenNames = [
+            `${protocol?.prefix ? protocol?.prefix : ''}${underlyingTokenSymbols}`,
+            token.name.replace(protocol?.name || '', ''),
+          ]
+
+          if (!expectedTokenNames.includes(token.name)) {
             errors.push(
-              `${token.name} does not match ${expectedTokenName} or ${underlyingTokenSymbols}`,
+              `${token.name} does not match ${expectedTokenNames.join(' or ')} or ${underlyingTokenSymbols}`,
             )
           }
         }
