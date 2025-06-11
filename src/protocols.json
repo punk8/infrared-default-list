@@ -15,7 +15,7 @@
       "imageDark": "bedrock.svg",
       "imageLight": "bedrock.svg",
       "name": "Bedrock",
-      "type": "LST",
+      "type": "lst",
       "url": "https://www.bedrock.technology"
     },
     {
@@ -138,14 +138,23 @@
       "url": "https://www.dapdap.net"
     },
     {
-      "description": "Decentralized margin trading platform offering advanced trading tools and strategies.",
+      "description": "A suite of products that scale yield for protocols and users.",
+      "id": "dinero",
+      "imageDark": "dinero.svg",
+      "imageLight": "dinero.svg",
+      "name": "Dinero",
+      "type": "lst",
+      "url": "https://dinero.xyz"
+    },
+    {
+      "description": "A next-gen money market and margin trading protocol serving DeFi.",
       "id": "dolomite",
       "imageDark": "dolomite-dark.svg",
       "imageLight": "dolomite-light.svg",
       "imageOnTop": "dolomite-on-top.svg",
       "name": "Dolomite",
       "prefix": "d",
-      "type": "lending",
+      "type": "money-market",
       "url": "https://dolomite.io"
     },
     {
@@ -154,7 +163,7 @@
       "imageDark": "etherfi.svg",
       "imageLight": "etherfi.svg",
       "name": "ether.fi",
-      "type": "unknown",
+      "type": "lst",
       "url": "https://ether.fi"
     },
     {
