@@ -176,23 +176,23 @@
       "url": "https://ether.fi"
     },
     {
-      "description": "Permissionless lending protocol with risk-adjusted interest rates and innovative features.",
+      "description": "The lending super app.",
       "id": "euler",
       "imageDark": "euler.svg",
       "imageLight": "euler.svg",
       "imageOnTop": "euler-on-top.svg",
       "name": "Euler",
       "prefix": "e",
-      "type": "unknown",
+      "type": "money-market",
       "url": "https://app.euler.finance"
     },
     {
-      "description": "Vault strategies optimized for Berachain assets, offering balanced risk and reward profiles.",
+      "description": "Yield splitting vaults to trade the future earnings of yield bearing positions.",
       "id": "goldilocks",
       "imageDark": "goldilocks.svg",
       "imageLight": "goldilocks.svg",
       "name": "Goldilocks",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://www.goldilocksdao.io"
     },
     {
@@ -205,13 +205,22 @@
       "url": "https://infrared.finance"
     },
     {
-      "description": "Efficient on-chain derivatives trading platform with low fees and deep liquidity.",
+      "description": "Berachain’s Native Liquidity Platform.",
       "id": "kodiak",
       "imageDark": "kodiak-dark.svg",
       "imageLight": "kodiak-light.svg",
       "name": "Kodiak",
       "type": "dex",
       "url": "https://app.kodiak.finance"
+    },
+    {
+      "description": "Crosschain Liquid Restaking Solution.",
+      "id": "lair",
+      "imageDark": "lair.svg",
+      "imageLight": "lair.svg",
+      "name": "Lair",
+      "type": "yield",
+      "url": "https://lair.fi"
     },
     {
       "description": "Tokenized automation platform bringing leveraged yield strategies to DeFi users.",
