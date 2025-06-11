@@ -12,15 +12,15 @@ import {
 
 export const ProtocolTypeSchema = picklist([
   'aggregator',
-  'money-market',
   'defi',
   'derivatives',
   'dex',
   'lst',
+  'money-market',
   'yield',
   'unknown',
-  'vault',
 ])
+export type ProtocolType = InferOutput<typeof ProtocolTypeSchema>
 
 export const DefaultListProtocolSchema = strictObject({
   description: string(),
