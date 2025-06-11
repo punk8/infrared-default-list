@@ -158,6 +158,15 @@
       "url": "https://dolomite.io"
     },
     {
+      "description": "First yield booster on top of Pendle.",
+      "id": "equilibria",
+      "imageDark": "equilibria.svg",
+      "imageLight": "equilibria.svg",
+      "name": "Equilibria",
+      "type": "yield",
+      "url": "https://equilibria.fi"
+    },
+    {
       "description": "Decentralized Ethereum staking protocol offering secure and efficient staking solutions.",
       "id": "etherfi",
       "imageDark": "etherfi.svg",
