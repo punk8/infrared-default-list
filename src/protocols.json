@@ -19,15 +19,6 @@
       "url": "https://www.bedrock.technology"
     },
     {
-      "description": "DeFi Made Effortless - One click to swap, bridge, and deposit into high-yield vaults.",
-      "id": "beratrax",
-      "imageDark": "beratrax.svg",
-      "imageLight": "beratrax.svg",
-      "name": "Beratrax",
-      "type": "yield",
-      "url": "https://beratrax.com"
-    },
-    {
       "description": "Multichain yield optimizer and autocompounder.",
       "id": "beefy",
       "imageDark": "beefy-dark.svg",
@@ -63,6 +54,15 @@
       "name": "Beradrome",
       "type": "dex",
       "url": "https://www.beradrome.com"
+    },
+    {
+      "description": "DeFi Made Effortless - One click to swap, bridge, and deposit into high-yield vaults.",
+      "id": "beratrax",
+      "imageDark": "beratrax.svg",
+      "imageLight": "beratrax.svg",
+      "name": "Beratrax",
+      "type": "yield",
+      "url": "https://beratrax.com"
     },
     {
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
@@ -183,7 +183,7 @@
       "imageDark": "goldilocks.svg",
       "imageLight": "goldilocks.svg",
       "name": "Goldilocks",
-      "type": "other",
+      "type": "unknown",
       "url": "https://www.goldilocksdao.io"
     },
     {
