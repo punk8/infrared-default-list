@@ -24,7 +24,7 @@
       "imageDark": "beefy-dark.svg",
       "imageLight": "beefy-light.svg",
       "name": "Beefy",
-      "type": "aggregator",
+      "type": "yield",
       "url": "https://beefy.com"
     },
     {
@@ -92,12 +92,12 @@
       "url": "https://game.bullas.xyz"
     },
     {
-      "description": "\"One stop stablecoin shop\" for the Berachain ecosystem.",
+      "description": "“One stop stablecoin shop” for the Berachain ecosystem.",
       "id": "burrbear",
       "imageDark": "burrbear.svg",
       "imageLight": "burrbear.svg",
       "name": "BurrBear",
-      "type": "dex",
+      "type": "yield",
       "url": "https://burrbear.io"
     },
     {
@@ -116,7 +116,7 @@
       "imageDark": "d2finance.svg",
       "imageLight": "d2finance.svg",
       "name": "D2 Finance",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://d2.finance/strategies"
     },
     {
@@ -246,7 +246,7 @@
       "imageDark": "origami-dark.svg",
       "imageLight": "origami-light.svg",
       "name": "Origami",
-      "type": "aggregator",
+      "type": "yield",
       "url": "https://origami.finance"
     },
     {
@@ -259,12 +259,12 @@
       "url": "https://www.pendle.finance"
     },
     {
-      "description": "Unlocking liquidity for digital assets through innovative financial instruments and solutions.",
+      "description": "Pioneering a decentralized Bitcoin reserve with SolvBTC.",
       "id": "solv",
       "imageDark": "solv-dark.svg",
       "imageLight": "solv-light.svg",
       "name": "Solv Protocol",
-      "type": "unknown",
+      "type": "lst",
       "url": "https://solv.finance"
     },
     {
@@ -273,7 +273,7 @@
       "imageDark": "stakestone.svg",
       "imageLight": "stakestone.svg",
       "name": "StakeStone",
-      "type": "aggregator",
+      "type": "lst",
       "url": "https://stakestone.io"
     },
     {
@@ -286,48 +286,48 @@
       "url": "https://app.steer.finance"
     },
     {
-      "description": "Innovative DeFi solutions on Berachain, offering unique financial products and services.",
+      "description": "The ultimate trading platform for memes and long-tail assets.",
       "id": "wasabee",
       "imageDark": "wasabee.svg",
       "imageLight": "wasabee.svg",
       "name": "Wasabee",
-      "type": "unknown",
+      "type": "defi",
       "url": "https://wasabee.honeypotfinance.xyz"
     },
     {
-      "description": "Trading platform for memes and long-tail assets.",
+      "description": "Trade culture, on leverage.",
       "id": "wasabi",
       "imageDark": "wasabi-dark.svg",
       "imageLight": "wasabi-light.svg",
       "name": "Wasabi",
-      "type": "unknown",
+      "type": "derivatives",
       "url": "https://wasabi.xyz"
     },
     {
-      "description": "Empowering decentralized finance on Berachain with cutting-edge financial solutions.",
+      "description": "DeFAI abstraction layer for Berachain.",
       "id": "webera",
       "imageDark": "webera.svg",
       "imageLight": "webera.svg",
       "name": "WeBera",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://app.webera.finance"
     },
     {
-      "description": "Thermonuclear gigabonzi with multiple ways to play and earn rewards in the DeFi space.",
+      "description": "Home of the Bonzis on Berachain.",
       "id": "yeet",
       "imageDark": "yeet.svg",
       "imageLight": "yeet.svg",
       "name": "YEET",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://yeetit.xyz"
     },
     {
-      "description": "Lending protocol for L2s, LRTs, RWAs & BTCFi—capital-efficient, secure, and multichain-ready.",
+      "description": "Money market for L2s, LRTs, RWAs, & BTCFi.",
       "id": "zerolend",
       "imageDark": "zerolend-dark.svg",
       "imageLight": "zerolend-light.svg",
       "name": "ZeroLend",
-      "type": "unknown",
+      "type": "money-market",
       "url": "https://zerolend.xyz"
     }
   ]
