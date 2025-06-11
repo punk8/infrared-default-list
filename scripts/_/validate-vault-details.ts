@@ -43,10 +43,12 @@ const validateStakeTokenAndSlug = ({
     .toLowerCase()
 
   let expectedSlug = ''
+  const protocol = stakeToken.protocol.toLowerCase()
+  const stakeTokenName = stakeToken.name.toLowerCase()
   if (
-    new RegExp(`^${stakeToken.protocol.toLowerCase()}[\\s-_]`).test(
-      stakeToken.name.toLowerCase(),
-    )
+    stakeTokenName.startsWith(protocol + ' ') ||
+    stakeTokenName.startsWith(protocol + '-') ||
+    stakeTokenName.startsWith(protocol + '_')
   ) {
     expectedSlug = cleanStakeTokenName
   } else {
