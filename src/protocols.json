@@ -232,6 +232,15 @@
       "url": "https://lair.fi"
     },
     {
+      "description": "Scalable yield infrastructure.",
+      "id": "openstate",
+      "imageDark": "openstate.svg",
+      "imageLight": "openstate.svg",
+      "name": "Openstate",
+      "type": "lst",
+      "url": "https://openstate.com"
+    },
+    {
       "description": "Tokenized automation platform bringing leveraged yield strategies to DeFi users.",
       "id": "origami",
       "imageDark": "origami-dark.svg",
