@@ -43,7 +43,7 @@ const validateStakeTokenAndSlug = ({
     .toLowerCase()
 
   let expectedSlug = ''
-  if (stakeToken.name.startsWith(stakeToken.protocol)) {
+  if (cleanStakeTokenName.startsWith(stakeToken.protocol.toLowerCase())) {
     expectedSlug = cleanStakeTokenName
   } else {
     expectedSlug = `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`
