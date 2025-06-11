@@ -241,7 +241,7 @@
       "url": "https://openstate.com"
     },
     {
-      "description": "Tokenized automation platform bringing leveraged yield strategies to DeFi users.",
+      "description": "First-in-class automated leverage protocol.",
       "id": "origami",
       "imageDark": "origami-dark.svg",
       "imageLight": "origami-light.svg",
@@ -266,6 +266,15 @@
       "name": "Solv Protocol",
       "type": "unknown",
       "url": "https://solv.finance"
+    },
+    {
+      "description": "Omnichain liquidity infrastructure.",
+      "id": "stakestone",
+      "imageDark": "stakestone.svg",
+      "imageLight": "stakestone.svg",
+      "name": "StakeStone",
+      "type": "aggregator",
+      "url": "https://stakestone.io"
     },
     {
       "description": "Enterprise‑grade vaults, liquidity engines, and AI policy tools powering 1000+ tokens across 40+ chains.",
