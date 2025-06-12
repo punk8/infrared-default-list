@@ -10,6 +10,7 @@ import type {
   DefaultListTokens,
 } from '@/schemas/tokens-schema'
 
+import { checkUniqueness } from './check-uniqueness'
 import { getJsonFile } from './get-json-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'
@@ -159,12 +160,12 @@ export const validateTokenDetails = async ({
   tokens: DefaultListTokens
 }) => {
   const lowercasedAddress = token.address.toLowerCase()
-  if (addresses.has(lowercasedAddress)) {
-    errors.push(
-      `Duplicate token address found: ${token.address}. Token addresses must be unique.`,
-    )
-  }
-  addresses.add(lowercasedAddress)
+  checkUniqueness({
+    errors,
+    fieldName: 'address',
+    set: addresses,
+    value: lowercasedAddress,
+  })
 
   await validateDecimals({ errors, publicClient, token })
   await validateTokenImage({
