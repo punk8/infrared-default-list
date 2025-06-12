@@ -15,6 +15,8 @@ const protocolsFile: { protocols: DefaultListProtocols } = getJsonFile({ path })
 const validateProtocols = async () => {
   const errors: Array<string> = []
   const protocolIds = new Set<string>()
+  const protocolNames = new Set<string>()
+  const protocolUrls = new Set<string>()
 
   const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
   const promisedProtocolDetails = protocols.map(async (protocol) => {
@@ -22,6 +24,8 @@ const validateProtocols = async () => {
       errors,
       protocol,
       protocolIds,
+      protocolNames,
+      protocolUrls,
     })
   })
   await Promise.all(promisedProtocolDetails)
