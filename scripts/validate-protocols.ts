@@ -7,7 +7,7 @@ import {
 
 import { getJsonFile } from './_/get-json-file'
 import { outputScriptStatus } from './_/output-script-status'
-import { validateProtocolImages } from './_/validate-protocol-images'
+import { validateProtocolDetails } from './_/validate-protocol-details'
 
 const path = 'src/protocols.json'
 const protocolsFile: { protocols: DefaultListProtocols } = getJsonFile({ path })
@@ -18,16 +18,10 @@ const validateProtocols = async () => {
 
   const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
   const promisedProtocolDetails = protocols.map(async (protocol) => {
-    if (protocolIds.has(protocol.id)) {
-      errors.push(
-        `Duplicate protocol found: ${protocol.id}. Protocol ids must be unique.`,
-      )
-    }
-    protocolIds.add(protocol.id)
-
-    return await validateProtocolImages({
+    await validateProtocolDetails({
       errors,
       protocol,
+      protocolIds,
     })
   })
   await Promise.all(promisedProtocolDetails)
