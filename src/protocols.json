@@ -74,7 +74,7 @@
       "url": "https://hub.berachain.com/swap"
     },
     {
-      "description": "Native AMM on Berachain enabling seamless swaps and low‑slippage liquidity provision.",
+      "description": "Native AMM enabling seamless swaps and low‑slippage liquidity provision.",
       "id": "bulla",
       "imageDark": "bulla.svg",
       "imageLight": "bulla.svg",
@@ -187,7 +187,7 @@
       "url": "https://app.euler.finance"
     },
     {
-      "description": "Vaults balancing risk and reward across Berachain assets with dynamic yield strategies.",
+      "description": "Vaults balancing risk and reward with dynamic yield strategies.",
       "id": "goldilocks",
       "imageDark": "goldilocks.svg",
       "imageLight": "goldilocks.svg",
@@ -250,7 +250,7 @@
       "url": "https://origami.finance"
     },
     {
-      "description": "Tokenize and trade future yield - unlock fixed rates or speculate across yield curves.",
+      "description": "Tokenize and trade future yield. Unlock fixed rates or speculate across yield curves.",
       "id": "pendle",
       "imageDark": "pendle.svg",
       "imageLight": "pendle.svg",
@@ -286,7 +286,7 @@
       "url": "https://app.steer.finance"
     },
     {
-      "description": "DeFi infrastructure on Berachain offering next‑gen financial products and tooling.",
+      "description": "DeFi infrastructure offering next‑gen financial products and tooling.",
       "id": "wasabee",
       "imageDark": "wasabee.svg",
       "imageLight": "wasabee.svg",
@@ -304,7 +304,7 @@
       "url": "https://wasabi.xyz"
     },
     {
-      "description": "Enabling decentralized finance on Berachain through modular financial infrastructure.",
+      "description": "Enabling decentralized finance through modular financial infrastructure.",
       "id": "webera",
       "imageDark": "webera.svg",
       "imageLight": "webera.svg",
@@ -322,7 +322,7 @@
       "url": "https://yeetit.xyz"
     },
     {
-      "description": "Lending protocol for L2s, RWAs & BTCFi - capital‑efficient, secure, multichain borrowing.",
+      "description": "Lending protocol for L2s, RWAs & BTCFi. Capital‑efficient, secure, multichain borrowing.",
       "id": "zerolend",
       "imageDark": "zerolend-dark.svg",
       "imageLight": "zerolend-light.svg",
