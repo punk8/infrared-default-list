@@ -448,6 +448,13 @@
       "symbol": "YEET"
     },
     {
+      "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+      "decimals": 18,
+      "image": "zero.svg",
+      "name": "Zero",
+      "symbol": "ZERO"
+    },
+    {
       "address": "0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
       "decimals": 18,
       "image": "wbera-beramo.svg",
@@ -2075,6 +2082,20 @@
       "underlyingTokens": [
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0x091e41545e4a82e08f35bb51850e905537ced72e",
+      "decimals": 18,
+      "image": "zero-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x091e41545e4a82e08f35bb51850e905537ced72e?chain=berachain_mainnet",
+      "name": "ZERO-wBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI ZERO-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+        "0x6969696969696969696969696969696969696969"
       ]
     },
     {

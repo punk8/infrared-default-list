@@ -596,6 +596,11 @@
       "stakeTokenAddress": "0x412c9f79779ae6c3a13a318252b29c559be756ca"
     },
     {
+      "beraRewardsVault": "0xfe5fe99a4e5ae1f6212c1b32ed4ed6d1c1c6de57",
+      "slug": "kodiak-zero-wbera",
+      "stakeTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e"
+    },
+    {
       "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
       "slug": "solv-solvbtc.bera",
       "stakeTokenAddress": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b"
