@@ -2091,7 +2091,7 @@
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x091e41545e4a82e08f35bb51850e905537ced72e?chain=berachain_mainnet",
       "name": "ZERO-wBERA",
       "protocol": "kodiak",
-      "symbol": "KODI ZERO-wBERA",
+      "symbol": "KODI ZERO-WBERA",
       "type": "amm",
       "underlyingTokens": [
         "0x0000382fbb422b4f593931fc6f2d25cc16600000",
