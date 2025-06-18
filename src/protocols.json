@@ -56,6 +56,15 @@
       "url": "https://www.beradrome.com"
     },
     {
+      "description": "A proof-of-engagement ecosystem blending gamification to drive meaningful on-chain actions.",
+      "id": "beraji",
+      "imageDark": "beraji-dark.svg",
+      "imageLight": "beraji-light.svg",
+      "name": "Beraji",
+      "type": "defi",
+      "url": "https://beraji.com/"
+    },
+    {
       "description": "Risk‑balanced delta‑neutral farming for efficient capital use in DeFi.",
       "id": "beratrax",
       "imageDark": "beratrax.svg",
