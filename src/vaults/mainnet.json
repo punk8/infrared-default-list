@@ -151,6 +151,11 @@
       "stakeTokenAddress": "0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23"
     },
     {
+      "beraRewardsVault": "0x6fd82191550c53414b1d4ce982a8424ce039697b",
+      "slug": "burrbear-nect-usdc.e-usd₮0-honey",
+      "stakeTokenAddress": "0xb34fca9739249578d93a22ce02bf7fad277bad35"
+    },
+    {
       "beraRewardsVault": "0x4974ee5f484a3c05f181aeb380cd7c411dd79c0e",
       "slug": "burrbear-nect-wgbera",
       "stakeTokenAddress": "0xe416c064946112c1626d6700d1081a750b1b1dd7"

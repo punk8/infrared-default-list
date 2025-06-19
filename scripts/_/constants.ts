@@ -11,3 +11,5 @@ export const IMAGE_GAP_BETWEEN = 64
 export const IMAGE_WIDTH_2_TOKENS = IMAGE_SIZE + IMAGE_GAP_BETWEEN
 // eslint-disable-next-line no-magic-numbers
 export const IMAGE_WIDTH_3_TOKENS = IMAGE_SIZE + IMAGE_GAP_BETWEEN * 2
+// eslint-disable-next-line no-magic-numbers
+export const IMAGE_WIDTH_4_TOKENS = IMAGE_SIZE + IMAGE_GAP_BETWEEN * 3
