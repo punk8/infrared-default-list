@@ -34,6 +34,9 @@ const validateTokensByChain = async ({
     (token) => cleanToken({ token }),
   )
   const publicClient = createPublicClient({
+    batch: {
+      multicall: true,
+    },
     chain: supportedChains[chain],
     transport,
   })
