@@ -20,6 +20,7 @@ import {
   IMAGE_SIZE,
   IMAGE_WIDTH_2_TOKENS,
   IMAGE_WIDTH_3_TOKENS,
+  IMAGE_WIDTH_4_TOKENS,
   PROTOCOLS_FOLDER,
   TOKENS_FOLDER,
 } from './_/constants'
@@ -138,6 +139,34 @@ const generateTokenImage = async ({
             .add(
               // eslint-disable-next-line no-magic-numbers
               SVG(underLyingTokenImageFiles[2]).move(IMAGE_GAP_BETWEEN * 2, 0),
+            )
+            // @ts-expect-error - the types are very old
+            .flatten()
+            .svg()
+
+          const fileName = cleanFileName(
+            token.name.replace('.', '-').replace('₮', 't'),
+          )
+          await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
+          return `${fileName}.svg`
+        } catch (error) {
+          console.error(token.name, error)
+        }
+        // eslint-disable-next-line no-magic-numbers
+      } else if (token.underlyingTokens.length === 4) {
+        try {
+          const combinedSVGs = SVG()
+            // eslint-disable-next-line no-magic-numbers
+            .size(IMAGE_WIDTH_4_TOKENS, IMAGE_HEIGHT)
+            .add(SVG(underLyingTokenImageFiles[0]))
+            .add(SVG(underLyingTokenImageFiles[1]).move(IMAGE_GAP_BETWEEN, 0))
+            .add(
+              // eslint-disable-next-line no-magic-numbers
+              SVG(underLyingTokenImageFiles[2]).move(IMAGE_GAP_BETWEEN * 2, 0),
+            )
+            .add(
+              // eslint-disable-next-line no-magic-numbers
+              SVG(underLyingTokenImageFiles[3]).move(IMAGE_GAP_BETWEEN * 3, 0),
             )
             // @ts-expect-error - the types are very old
             .flatten()
