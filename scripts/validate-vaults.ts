@@ -47,9 +47,13 @@ const validateVaultsByChain = async ({
   )
 
   const publicClient = createPublicClient({
+    batch: {
+      multicall: true,
+    },
     chain: supportedChains[chain],
     transport,
   })
+  console.log(publicClient.chain.rpcUrls)
   const slugs: Array<string> = []
   const beraRewardsVaults = new Set<string>()
 
