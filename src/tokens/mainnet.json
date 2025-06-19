@@ -505,6 +505,17 @@
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     },
     {
+      "address": "0x8628e618b66e7cddbe0adc84b96bea3977954507",
+      "decimals": 18,
+      "image": "bwgbera.svg",
+      "mintUrl": "https://app.beraborrow.com/den/borrow/wgbera",
+      "name": "bWGBERA",
+      "protocol": "beraborrow",
+      "symbol": "bWGBERA",
+      "type": "cdp",
+      "underlyingTokens": ["0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"]
+    },
+    {
       "address": "0x597877ccf65be938bd214c4c46907669e3e62128",
       "decimals": 18,
       "image": "snect.svg",
