@@ -12,11 +12,12 @@ module.exports = {
           cleanupIds: {
             preservePrefixes: '_'
           },
-          removeViewBox: false
         }
       }
     },
     'convertStyleToAttrs',
-    'removeDimensions'
-  ]
+    'removeDimensions',
+    'removeScripts',
+    'removeTitle',
+  ],
 }

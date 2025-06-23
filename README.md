@@ -68,7 +68,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```
 
    Ensure that:
-
    - The `id` field is lowercase.
    - The `name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
    - You've added the protocol image to the `src/assets/protocols` folder if it's not already there.
@@ -90,7 +89,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```
 
    Ensure that:
-
    - The `mintUrl` field is a direct link to provide liquidity for the LP token
    - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
