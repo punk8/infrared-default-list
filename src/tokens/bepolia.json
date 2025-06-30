@@ -1,0 +1,62 @@
+{
+  "tokens": [
+    {
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "decimals": 18,
+      "image": "bera.svg",
+      "name": "BERA",
+      "symbol": "BERA"
+    },
+    {
+      "address": "0x656b95e550c07a9ffe548bd4085c72418ceb1dba",
+      "decimals": 18,
+      "image": "bgt.svg",
+      "isSoulbound": true,
+      "name": "Bera Governance Token",
+      "symbol": "BGT"
+    },
+    {
+      "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
+      "decimals": 18,
+      "image": "honey.svg",
+      "name": "HONEY",
+      "symbol": "HONEY"
+    },
+    {
+      "address": "0x6969696969696969696969696969696969696969",
+      "decimals": 18,
+      "image": "wbera.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://hub.berachain.com/swap",
+      "name": "WBERA",
+      "protocol": "berachain",
+      "symbol": "WBERA",
+      "type": "unknown",
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
+    },
+    {
+      "address": "0x7292b549f9f59fc22babcd7b6706e7d6889c2624",
+      "decimals": 18,
+      "image": "ibera.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://infrared.finance/ibera",
+      "name": "iBERA",
+      "protocol": "infrared",
+      "symbol": "iBERA",
+      "type": "unknown",
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
+    },
+    {
+      "address": "0xe3115eb91e03aee24b4531e80cea2c90757e1b88",
+      "decimals": 18,
+      "image": "ibgt.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://infrared.finance/ibgt",
+      "name": "iBGT",
+      "protocol": "infrared",
+      "symbol": "iBGT",
+      "type": "vault",
+      "underlyingTokens": ["0x656b95e550c07a9ffe548bd4085c72418ceb1dba"]
+    }
+  ]
+}
