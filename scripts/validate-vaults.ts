@@ -19,7 +19,7 @@ import { formatDataToJson } from './_/format-data-to-json'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
-import { transport } from './_/transport'
+import { transports } from './_/transports'
 import { validateVaultDetails } from './_/validate-vault-details'
 
 const folderPath = 'src/vaults'
@@ -51,7 +51,7 @@ const validateVaultsByChain = async ({
       multicall: true,
     },
     chain: supportedChains[chain],
-    transport,
+    transport: transports[supportedChains[chain].id],
   })
   console.log(publicClient.chain.rpcUrls)
   const slugs: Array<string> = []

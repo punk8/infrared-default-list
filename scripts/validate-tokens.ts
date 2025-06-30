@@ -14,7 +14,7 @@ import { formatDataToJson } from './_/format-data-to-json'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
-import { transport } from './_/transport'
+import { transports } from './_/transports'
 import { validateTokenDetails } from './_/validate-token-details'
 
 const folderPath = 'src/tokens'
@@ -38,7 +38,7 @@ const validateTokensByChain = async ({
       multicall: true,
     },
     chain: supportedChains[chain],
-    transport,
+    transport: transports[supportedChains[chain].id],
   })
   const addresses = new Set<string>()
 
