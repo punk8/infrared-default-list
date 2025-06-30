@@ -27,7 +27,9 @@
     "./schemas/validators": "./src/schemas/validators-schema.ts",
     "./schemas/vaults": "./src/schemas/vaults-schema.ts",
     "./tokens/mainnet": "./src/tokens/mainnet.json",
-    "./vaults/mainnet": "./src/vaults/mainnet.json"
+    "./tokens/bepolia": "./src/tokens/bepolia.json",
+    "./vaults/mainnet": "./src/vaults/mainnet.json",
+    "./vaults/bepolia": "./src/vaults/bepolia.json"
   },
   "scripts": {
     "clean-assets": "svgo -rf src -o src",
