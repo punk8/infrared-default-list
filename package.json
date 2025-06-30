@@ -1,14 +1,13 @@
 {
   "name": "@infrared-dao/default-list",
   "version": "2.0.0",
-  "description": "Default lists for Infrared interfaces including vaults, tokens, and validators",
+  "description": "Default lists for Infrared interfaces including tokens and vaults",
   "keywords": [
     "berachain",
     "default",
     "token",
     "vaults",
     "vault",
-    "validator",
     "list"
   ],
   "homepage": "https://github.com/infrared-dao/infrared-default-list#readme",
@@ -24,7 +23,6 @@
     "./protocols": "./src/protocols.json",
     "./schemas/protocols": "./src/schemas/protocols-schema.ts",
     "./schemas/tokens": "./src/schemas/tokens-schema.ts",
-    "./schemas/validators": "./src/schemas/validators-schema.ts",
     "./schemas/vaults": "./src/schemas/vaults-schema.ts",
     "./tokens/mainnet": "./src/tokens/mainnet.json",
     "./tokens/bepolia": "./src/tokens/bepolia.json",
@@ -39,14 +37,13 @@
     "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
-    "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\" \"tsx scripts/sort-validators.ts\"",
+    "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\"",
     "sort-and-format": "pnpm sort && pnpm format",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "concurrently \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-validators.ts\" \"tsx scripts/validate-vaults.ts\" && pnpm sort-and-format",
+    "validate": "concurrently \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-vaults.ts\" && pnpm sort-and-format",
     "validate-protocols": "tsx scripts/validate-protocols.ts && tsx scripts/sort-protocols.ts && pnpm format",
     "validate-tokens": "tsx scripts/validate-tokens.ts && tsx scripts/sort-tokens.ts && pnpm format",
-    "validate-validators": "tsx scripts/validate-validators.ts && tsx scripts/sort-validators.ts && pnpm format",
     "validate-vaults": "tsx scripts/validate-vaults.ts && tsx scripts/sort-vaults.ts && pnpm format"
   },
   "devDependencies": {
