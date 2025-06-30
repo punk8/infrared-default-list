@@ -9,6 +9,7 @@ permissions:
 
 env:
   QUICKNODE_TOKEN: ${{ secrets.QUICKNODE_TOKEN }}
+  QUICKNODE_TOKEN_BEPOLIA: ${{ secrets.QUICKNODE_TOKEN_BEPOLIA }}
 
 jobs:
   autofix:
