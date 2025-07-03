@@ -2121,6 +2121,20 @@
       ]
     },
     {
+      "address": "0xabcea3ead918c3c5eca9b85d25b5e463a35a5e66",
+      "decimals": 18,
+      "image": "zero-ibgt.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xabcea3ead918c3c5eca9b85d25b5e463a35a5e66?chain=berachain_mainnet",
+      "name": "ZERO-iBGT",
+      "protocol": "kodiak",
+      "symbol": "KODI ZERO-iBGT",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+        "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b"
+      ]
+    },
+    {
       "address": "0x091e41545e4a82e08f35bb51850e905537ced72e",
       "decimals": 18,
       "image": "zero-wbera.svg",
