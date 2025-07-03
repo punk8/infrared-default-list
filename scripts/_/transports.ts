@@ -15,5 +15,6 @@ export const transports = {
     http(
       `https://summer-distinguished-theorem.bera-bepolia.quiknode.pro/${process.env.QUICKNODE_TOKEN_BEPOLIA}`,
     ),
+    http(),
   ]),
 }
