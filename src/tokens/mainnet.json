@@ -2249,6 +2249,32 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
+      "address": "0x36FA291f4A4Ae41e4be2a979136EBd7eb97950E7",
+      "decimals": 18,
+      "image": "goldilocks.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://www.beradrome.com/farms/0x74A38Bfeedd95f65cbBF72eEDf01EAC77778bcF9",
+      "name": "WBERA-LOCKS LP",
+      "protocol": "goldilocks",
+      "symbol": "WBERA-LOCKS",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xb7E448E5677D212B8C8Da7D6312E8Afc49800466"
+      ]
+    },
+    {
+      "address": "0xb7E448E5677D212B8C8Da7D6312E8Afc49800466",
+      "decimals": 18,
+      "image": "goldilocks.svg",
+      "mintUrl": "https://www.goldilocks.io/goldiswap/swap",
+      "name": "Locks",
+      "protocol": "goldilocks",
+      "symbol": "LOCKS",
+      "type": "amm",
+      "underlyingTokens": ["0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"]
     }
   ]
 }
