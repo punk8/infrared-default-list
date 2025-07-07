@@ -168,6 +168,15 @@
       "symbol": "HENLO"
     },
     {
+      "address": "0x5bAd2b7A0A2eEE88A4ef05d5470cdEdB0ff948EA",
+      "decimals": 18,
+      "image": "hohm.svg",
+      "name": "Origami hOHM",
+      "symbol": "hOHM",
+      "protocol": "origami",
+      "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x5bAd2b7A0A2eEE88A4ef05d5470cdEdB0ff948EA/info"
+    },
+    {
       "address": "0xff0a636dfc44bb0129b631cdd38d21b613290c98",
       "decimals": 18,
       "image": "hold.svg",
@@ -249,7 +258,9 @@
       "decimals": 18,
       "image": "oribgt.svg",
       "name": "Origami iBGT Auto-Compounder",
-      "symbol": "oriBGT"
+      "symbol": "oriBGT",
+      "protocol": "origami",
+      "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x69f1E971257419B1E9C405A553f252c64A29A30a/info"
     },
     {
       "address": "0x978448a7866aed0146ad5c5e5d3d8424e2b16356",
@@ -1472,6 +1483,20 @@
       "underlyingTokens": [
         "0x2416092f143378750bb29b79ed961ab195cceea5",
         "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+      ]
+    },
+    {
+      "address": "0x2A6f7008A884563Df6FbF2d7676E696a44BB8896",
+      "decimals": 18,
+      "image": "hohm-honey.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2a6f7008a884563df6fbf2d7676e696a44bb8896?chain=berachain_mainnet",
+      "name": "hOHM-HONEY",
+      "protocol": "kodiak",
+      "symbol": "KODI hOHM-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x5bAd2b7A0A2eEE88A4ef05d5470cdEdB0ff948EA",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
     },
     {
