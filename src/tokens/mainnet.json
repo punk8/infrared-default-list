@@ -1657,6 +1657,34 @@
       ]
     },
     {
+      "address": "0x35b3833cbdcfaf3a842c90b775c632032648907d",
+      "decimals": 18,
+      "image": "solvbtc-bnb-solvbtc.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x35b3833cbdcfaf3a842c90b775c632032648907d?chain=berachain_mainnet",
+      "name": "SolvBTC.BNB-SolvBTC",
+      "protocol": "kodiak",
+      "symbol": "KODI SolvBTC.BNB-SolvBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
+        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77"
+      ]
+    },
+    {
+      "address": "0xe21efa586cc88271c8c87642440ed49ccd000ccc",
+      "decimals": 18,
+      "image": "solvbtc-bnb-xsolvbtc.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe21efa586cc88271c8c87642440ed49ccd000ccc?chain=berachain_mainnet",
+      "name": "SolvBTC.BNB-xSolvBTC",
+      "protocol": "kodiak",
+      "symbol": "KODI SolvBTC.BNB-xSolvBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
+        "0xcc0966d8418d412c599a6421b760a847eb169a8c"
+      ]
+    },
+    {
       "address": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343",
       "decimals": 18,
       "image": "stbgt-wbera.svg",
