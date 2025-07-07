@@ -2179,10 +2179,22 @@
       "decimals": 18,
       "image": "solvbtc-bera.svg",
       "imageNotFromUnderlying": true,
-      "mintUrl": "https://app.solv.finance/bera?network=ethereum",
+      "mintUrl": "https://app.solv.finance/bera?network=bera",
       "name": "SolvBTC.BERA",
       "protocol": "solv",
       "symbol": "SolvBTC.BERA",
+      "type": "vault",
+      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+    },
+    {
+      "address": "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
+      "decimals": 18,
+      "image": "solvbtc-bnb.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://app.solv.finance/bnb?network=bera",
+      "name": "SolvBTC.BNB",
+      "protocol": "solv",
+      "symbol": "SolvBTC.BNB",
       "type": "vault",
       "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     },
