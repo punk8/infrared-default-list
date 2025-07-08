@@ -464,17 +464,10 @@
       "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
       "decimals": 18,
       "image": "yeet.svg",
-      "name": "YEET",
-      "symbol": "YEET"
-    },
-    {
-      "address": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
-      "decimals": 18,
-      "image": "yeet.svg",
       "mintUrl": "https://yeetit.xyz",
-      "name": "Yeet",
+      "name": "YEET",
       "protocol": "yeet",
-      "symbol": "YEET-RWT",
+      "symbol": "YEET",
       "type": "unknown"
     },
     {
@@ -2387,6 +2380,18 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
+      "address": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
+      "decimals": 18,
+      "image": "yeet-rwt.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://yeetit.xyz",
+      "name": "Yeet",
+      "protocol": "yeet",
+      "symbol": "YEET-RWT",
+      "type": "unknown",
+      "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
     }
   ]
 }
