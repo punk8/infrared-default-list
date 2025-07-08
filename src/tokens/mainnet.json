@@ -2381,7 +2381,7 @@
     {
       "address": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "decimals": 18,
-      "image": "yeet-v2.png",
+      "image": "yeet-v2.svg",
       "mintUrl": "https://yeetit.xyz",
       "name": "Yeet BGT Auction",
       "protocol": "yeet",
