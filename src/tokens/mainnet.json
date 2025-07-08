@@ -286,7 +286,7 @@
       "symbol": "PLUG"
     },
     {
-      "address": "0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac",
+      "address": "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
       "decimals": 18,
       "image": "plutus.svg",
       "name": "Plutus token",
@@ -1649,6 +1649,20 @@
       ]
     },
     {
+      "address": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1",
+      "decimals": 18,
+      "image": "plutus-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1?chain=berachain_mainnet",
+      "name": "PLUTUS-WBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI PLUTUS-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
+        "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
       "address": "0x7fd165b73775884a38aa8f2b384a53a3ca7400e6",
       "decimals": 18,
       "image": "rusd-honey.svg",
@@ -2363,21 +2377,6 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
-      "address": "0xe38e2273dF9CA6f2Cd6F2ea0B13399e65BF799f1",
-      "decimals": 18,
-      "image": "plutus-wbera.svg",
-      "imageNotFromUnderlying": true,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1?chain=berachain_mainnet",
-      "name": "Kodiak Island PLUTUS-WBERA-0.3%",
-      "protocol": "kodiak",
-      "symbol": "KODI PLUTUS-WBERA",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac",
-        "0x6969696969696969696969696969696969696969"
-      ]
     }
   ]
 }
