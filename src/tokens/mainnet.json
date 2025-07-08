@@ -168,13 +168,14 @@
       "symbol": "HENLO"
     },
     {
-      "address": "0x5bAd2b7A0A2eEE88A4ef05d5470cdEdB0ff948EA",
+      "address": "0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea",
       "decimals": 18,
       "image": "hohm.svg",
+      "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea/info",
       "name": "Origami hOHM",
-      "symbol": "hOHM",
       "protocol": "origami",
-      "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x5bAd2b7A0A2eEE88A4ef05d5470cdEdB0ff948EA/info"
+      "symbol": "hOHM",
+      "type": "unknown"
     },
     {
       "address": "0xff0a636dfc44bb0129b631cdd38d21b613290c98",
@@ -257,10 +258,11 @@
       "address": "0x69f1e971257419b1e9c405a553f252c64a29a30a",
       "decimals": 18,
       "image": "oribgt.svg",
+      "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x69f1e971257419b1e9c405a553f252c64a29a30a/info",
       "name": "Origami iBGT Auto-Compounder",
-      "symbol": "oriBGT",
       "protocol": "origami",
-      "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x69f1E971257419B1E9C405A553f252c64A29A30a/info"
+      "symbol": "oriBGT",
+      "type": "unknown"
     },
     {
       "address": "0x978448a7866aed0146ad5c5e5d3d8424e2b16356",
@@ -1486,7 +1488,7 @@
       ]
     },
     {
-      "address": "0x2A6f7008A884563Df6FbF2d7676E696a44BB8896",
+      "address": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896",
       "decimals": 18,
       "image": "hohm-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2a6f7008a884563df6fbf2d7676e696a44bb8896?chain=berachain_mainnet",
@@ -1495,8 +1497,8 @@
       "symbol": "KODI hOHM-HONEY",
       "type": "amm",
       "underlyingTokens": [
-        "0x5bAd2b7A0A2eEE88A4ef05d5470cdEdB0ff948EA",
-        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+        "0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {

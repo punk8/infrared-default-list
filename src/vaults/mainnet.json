@@ -376,9 +376,9 @@
       "stakeTokenAddress": "0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865"
     },
     {
-      "beraRewardsVault": "0x9100078f4c86f78848646Ee0aDC08563213B327d",
+      "beraRewardsVault": "0x9100078f4c86f78848646ee0adc08563213b327d",
       "slug": "kodiak-hohm-honey",
-      "stakeTokenAddress": "0x2A6f7008A884563Df6FbF2d7676E696a44BB8896"
+      "stakeTokenAddress": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896"
     },
     {
       "beraRewardsVault": "0x4551c0e216f59cc081b6610637668b770ffdf843",
