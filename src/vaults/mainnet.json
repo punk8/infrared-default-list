@@ -431,6 +431,11 @@
       "stakeTokenAddress": "0x9b155cf7a4e5911ac35ab2173d0f58e1d39570fd"
     },
     {
+      "beraRewardsVault": "0x9e4ff9f6f255ecb3fb3937e81439a2c69377f3af",
+      "slug": "kodiak-plutus-wbera",
+      "stakeTokenAddress": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1"
+    },
+    {
       "beraRewardsVault": "0x34852c863d266100f573d4d1fd1d0cfe20602da0",
       "slug": "kodiak-rusd-honey",
       "stakeTokenAddress": "0x7fd165b73775884a38aa8f2b384a53a3ca7400e6"
