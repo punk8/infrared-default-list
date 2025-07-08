@@ -468,6 +468,16 @@
       "symbol": "YEET"
     },
     {
+      "address": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
+      "decimals": 18,
+      "image": "yeet.svg",
+      "mintUrl": "https://yeetit.xyz",
+      "name": "Yeet",
+      "protocol": "yeet",
+      "symbol": "YEET-RWT",
+      "type": "unknown"
+    },
+    {
       "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
       "decimals": 18,
       "image": "zero.svg",
@@ -2377,18 +2387,6 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
-      "address": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
-      "decimals": 18,
-      "image": "yeet-v2.svg",
-      "mintUrl": "https://yeetit.xyz",
-      "name": "Yeet BGT Auction",
-      "protocol": "yeet",
-      "stakingToken": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
-      "symbol": "YEET-RVT",
-      "type": "bonzi",
-      "underlyingTokens": []
     }
   ]
 }
