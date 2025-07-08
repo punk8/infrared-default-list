@@ -1,15 +1,1 @@
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="64" cy="64" r="60" fill="white" stroke="url(#paint0_linear_19636_4739)" stroke-width="8"/>
-<path d="M64 114C91.6142 114 114 91.6142 114 64C114 36.3858 91.6142 14 64 14C36.3858 14 14 36.3858 14 64C14 91.6142 36.3858 114 64 114Z" fill="url(#paint1_linear_19636_4739)"/>
-<path d="M68.7994 85.9845V86.0845H85.9994V79.8845H77.5056C82.615 76.0127 85.8994 69.9939 85.8994 63.2345C85.8994 51.5533 76.0931 42.0845 63.9994 42.0845C51.9056 42.0845 42.0994 51.5533 42.0994 63.2345C42.0994 69.9939 45.3806 76.0127 50.4931 79.8845H41.9994V86.0845H59.1994V77.7502C52.9338 75.7814 48.3994 70.047 48.3994 63.2845C48.3994 54.8908 55.3838 48.0845 63.9994 48.0845C72.615 48.0845 79.5994 54.8908 79.5994 63.2845C79.5994 70.047 75.0681 75.7783 68.7994 77.7533V85.9845Z" fill="black"/>
-<defs>
-<linearGradient id="paint0_linear_19636_4739" x1="128" y1="64" x2="9.37779e-07" y2="64" gradientUnits="userSpaceOnUse">
-<stop stop-color="#29B8ED"/>
-<stop offset="1" stop-color="#2DF6A7"/>
-</linearGradient>
-<linearGradient id="paint1_linear_19636_4739" x1="14" y1="63.9997" x2="113.999" y2="63.9997" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FE8A1F"/>
-<stop offset="1" stop-color="#F8CC82"/>
-</linearGradient>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><circle cx="64" cy="64" r="60" fill="#fff" stroke="url(#_hohm-a)" stroke-width="8"/><circle cx="64" cy="64" r="50" fill="url(#_hohm-b)"/><path d="M68.8 85.985v.1H86v-6.2h-8.494c5.109-3.872 8.393-9.891 8.393-16.65 0-11.682-9.806-21.15-21.9-21.15s-21.9 9.468-21.9 21.15c0 6.759 3.282 12.778 8.394 16.65H42v6.2h17.2V77.75c-6.265-1.969-10.8-7.703-10.8-14.465 0-8.394 6.985-15.2 15.6-15.2 8.616 0 15.6 6.806 15.6 15.2 0 6.762-4.53 12.493-10.8 14.468z"/><defs><linearGradient id="_hohm-a" x1="128" x2="0" y1="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#29b8ed"/><stop offset="1" stop-color="#2df6a7"/></linearGradient><linearGradient id="_hohm-b" x1="14" x2="113.999" y1="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#fe8a1f"/><stop offset="1" stop-color="#f8cc82"/></linearGradient></defs></svg>
