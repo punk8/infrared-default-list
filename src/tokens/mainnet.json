@@ -2254,6 +2254,18 @@
       ]
     },
     {
+      "address": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
+      "decimals": 18,
+      "image": "satsolvbtc-bera.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://app.satlayer.xyz/vaults/restake",
+      "name": "satSolvBTC.BERA",
+      "protocol": "satlayer",
+      "symbol": "satSolvBTC.BERA",
+      "type": "vault",
+      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+    },
+    {
       "address": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
       "decimals": 18,
       "image": "solvbtc-bera.svg",

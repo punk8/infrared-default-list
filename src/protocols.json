@@ -268,6 +268,15 @@
       "url": "https://www.pendle.finance"
     },
     {
+      "description": "The economic layer for Bitcoin, making the best asset now fully programmable.",
+      "id": "satlayer",
+      "imageDark": "satlayer.svg",
+      "imageLight": "satlayer.svg",
+      "name": "SatLayer",
+      "type": "defi",
+      "url": "https://www.satlayer.xyz"
+    },
+    {
       "description": "Unlocking liquidity for digital assets via flexible financial instruments.",
       "id": "solv",
       "imageDark": "solv-dark.svg",
