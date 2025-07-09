@@ -775,6 +775,12 @@
       "stakeTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e"
     },
     {
+      "beraRewardsVault": "0x3211e960fff36715b9046c51a3af6826d1a226e7",
+      "depositTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
+      "slug": "satlayer-satsolvbtc.bera",
+      "stakeTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b"
+    },
+    {
       "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
       "depositTokenAddress": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
       "slug": "solv-solvbtc.bera",
@@ -833,12 +839,6 @@
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet",
       "stakeTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec"
-    },
-    {
-      "beraRewardsVault": "0x3211e960fff36715b9046c51a3af6826d1a226e7",
-      "depositTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
-      "slug": "satlayer-satsolvbtcbera",
-      "stakeTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b"
     }
   ]
 }
