@@ -2452,6 +2452,18 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0x6eE01549960F47B2e64Cb9fb26a9107e735910b5",
+      "decimals": 18,
+      "image": "very-awesome-unified-liquidity-token.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://honeypotfinance.xyz",
+      "name": "Very Awesome Unified Liquidity Token",
+      "protocol": "honeypot",
+      "symbol": "VAULT",
+      "type": "unknown",
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     }
   ]
 }
