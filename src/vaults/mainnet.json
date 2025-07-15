@@ -175,6 +175,12 @@
       "stakeTokenAddress": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c"
     },
     {
+      "beraRewardsVault": "0xf326cb487d9542a0c43b7c6c9a252fa626403023",
+      "depositTokenAddress": "0xc4c039178a79e614609e592d7689ecb3107758b1",
+      "slug": "burrbear-burr-nect",
+      "stakeTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1"
+    },
+    {
       "beraRewardsVault": "0x9bc3d407d930910a7af515d473ce9633624c1574",
       "depositTokenAddress": "0xac8a437d1e6905e419431662aead90fb04ac3008",
       "slug": "burrbear-burr-wgbera",
@@ -221,12 +227,6 @@
       "depositTokenAddress": "0xcbef1b65399065c2de2c495971e90466ff38f2d0",
       "slug": "burrbear-wbtc-solvbtc-xsolvbtc",
       "stakeTokenAddress": "0xcbef1b65399065c2de2c495971e90466ff38f2d0"
-    },
-    {
-      "beraRewardsVault": "0xf326CB487D9542a0c43b7c6C9a252fa626403023",
-      "depositTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1",
-      "slug": "burrbear-burr-nect",
-      "stakeTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1"
     },
     {
       "beraRewardsVault": "0x310532d9d047c5972cd60852c1a4b675edc55fad",
