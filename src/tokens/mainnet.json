@@ -227,6 +227,13 @@
       "symbol": "MIM"
     },
     {
+      "address": "0x927439eEf2e2520aFa78D8742cAe7Be3e3e90B11",
+      "decimals": 18,
+      "image": "mbgt.svg",
+      "name": "market BGT",
+      "symbol": "mBGT"
+    },
+    {
       "address": "0x6536cead649249cae42fc9bfb1f999429b3ec755",
       "decimals": 18,
       "image": "nav.svg",
@@ -1565,6 +1572,20 @@
       "underlyingTokens": [
         "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf",
+      "decimals": 18,
+      "image": "mbgt-ibera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf?chain=berachain_mainnet",
+      "name": "mBGT-iBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI mBGT-iBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x927439eEf2e2520aFa78D8742cAe7Be3e3e90B11",
+        "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5"
       ]
     },
     {
