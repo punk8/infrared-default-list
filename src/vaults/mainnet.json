@@ -481,6 +481,12 @@
       "stakeTokenAddress": "0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3"
     },
     {
+      "beraRewardsVault": "0xc2bee59d96af61e050aa602d5882078947372ebc",
+      "depositTokenAddress": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
+      "slug": "kodiak-mbgt-ibera",
+      "stakeTokenAddress": "0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf"
+    },
+    {
       "beraRewardsVault": "0x5eadccc8153c423f96433da3fa1288cd621cdd52",
       "depositTokenAddress": "0x933b2e6a71edbf11bba75c5ad241d246b145e0b0",
       "slug": "kodiak-mim-honey",

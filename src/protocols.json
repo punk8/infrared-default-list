@@ -232,6 +232,15 @@
       "url": "https://lair.fi"
     },
     {
+      "description": "Yield infrastructure that's native, scalable, and built to last.",
+      "id": "miso",
+      "imageDark": "miso.svg",
+      "imageLight": "miso.svg",
+      "name": "Miso",
+      "type": "yield",
+      "url": "https://miso.money"
+    },
+    {
       "description": "Trade derivatives with deep liquidity and smart order routing on‑chain.",
       "id": "moby",
       "imageDark": "moby.svg",
