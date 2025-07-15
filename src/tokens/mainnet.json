@@ -213,6 +213,13 @@
       "symbol": "LBTC"
     },
     {
+      "address": "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
+      "decimals": 18,
+      "image": "mbgt.svg",
+      "name": "market BGT",
+      "symbol": "mBGT"
+    },
+    {
       "address": "0xedb5180661f56077292c92ab40b1ac57a279a396",
       "decimals": 18,
       "image": "mead.svg",
@@ -225,13 +232,6 @@
       "image": "mim.svg",
       "name": "Magic Internet Money",
       "symbol": "MIM"
-    },
-    {
-      "address": "0x927439eEf2e2520aFa78D8742cAe7Be3e3e90B11",
-      "decimals": 18,
-      "image": "mbgt.svg",
-      "name": "market BGT",
-      "symbol": "mBGT"
     },
     {
       "address": "0x6536cead649249cae42fc9bfb1f999429b3ec755",
@@ -1575,16 +1575,16 @@
       ]
     },
     {
-      "address": "0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf",
+      "address": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
       "decimals": 18,
       "image": "mbgt-ibera.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf?chain=berachain_mainnet",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf?chain=berachain_mainnet",
       "name": "mBGT-iBERA",
       "protocol": "kodiak",
       "symbol": "KODI mBGT-iBERA",
       "type": "amm",
       "underlyingTokens": [
-        "0x927439eEf2e2520aFa78D8742cAe7Be3e3e90B11",
+        "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
         "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5"
       ]
     },

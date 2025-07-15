@@ -482,7 +482,7 @@
     },
     {
       "beraRewardsVault": "0xc2bee59d96af61e050aa602d5882078947372ebc",
-      "depositTokenAddress": "0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf",
+      "depositTokenAddress": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
       "slug": "kodiak-mbgt-ibera",
       "stakeTokenAddress": "0x5D3DA311a5d3C22d257Bb9943dE9E55Acda2F9Cf"
     },
