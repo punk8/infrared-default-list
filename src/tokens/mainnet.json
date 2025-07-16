@@ -22,6 +22,13 @@
       "symbol": "AVL"
     },
     {
+      "address": "0x93a0cb3ee34aa983db262f904021911ecd199228",
+      "decimals": 18,
+      "image": "bee.svg",
+      "name": "Bee Token",
+      "symbol": "BEE"
+    },
+    {
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       "decimals": 18,
       "image": "bera.svg",
@@ -2364,6 +2371,20 @@
       ]
     },
     {
+      "address": "0x3640587709a387b54b0df555cd651a95a54fa900",
+      "decimals": 18,
+      "image": "bee-wbera.svg",
+      "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0x3640587709a387b54b0df555cd651a95a54fa900",
+      "name": "BEE-WBERA",
+      "protocol": "wasabee",
+      "symbol": "IV-WASABEE-7-BEE-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x93a0cb3ee34aa983db262f904021911ecd199228",
+        "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
       "address": "0xe57d868d244d2cf2e9679eaba2a3048e58674565",
       "decimals": 18,
       "image": "wbera-ibera.svg",
@@ -2464,27 +2485,6 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
-    },
-    {
-      "address": "0x3640587709a387B54B0DF555cD651A95A54fA900",
-      "decimals": 18,
-      "image": "bee-wbera.svg",
-      "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0x3640587709a387b54b0df555cd651a95a54fa900",
-      "name": "BEE-WBERA",
-      "protocol": "wasabee",
-      "symbol": "IV-WASABEE-7-BEE-WBERA",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x93a0CB3ee34aA983db262F904021911eCD199228",
-        "0x6969696969696969696969696969696969696969"
-      ]
-    },
-    {
-      "address": "0x93a0cb3ee34aa983db262f904021911ecd199228",
-      "decimals": 18,
-      "image": "bee.svg",
-      "name": "Bee Token",
-      "symbol": "BEE"
     }
   ]
 }
