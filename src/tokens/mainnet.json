@@ -2478,6 +2478,13 @@
         "0x93a0CB3ee34aA983db262F904021911eCD199228",
         "0x6969696969696969696969696969696969696969"
       ]
+    },
+    {
+      "address": "0x93a0cb3ee34aa983db262f904021911ecd199228",
+      "decimals": 18,
+      "image": "bee.svg",
+      "name": "Bee Token",
+      "symbol": "BEE"
     }
   ]
 }
