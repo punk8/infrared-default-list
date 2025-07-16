@@ -2464,6 +2464,20 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0x3640587709a387B54B0DF555cD651A95A54fA900",
+      "decimals": 18,
+      "image": "bee-wbera.svg",
+      "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0x3640587709a387b54b0df555cd651a95a54fa900",
+      "name": "BEE-WBERA",
+      "protocol": "wasabee",
+      "symbol": "IV-WASABEE-7-BEE-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x93a0CB3ee34aA983db262F904021911eCD199228",
+        "0x6969696969696969696969696969696969696969"
+      ]
     }
   ]
 }
